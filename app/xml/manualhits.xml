@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>ManualHits</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://manualhits.com</host>
+	<loginFormUrl>http://manualhits.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://manualhits.com/members.php</loginUrl>
+	<mainUrl>http://manualhits.com/members.php</mainUrl>
+	<surfUrl>http://manualhits.com/surfing.php</surfUrl>
+	<commissionUrl>http://manualhits.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://manualhits.com/mysites.php</creditUrl>
+	<rewardUrl>http://manualhits.com/claim.php</rewardUrl>
+	<codeUrl>http://manualhits.com/surfcode.php</codeUrl>
+	<ptcUrl>http://manualhits.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://manualhits.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://manualhits.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://manualhits.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://manualhits.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://manualhits.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://manualhits.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://manualhits.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://manualhits.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://manualhits.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://manualhits.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://manualhits.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://manualhits.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://manualhits.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://manualhits.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://manualhits.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://manualhits.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://manualhits.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

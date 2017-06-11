@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>RodeoMailer</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://rodeomailer.com</host>
+	<loginFormUrl>http://rodeomailer.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://rodeomailer.com/members.php</loginUrl>
+	<mainUrl>http://rodeomailer.com/members.php</mainUrl>
+	<surfUrl>http://rodeomailer.com/credit_click.php?userid=</surfUrl>	
+	<unclaimedUrl>http://rodeomailer.com/unreademails.php</unclaimedUrl>
+	<commissionUrl>http://rodeomailer.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://rodeomailer.com/mybanners.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://rodeomailer.com/promocode.php</codeUrl>
+	<ptcUrl>http://rodeomailer.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://rodeomailer.com/ptc/showupdate.php</ptcPostUrl>
+	<category>Mailer</category>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<bannerUrl>http://rodeomailer.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://rodeomailer.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://rodeomailer.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://rodeomailer.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://rodeomailer.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://rodeomailer.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://rodeomailer.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://rodeomailer.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://rodeomailer.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://rodeomailer.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<typeCode>name</typeCode>
+	<txtCode>promocode</txtCode>
+	
+	<txtSurfedToday>Clicks Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+	
+	<maxCount>5</maxCount>
+</site>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>MardiGraMailer</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://mardigramailer.com</host>
+	<loginFormUrl>http://mardigramailer.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://mardigramailer.com/members.php</loginUrl>
+	<mainUrl>http://mardigramailer.com/members.php</mainUrl>
+	<surfUrl>http://mardigramailer.com/credit_click.php?userid=</surfUrl>	
+	<unclaimedUrl>http://mardigramailer.com/unreademails.php</unclaimedUrl>
+	<commissionUrl>http://mardigramailer.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://mardigramailer.com/mybanners.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://mardigramailer.com/promo.php</codeUrl>
+	<ptcUrl>http://mardigramailer.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://mardigramailer.com/ptc/showupdate.php</ptcPostUrl>
+	<category>Mailer</category>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<bannerUrl>http://mardigramailer.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://mardigramailer.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://mardigramailer.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://mardigramailer.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://mardigramailer.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://mardigramailer.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://mardigramailer.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://mardigramailer.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://mardigramailer.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://mardigramailer.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<typeCode>name</typeCode>
+	<txtCode>code</txtCode>
+	
+	<txtSurfedToday>Clicks Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+	
+	<maxCount>5</maxCount>
+</site>

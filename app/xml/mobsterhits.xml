@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>MobsterHits</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://mobsterhits.com</host>
+	<loginFormUrl>http://mobsterhits.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://mobsterhits.com/members.php</loginUrl>
+	<mainUrl>http://mobsterhits.com/members.php</mainUrl>
+	<surfUrl>http://mobsterhits.com/surfing.php</surfUrl>
+	<commissionUrl>http://mobsterhits.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://mobsterhits.com/mysites.php</creditUrl>
+	<rewardUrl>http://mobsterhits.com/claim.php</rewardUrl>
+	<codeUrl>http://mobsterhits.com/surfcode.php</codeUrl>
+	<ptcUrl>http://mobsterhits.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://mobsterhits.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://mobsterhits.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://mobsterhits.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://mobsterhits.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://mobsterhits.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://mobsterhits.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://mobsterhits.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://mobsterhits.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://mobsterhits.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://mobsterhits.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://mobsterhits.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://mobsterhits.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://mobsterhits.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://mobsterhits.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://mobsterhits.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://mobsterhits.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://mobsterhits.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

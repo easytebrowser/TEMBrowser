@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>Progressive-Mailer</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://progressive-mailer.com</host>
+	<loginFormUrl>http://progressive-mailer.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://progressive-mailer.com/members.php</loginUrl>
+	<mainUrl>http://progressive-mailer.com/members.php</mainUrl>
+	<surfUrl>http://progressive-mailer.com/credit_click.php?userid=</surfUrl>	
+	<unclaimedUrl></unclaimedUrl>
+	<commissionUrl>http://progressive-mailer.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://progressive-mailer.com/mybanners.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://progressive-mailer.com/promocode.php</codeUrl>
+	<ptcUrl>http://progressive-mailer.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://progressive-mailer.com/ptc/showupdate.php</ptcPostUrl>
+	<category>Mailer</category>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<bannerUrl>http://progressive-mailer.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://progressive-mailer.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://progressive-mailer.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://progressive-mailer.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://progressive-mailer.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://progressive-mailer.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://progressive-mailer.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://progressive-mailer.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://progressive-mailer.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://progressive-mailer.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<typeCode>name</typeCode>
+	<txtCode>promocode</txtCode>
+	
+	<txtSurfedToday>Clicks Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+	
+	<maxCount>3</maxCount>
+</site>

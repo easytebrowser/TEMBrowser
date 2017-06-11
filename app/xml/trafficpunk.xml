@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TrafficPunk</name>
+	<version>1.0.0</version>
+	<template>Hit2Hit</template>
+	<host>http://www.trafficpunk.com</host>
+	<loginFormUrl>http://www.trafficpunk.com/login.php?e=invaa</loginFormUrl>
+	<loginUrl>http://www.trafficpunk.com/login.php</loginUrl>
+	<mainUrl>http://www.trafficpunk.com/members/?page=main</mainUrl>
+	<surfUrl>http://www.trafficpunk.com/surf.php</surfUrl>
+	<commissionUrl>http://www.trafficpunk.com/members/?page=main</commissionUrl>
+	<creditUrl>http://www.trafficpunk.com/members/?page=main</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl>http://www.trafficpunk.com/members/ptc.php</ptcUrl>
+	<ptcPostUrl>http://www.trafficpunk.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surf-footer.php</footerUrl>
+	<bUrl>surfbar.php</bUrl>
+	<sUrl>http://www.trafficpunk.com/img/</sUrl>
+	<m1Url>http://www.trafficpunk.com/img/</m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>loginid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>pwdid</txtPassword>	
+	<password></password>	
+	<postData>ffrma=sentsa&loginid=$username&pwdid=$password</postData>	
+	
+	<txtSurfedToday>Viewed Today:#Auto</txtSurfedToday>
+	<txtCommission>Commissions owed:#tr</txtCommission>
+	<txtCredit>Current unused credits#tr</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+</site>

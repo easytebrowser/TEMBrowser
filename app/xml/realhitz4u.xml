@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>RealHitz4u</name>
+	<version>1.0.0</version>
+	<template>Hit2Hit</template>
+	<host>http://www.realhitz4u.com</host>
+	<loginFormUrl>http://www.realhitz4u.com/login.php?e=invaa</loginFormUrl>
+	<loginUrl>http://www.realhitz4u.com/login.php</loginUrl>
+	<mainUrl>http://www.realhitz4u.com/members/?page=main</mainUrl>
+	<surfUrl>http://www.realhitz4u.com/surf.php</surfUrl>
+	<commissionUrl>http://www.realhitz4u.com/members/?page=main</commissionUrl>
+	<creditUrl>http://www.realhitz4u.com/members/?page=main</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl>surf-footer.php</footerUrl>
+	<bUrl>surfbar.php</bUrl>
+	<sUrl>http://www.realhitz4u.com/img/surfbar/</sUrl>
+	<m1Url>http://www.realhitz4u.com/img/surfbar/</m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>loginid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>pwdid</txtPassword>	
+	<password></password>	
+	<postData>ffrma=sentsa&loginid=$username&pwdid=$password</postData>	
+	
+	<txtSurfedToday>Surfed Today#Auto</txtSurfedToday>
+	<txtCommission>Total cash#Lifetime</txtCommission>
+	<txtCredit>Current credits:#Auto</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+</site>

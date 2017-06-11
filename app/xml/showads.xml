@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>ShowAds</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://showads.biz</host>
+	<loginFormUrl>http://showads.biz/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://showads.biz/members.php</loginUrl>
+	<mainUrl>http://showads.biz/members.php</mainUrl>
+	<surfUrl>http://showads.biz/credit_click.php?userid=</surfUrl>	
+	<unclaimedUrl>http://showads.biz/viewmessages.php</unclaimedUrl>
+	<commissionUrl>http://showads.biz/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://showads.biz/mybanners.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl>http://showads.biz/ptc.php</ptcUrl>
+	<ptcPostUrl>http://showads.biz/ptc/showupdate.php</ptcPostUrl>
+	<category>Mailer</category>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<bannerUrl>http://showads.biz/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://showads.biz/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://showads.biz/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://showads.biz/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://showads.biz/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://showads.biz/mytexts.php</textUrl>
+	<deleteTextUrl>http://showads.biz/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://showads.biz/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://showads.biz/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://showads.biz/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+
+	<txtSurfedToday>Clicks Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+	
+	<maxCount>5</maxCount>
+</site>

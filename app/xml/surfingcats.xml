@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>SurfingCats</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://surfingcats.com</host>
+	<loginFormUrl>http://surfingcats.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://surfingcats.com/members.php</loginUrl>
+	<mainUrl>http://surfingcats.com/members.php</mainUrl>
+	<surfUrl>http://surfingcats.com/surfing.php</surfUrl>
+	<commissionUrl>http://surfingcats.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://surfingcats.com/mysites.php</creditUrl>
+	<rewardUrl>http://surfingcats.com/claim.php</rewardUrl>
+	<codeUrl>http://surfingcats.com/surfcode.php</codeUrl>
+	<ptcUrl>http://surfingcats.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://surfingcats.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://surfingcats.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://surfingcats.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://surfingcats.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://surfingcats.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://surfingcats.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://surfingcats.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://surfingcats.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://surfingcats.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://surfingcats.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://surfingcats.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://surfingcats.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://surfingcats.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://surfingcats.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://surfingcats.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://surfingcats.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://surfingcats.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

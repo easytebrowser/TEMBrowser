@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TERacingLeague</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://teracingleague.com</host>
+	<loginFormUrl>http://teracingleague.com/index.php</loginFormUrl>
+	<loginUrl>http://teracingleague.com/members.php</loginUrl>
+	<mainUrl>http://teracingleague.com/members.php</mainUrl>
+	<surfUrl>http://teracingleague.com/surfing.php</surfUrl>
+	<commissionUrl>http://teracingleague.com/commissions.php</commissionUrl>
+	<creditUrl>http://teracingleague.com/mysites.php</creditUrl>
+	<rewardUrl>http://teracingleague.com/claim.php</rewardUrl>
+	<codeUrl>http://teracingleague.com/surfcode.php</codeUrl>
+	<ptcUrl>http://teracingleague.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://teracingleague.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	
+	<siteUrl>http://teracingleague.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://teracingleague.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://teracingleague.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://teracingleague.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://teracingleague.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://teracingleague.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://teracingleague.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://teracingleague.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://teracingleague.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://teracingleague.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://teracingleague.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://teracingleague.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://teracingleague.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://teracingleague.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://teracingleague.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://teracingleague.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

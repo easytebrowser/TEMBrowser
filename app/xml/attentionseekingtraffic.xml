@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>AttentionSeekingTraffic</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://attentionseekingtraffic.com</host>
+	<loginFormUrl>http://attentionseekingtraffic.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://attentionseekingtraffic.com/members.php</loginUrl>
+	<mainUrl>http://attentionseekingtraffic.com/members.php</mainUrl>
+	<surfUrl>http://attentionseekingtraffic.com/surfing.php</surfUrl>
+	<commissionUrl>http://attentionseekingtraffic.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://attentionseekingtraffic.com/mysites.php</creditUrl>
+	<rewardUrl>http://attentionseekingtraffic.com/claim.php</rewardUrl>
+	<codeUrl>http://attentionseekingtraffic.com/surfcode.php</codeUrl>
+	<ptcUrl>http://attentionseekingtraffic.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://attentionseekingtraffic.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://attentionseekingtraffic.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://attentionseekingtraffic.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://attentionseekingtraffic.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://attentionseekingtraffic.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://attentionseekingtraffic.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://attentionseekingtraffic.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://attentionseekingtraffic.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://attentionseekingtraffic.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://attentionseekingtraffic.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://attentionseekingtraffic.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://attentionseekingtraffic.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://attentionseekingtraffic.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://attentionseekingtraffic.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://attentionseekingtraffic.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://attentionseekingtraffic.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://attentionseekingtraffic.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=mc</txtLoginSucess>
+</site>

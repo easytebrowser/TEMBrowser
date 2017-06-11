@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>HitToad</name>
+	<version>1.0.0</version>
+	<template>Hit2Hit</template>
+	<host>http://www.hittoad.com</host>
+	<loginFormUrl>http://www.hittoad.com/login.php?e=invaa</loginFormUrl>
+	<loginUrl>http://www.hittoad.com/login.php</loginUrl>
+	<mainUrl>http://www.hittoad.com/members/?page=main</mainUrl>
+	<surfUrl>http://www.hittoad.com/surf.php</surfUrl>
+	<commissionUrl>http://www.hittoad.com/members/?page=main</commissionUrl>
+	<creditUrl>http://www.hittoad.com/members/?page=main</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl>http://www.hittoad.com/members/ptc.php</ptcUrl>
+	<ptcPostUrl>http://www.hittoad.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surf-footer.php</footerUrl>
+	<bUrl>surfbar.php</bUrl>
+	<sUrl>http://www.hittoad.com/img/</sUrl>
+	<m1Url>http://www.hittoad.com/img/</m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>loginid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>pwdid</txtPassword>	
+	<password></password>	
+	<postData>ffrma=sentsa&loginid=$username&pwdid=$password</postData>	
+	
+	<txtSurfedToday></txtSurfedToday>
+	<txtCommission>Total cash#tr</txtCommission>
+	<txtCredit>Current credits#tr</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+	
+	<blockList>http://www.hittoad.com/start.php</blockList>
+</site>

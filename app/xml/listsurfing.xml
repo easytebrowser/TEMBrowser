@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>ListSurfing</name>
+	<version>1.0.0</version>
+	<template>ListSurfing</template>
+	<host>http://www.listsurfing.com</host>
+	<loginFormUrl>http://www.listsurfing.com/index.html?e=invaa</loginFormUrl>
+	<loginUrl>http://www.listsurfing.com/index.html?e=invaa</loginUrl>
+	<mainUrl>http://www.listsurfing.com/members/index.php</mainUrl>
+	<surfUrl>http://www.listsurfing.com/surf/</surfUrl>
+	<commissionUrl>http://www.listsurfing.com/members/?page=main</commissionUrl>
+	<creditUrl>http://www.listsurfing.com/members/?page=main</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>http://www.listsurfing.com/surf/ajax_show_site.php</bUrl>
+	<sUrl></sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>loginid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>pwdid</txtPassword>	
+	<password></password>	
+	<postData></postData>	
+	
+	<txtSurfedToday>CREDITS TODAY#PAGES</txtSurfedToday>
+	<txtCommission>Total Cash:#This</txtCommission>
+	<txtCredit>Current Credits:#Credits</txtCredit>
+	<txtLoginSucess>/logout.php</txtLoginSucess>
+	
+	<blockList></blockList>
+</site>

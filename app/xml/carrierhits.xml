@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>CarrierHits</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://carrierhits.com</host>
+	<loginFormUrl>http://carrierhits.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://carrierhits.com/members.php</loginUrl>
+	<mainUrl>http://carrierhits.com/members.php</mainUrl>
+	<surfUrl>http://carrierhits.com/surfing.php</surfUrl>
+	<commissionUrl>http://carrierhits.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://carrierhits.com/mysites.php</creditUrl>
+	<rewardUrl>http://carrierhits.com/claim.php</rewardUrl>
+	<codeUrl>http://carrierhits.com/surfcode.php</codeUrl>
+	<codeUrl>http://antsurf.com/surfcode.php</codeUrl>
+	<ptcUrl>http://antsurf.com/ptc.php</ptcUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://carrierhits.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://carrierhits.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://carrierhits.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://carrierhits.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://carrierhits.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://carrierhits.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://carrierhits.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://carrierhits.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://carrierhits.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://carrierhits.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://carrierhits.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://carrierhits.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://carrierhits.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://carrierhits.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://carrierhits.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://carrierhits.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

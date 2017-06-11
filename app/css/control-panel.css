@@ -1,0 +1,134 @@
+/***
+Control Panel Page
+***/
+
+.page-container {
+	margin-top:0px;
+}
+
+.page-content {
+	padding:0px !important;
+	background-color: #3d3d3d;
+	min-height: 60px;
+}
+
+.container-fluid {
+	padding-left:0px;padding-right:0px;
+}
+
+.portlet {
+	margin-bottom:0px;
+}
+
+.portlet.box .portlet-title {
+	padding:2px 2px 0px 2px
+}
+
+.portlet-title .caption {
+	font-size:12px;
+	font-weight:600;
+	margin-bottom:0px;
+}
+
+.portlet.box .portlet-body {
+	padding:1px;
+}
+
+.table {
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+.table thead tr th {
+	font-size: 12px;
+	text-align: center;
+}
+
+.table thead tr th i {
+	margin-right: 2px;
+}
+
+.table th, .table td {
+	padding: 2px;
+	line-height: 20px;
+	vertical-align: middle;
+	
+}
+
+.table .details {
+	background-color: #eee !important;
+}
+
+.control-group {
+	margin: 8px 5px 0px 0px;
+}
+
+input[class*="span"].m-wrap
+{
+  float: none;
+  height: 25px !important;
+  min-height: 25px;
+  margin-left: 0;
+  font-size: 12px;
+}
+
+div.checker {
+	margin-right: 0px;
+}
+
+.uneditable-input,
+textarea.m-wrap,
+input[type="text"].m-wrap,
+input[type="password"].m-wrap,
+input[type="datetime"].m-wrap,
+input[type="datetime-local"].m-wrap,
+input[type="date"].m-wrap,
+input[type="month"].m-wrap,
+input[type="time"].m-wrap,
+input[type="week"].m-wrap,
+input[type="number"].m-wrap,
+input[type="email"].m-wrap,
+input[type="url"].m-wrap,
+input[type="search"].m-wrap,
+input[type="tel"].m-wrap,
+input[type="color"].m-wrap { 
+  padding: 0px !important;
+  font-size: 12px;  
+}
+
+
+.dataTables_filter label {
+	line-height: 25px !important;
+	font-size: 12px;
+	padding: 4px 5px 0px 0px;
+}
+
+.pagination ul>li>a, .pagination ul>li>span {
+	padding: 2px 6px;
+}
+
+.btn {
+	padding: 2px 6px;
+	font-size: 12px;
+}
+
+@media (max-width: 250px) {
+	.hidden-250 {
+		display: none;
+	}
+}
+
+@media (max-width: 300px) {
+	.hidden-300 {
+		display: none;
+	}
+}
+
+.portlet-title .actions > .btn {
+	padding: 1px 5px;
+}
+
+.portlet-title .actions > .btn-group > .btn {
+	padding: 1px 5px;
+	margin-top : 4px;
+}

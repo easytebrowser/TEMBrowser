@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TrafficAdBar</name>
+	<version>1.0.0</version>
+	<template>TrafficAdBar</template>
+	<host>https://trafficadbar.com</host>
+	<loginFormUrl>https://trafficadbar.com/login?s=</loginFormUrl>
+	<loginUrl>https://trafficadbar.com/login</loginUrl>
+	<mainUrl>https://trafficadbar.com/website_traffic/home</mainUrl>
+	<surfUrl>http://trafficadbar.com/_</surfUrl>
+	<commissionUrl>https://trafficadbar.com/website_traffic/home</commissionUrl>
+	<creditUrl>https://trafficadbar.com/website_traffic/home</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>http://trafficadbar.com/a/surf_bar</bUrl>
+	<sUrl></sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>email</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData></postData>	
+	
+	<txtSurfedToday>Websites today#Points</txtSurfedToday>
+	<txtCommission>this month:#see</txtCommission>
+	<txtCredit></txtCredit>
+	<txtLoginSucess>/logout</txtLoginSucess>
+	
+	<blockList></blockList>
+</site>

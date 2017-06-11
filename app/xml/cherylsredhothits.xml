@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>CherylsRedHotHits</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://cherylsredhothits.com</host>
+	<loginFormUrl>http://cherylsredhothits.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://cherylsredhothits.com/members.php</loginUrl>
+	<mainUrl>http://cherylsredhothits.com/members.php</mainUrl>
+	<surfUrl>http://cherylsredhothits.com/surfing.php</surfUrl>
+	<commissionUrl>http://cherylsredhothits.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://cherylsredhothits.com/mysites.php</creditUrl>
+	<rewardUrl>http://cherylsredhothits.com/claim.php</rewardUrl>
+	<codeUrl>http://cherylsredhothits.com/surfcode.php</codeUrl>
+	<ptcUrl>http://cherylsredhothits.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://cherylsredhothits.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://cherylsredhothits.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://cherylsredhothits.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://cherylsredhothits.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://cherylsredhothits.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://cherylsredhothits.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://cherylsredhothits.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://cherylsredhothits.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://cherylsredhothits.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://cherylsredhothits.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://cherylsredhothits.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://cherylsredhothits.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://cherylsredhothits.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://cherylsredhothits.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://cherylsredhothits.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://cherylsredhothits.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://cherylsredhothits.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

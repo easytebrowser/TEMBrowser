@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>DeepSeaHits</name>
+	<version>1.0.0</version>
+	<template>Hit2Hit</template>
+	<host>http://www.deepseahits.com</host>
+	<loginFormUrl>http://www.deepseahits.com/login.php?e=invaa</loginFormUrl>
+	<loginUrl>http://www.deepseahits.com/login.php</loginUrl>
+	<mainUrl>http://www.deepseahits.com/members/?page=main</mainUrl>
+	<surfUrl>http://www.deepseahits.com/surf.php</surfUrl>
+	<commissionUrl>http://www.deepseahits.com/members/?page=main</commissionUrl>
+	<creditUrl>http://www.deepseahits.com/members/?page=main</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl>http://www.deepseahits.com/members/ptc.php</ptcUrl>
+	<ptcPostUrl>http://www.deepseahits.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surf-footer.php</footerUrl>
+	<bUrl>surfbar.php</bUrl>
+	<sUrl>http://www.deepseahits.com/img/surfbar/</sUrl>
+	<m1Url>http://www.deepseahits.com/img/surfbar/</m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>loginid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>pwdid</txtPassword>	
+	<password></password>	
+	<postData>ffrma=sentsa&loginid=$username&pwdid=$password</postData>	
+	
+	<txtSurfedToday>Surfed Today#/font</txtSurfedToday>
+	<txtCommission>&lt;b&gt;$#Cash</txtCommission>
+	<txtCredit>Current Stats#Credits</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+</site>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>QualityHits4U</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://qualityhits4u.net</host>
+	<loginFormUrl>http://qualityhits4u.net/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://qualityhits4u.net/members.php</loginUrl>
+	<mainUrl>http://qualityhits4u.net/members.php</mainUrl>
+	<surfUrl>http://qualityhits4u.net/surfing.php</surfUrl>
+	<commissionUrl>http://qualityhits4u.net/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://qualityhits4u.net/mysites.php</creditUrl>
+	<rewardUrl>http://qualityhits4u.net/claim.php</rewardUrl>
+	<codeUrl>http://qualityhits4u.net/surfcode.php</codeUrl>
+	<ptcUrl>http://qualityhits4u.net/ptc.php</ptcUrl>
+	<ptcPostUrl>http://qualityhits4u.net/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://qualityhits4u.net/mysites.php</siteUrl>
+	<deleteSiteUrl>http://qualityhits4u.net/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://qualityhits4u.net/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://qualityhits4u.net/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://qualityhits4u.net/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://qualityhits4u.net/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://qualityhits4u.net/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://qualityhits4u.net/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://qualityhits4u.net/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://qualityhits4u.net/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://qualityhits4u.net/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://qualityhits4u.net/mytexts.php</textUrl>
+	<deleteTextUrl>http://qualityhits4u.net/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://qualityhits4u.net/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://qualityhits4u.net/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://qualityhits4u.net/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

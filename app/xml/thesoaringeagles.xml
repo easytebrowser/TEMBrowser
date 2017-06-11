@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TheSoaringEagles</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://thesoaringeagles.org</host>
+	<loginFormUrl>http://thesoaringeagles.org/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://thesoaringeagles.org/members.php</loginUrl>
+	<mainUrl>http://thesoaringeagles.org/members.php</mainUrl>
+	<surfUrl>http://thesoaringeagles.org/surfing.php</surfUrl>
+	<commissionUrl>http://thesoaringeagles.org/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://thesoaringeagles.org/mysites.php</creditUrl>
+	<rewardUrl>http://thesoaringeagles.org/claim.php</rewardUrl>
+	<codeUrl>http://thesoaringeagles.org/surfcode.php</codeUrl>
+	<ptcUrl>http://thesoaringeagles.org/ptc.php</ptcUrl>
+	<ptcPostUrl>http://thesoaringeagles.org/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://thesoaringeagles.org/mysites.php</siteUrl>
+	<deleteSiteUrl>http://thesoaringeagles.org/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://thesoaringeagles.org/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://thesoaringeagles.org/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://thesoaringeagles.org/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://thesoaringeagles.org/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://thesoaringeagles.org/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://thesoaringeagles.org/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://thesoaringeagles.org/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://thesoaringeagles.org/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://thesoaringeagles.org/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://thesoaringeagles.org/mytexts.php</textUrl>
+	<deleteTextUrl>http://thesoaringeagles.org/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://thesoaringeagles.org/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://thesoaringeagles.org/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://thesoaringeagles.org/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

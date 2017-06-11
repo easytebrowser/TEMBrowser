@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>GoPlayIn-Traffic</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://goplayin-traffic.com</host>
+	<loginFormUrl>http://goplayin-traffic.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://goplayin-traffic.com/members.php</loginUrl>
+	<mainUrl>http://goplayin-traffic.com/members.php</mainUrl>
+	<surfUrl>http://goplayin-traffic.com/surfing.php</surfUrl>
+	<commissionUrl>http://goplayin-traffic.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://goplayin-traffic.com/mysites.php</creditUrl>
+	<rewardUrl>http://goplayin-traffic.com/claim.php</rewardUrl>
+	<codeUrl>http://goplayin-traffic.com/surfcode.php</codeUrl>
+	<ptcUrl>http://goplayin-traffic.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://goplayin-traffic.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://goplayin-traffic.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://goplayin-traffic.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://goplayin-traffic.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://goplayin-traffic.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://goplayin-traffic.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://goplayin-traffic.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://goplayin-traffic.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://goplayin-traffic.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://goplayin-traffic.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://goplayin-traffic.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://goplayin-traffic.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://goplayin-traffic.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://goplayin-traffic.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://goplayin-traffic.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://goplayin-traffic.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://goplayin-traffic.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

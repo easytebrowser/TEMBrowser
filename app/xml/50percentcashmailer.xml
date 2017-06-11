@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>50PercentCashMailer</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://50percentcashmailer.com</host>
+	<loginFormUrl>http://50percentcashmailer.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://50percentcashmailer.com/members.php</loginUrl>
+	<mainUrl>http://50percentcashmailer.com/members.php</mainUrl>
+	<surfUrl>http://50percentcashmailer.com/credit_click.php?userid=</surfUrl>	
+	<unclaimedUrl></unclaimedUrl>
+	<commissionUrl>http://50percentcashmailer.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://50percentcashmailer.com/mybanners.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://50percentcashmailer.com/promocode.php</codeUrl>
+	<ptcUrl>http://50percentcashmailer.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://50percentcashmailer.com/ptc/showupdate.php</ptcPostUrl>
+	<category>Mailer</category>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<bannerUrl>http://50percentcashmailer.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://50percentcashmailer.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://50percentcashmailer.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://50percentcashmailer.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://50percentcashmailer.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://50percentcashmailer.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://50percentcashmailer.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://50percentcashmailer.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://50percentcashmailer.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://50percentcashmailer.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<typeCode>name</typeCode>
+	<txtCode>promocode</txtCode>
+	
+	<txtSurfedToday>Clicks Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+	
+	<maxCount>1</maxCount>
+</site>

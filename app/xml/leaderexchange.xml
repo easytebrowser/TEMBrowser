@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>LeaderExchange</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://leaderexchange.net</host>
+	<loginFormUrl>http://leaderexchange.net/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://leaderexchange.net/members.php</loginUrl>
+	<mainUrl>http://leaderexchange.net/members.php</mainUrl>
+	<surfUrl>http://leaderexchange.net/surfing.php</surfUrl>
+	<commissionUrl>http://leaderexchange.net/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://leaderexchange.net/mysites.php</creditUrl>
+	<rewardUrl>http://leaderexchange.net/claim.php</rewardUrl>
+	<codeUrl>http://leaderexchange.net/surfcode.php</codeUrl>
+	<ptcUrl>http://leaderexchange.net/ptc.php</ptcUrl>
+	<ptcPostUrl>http://leaderexchange.net/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://leaderexchange.net/mysites.php</siteUrl>
+	<deleteSiteUrl>http://leaderexchange.net/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://leaderexchange.net/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://leaderexchange.net/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://leaderexchange.net/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://leaderexchange.net/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://leaderexchange.net/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://leaderexchange.net/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://leaderexchange.net/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://leaderexchange.net/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://leaderexchange.net/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://leaderexchange.net/mytexts.php</textUrl>
+	<deleteTextUrl>http://leaderexchange.net/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://leaderexchange.net/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://leaderexchange.net/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://leaderexchange.net/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>Hits4Surfers</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://hits4surfers.com</host>
+	<loginFormUrl>http://hits4surfers.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://hits4surfers.com/members.php</loginUrl>
+	<mainUrl>http://hits4surfers.com/members.php</mainUrl>
+	<surfUrl>http://hits4surfers.com/surfing.php</surfUrl>
+	<commissionUrl>http://hits4surfers.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://hits4surfers.com/mysites.php</creditUrl>
+	<rewardUrl>http://hits4surfers.com/claim.php</rewardUrl>
+	<codeUrl>http://hits4surfers.com/surfcode.php</codeUrl>
+	<ptcUrl>http://hits4surfers.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://hits4surfers.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://hits4surfers.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://hits4surfers.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://hits4surfers.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://hits4surfers.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://hits4surfers.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://hits4surfers.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://hits4surfers.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://hits4surfers.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://hits4surfers.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://hits4surfers.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://hits4surfers.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://hits4surfers.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://hits4surfers.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://hits4surfers.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://hits4surfers.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://hits4surfers.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

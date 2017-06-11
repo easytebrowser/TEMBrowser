@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>ShaggyDogBiz</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://shaggydogbiz.com</host>
+	<loginFormUrl>http://shaggydogbiz.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://shaggydogbiz.com/members.php</loginUrl>
+	<mainUrl>http://shaggydogbiz.com/members.php</mainUrl>
+	<surfUrl>http://shaggydogbiz.com/surfing.php</surfUrl>
+	<commissionUrl>http://shaggydogbiz.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://shaggydogbiz.com/mysites.php</creditUrl>
+	<rewardUrl>http://shaggydogbiz.com/claim.php</rewardUrl>
+	<codeUrl>http://shaggydogbiz.com/surfcode.php</codeUrl>
+	<ptcUrl>http://shaggydogbiz.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://shaggydogbiz.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://shaggydogbiz.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://shaggydogbiz.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://shaggydogbiz.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://shaggydogbiz.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://shaggydogbiz.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://shaggydogbiz.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://shaggydogbiz.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://shaggydogbiz.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://shaggydogbiz.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://shaggydogbiz.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://shaggydogbiz.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://shaggydogbiz.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://shaggydogbiz.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://shaggydogbiz.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://shaggydogbiz.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://shaggydogbiz.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>MadvertisingTraffic</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://madvertisingtraffic.com</host>
+	<loginFormUrl>http://madvertisingtraffic.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://madvertisingtraffic.com/members.php</loginUrl>
+	<mainUrl>http://madvertisingtraffic.com/members.php</mainUrl>
+	<surfUrl>http://madvertisingtraffic.com/surfing.php</surfUrl>
+	<commissionUrl>http://madvertisingtraffic.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://madvertisingtraffic.com/mysites.php</creditUrl>
+	<rewardUrl>http://madvertisingtraffic.com/claim.php</rewardUrl>
+	<codeUrl>http://madvertisingtraffic.com/surfcode.php</codeUrl>
+	<ptcUrl>http://madvertisingtraffic.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://madvertisingtraffic.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://madvertisingtraffic.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://madvertisingtraffic.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://madvertisingtraffic.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://madvertisingtraffic.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://madvertisingtraffic.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://madvertisingtraffic.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://madvertisingtraffic.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://madvertisingtraffic.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://madvertisingtraffic.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://madvertisingtraffic.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://madvertisingtraffic.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://madvertisingtraffic.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://madvertisingtraffic.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://madvertisingtraffic.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://madvertisingtraffic.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://madvertisingtraffic.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

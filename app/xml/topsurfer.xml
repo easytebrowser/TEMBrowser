@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TopSurfer</name>
+	<version>1.0.0</version>
+	<template>TopSurfer</template>
+	<host>http://topsurfer.com</host>
+	<loginFormUrl>http://topsurfer.com/login.php</loginFormUrl>
+	<loginUrl>http://topsurfer.com/login.php</loginUrl>
+	<mainUrl>http://topsurfer.com/member.php</mainUrl>
+	<surfUrl>http://topsurfer.com/sb.php</surfUrl>
+	<commissionUrl>http://topsurfer.com/member.php</commissionUrl>
+	<creditUrl>http://topsurfer.com/member.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl>http://topsurfer.com/getstats.php</footerUrl>
+	<bUrl>http://topsurfer.com/nextsb.php</bUrl>
+	<sUrl>surficons/icons</sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>id</typeUsername>
+	<txtUsername>username</txtUsername>
+	<username></username>
+	
+	<typePassword>id</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>username=$username&password=$password&next=Log In</postData>	
+	
+	<txtSurfedToday>Viewed Today:#/span</txtSurfedToday>
+	<txtCommission>Remaining Money:#tr</txtCommission>
+	<txtCredit>Remaining Credits:#tbody</txtCredit>
+	<txtLoginSucess>login.php?a=out</txtLoginSucess>
+	
+	<blockList>mviewsolo.cgi?username=</blockList>
+</site>

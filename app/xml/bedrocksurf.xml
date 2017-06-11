@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>BedrockSurf</name>
+	<version>1.0.0</version>
+	<template>TrafficSwirl</template>
+	<host>http://bedrocksurf.com</host>
+	<loginFormUrl>http://bedrocksurf.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://bedrocksurf.com/members.php</loginUrl>
+	<mainUrl>http://bedrocksurf.com/members.php</mainUrl>
+	<surfUrl>http://bedrocksurf.com/surfing.php</surfUrl>
+	<commissionUrl>http://bedrocksurf.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://bedrocksurf.com/mysites.php</creditUrl>
+	<rewardUrl>http://bedrocksurf.com/claim.php</rewardUrl>
+	<codeUrl>http://bedrocksurf.com/surfcode.php</codeUrl>
+	<ptcUrl>http://bedrocksurf.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://bedrocksurf.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar.php</bUrl>
+	<sUrl>surfimage</sUrl>
+	<m1Url>surfclickimage</m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<siteUrl>http://bedrocksurf.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://bedrocksurf.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://bedrocksurf.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://bedrocksurf.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://bedrocksurf.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://bedrocksurf.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://bedrocksurf.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://bedrocksurf.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://bedrocksurf.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://bedrocksurf.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://bedrocksurf.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://bedrocksurf.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://bedrocksurf.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://bedrocksurf.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://bedrocksurf.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://bedrocksurf.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

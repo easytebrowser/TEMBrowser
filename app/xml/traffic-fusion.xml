@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>Traffic-Fusion</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://traffic-fusion.biz</host>
+	<loginFormUrl>http://traffic-fusion.biz/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://traffic-fusion.biz/members.php</loginUrl>
+	<mainUrl>http://traffic-fusion.biz/members.php</mainUrl>
+	<surfUrl>http://traffic-fusion.biz/surfing.php</surfUrl>
+	<commissionUrl>http://traffic-fusion.biz/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://traffic-fusion.biz/mysites.php</creditUrl>
+	<rewardUrl>http://traffic-fusion.biz/claim.php</rewardUrl>
+	<codeUrl>http://traffic-fusion.biz/surfcode.php</codeUrl>
+	<ptcUrl>http://traffic-fusion.biz/ptc.php</ptcUrl>
+	<ptcPostUrl>http://traffic-fusion.biz/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://traffic-fusion.biz/mysites.php</siteUrl>
+	<deleteSiteUrl>http://traffic-fusion.biz/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://traffic-fusion.biz/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://traffic-fusion.biz/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://traffic-fusion.biz/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://traffic-fusion.biz/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://traffic-fusion.biz/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://traffic-fusion.biz/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://traffic-fusion.biz/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://traffic-fusion.biz/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://traffic-fusion.biz/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://traffic-fusion.biz/mytexts.php</textUrl>
+	<deleteTextUrl>http://traffic-fusion.biz/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://traffic-fusion.biz/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://traffic-fusion.biz/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://traffic-fusion.biz/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

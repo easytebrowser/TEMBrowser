@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>MailThisList</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://mailthislist.com</host>
+	<loginFormUrl>http://mailthislist.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://mailthislist.com/members.php</loginUrl>
+	<mainUrl>http://mailthislist.com/members.php</mainUrl>
+	<surfUrl>http://mailthislist.com/credit_click.php?userid=</surfUrl>	
+	<unclaimedUrl>http://mailthislist.com/viewmessages.php</unclaimedUrl>
+	<commissionUrl>http://mailthislist.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://mailthislist.com/mybanners.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://mailthislist.com/promo.php</codeUrl>
+	<ptcUrl>http://mailthislist.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://mailthislist.com/ptc/showupdate.php</ptcPostUrl>
+	<category>Mailer</category>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<bannerUrl>http://mailthislist.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://mailthislist.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://mailthislist.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://mailthislist.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://mailthislist.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://mailthislist.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://mailthislist.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://mailthislist.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://mailthislist.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://mailthislist.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<typeCode>name</typeCode>
+	<txtCode>code</txtCode>
+	
+	<txtSurfedToday>Clicks Today#Credits</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+	
+	<maxCount>10</maxCount>
+</site>

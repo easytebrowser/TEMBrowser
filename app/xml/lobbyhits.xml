@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>LobbyHits</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://www.lobbyhits.com</host>
+	<loginFormUrl>http://www.lobbyhits.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://www.lobbyhits.com/members.php</loginUrl>
+	<mainUrl>http://www.lobbyhits.com/members.php</mainUrl>
+	<surfUrl>http://www.lobbyhits.com/surfing.php</surfUrl>	
+	<commissionUrl>http://www.lobbyhits.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://www.lobbyhits.com/mysites.php</creditUrl>
+	<rewardUrl>http://www.lobbyhits.com/claim.php</rewardUrl>
+	<codeUrl>http://www.lobbyhits.com/surfcode.php</codeUrl>
+	<ptcUrl>http://www.lobbyhits.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://www.lobbyhits.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://www.lobbyhits.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://www.lobbyhits.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://www.lobbyhits.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://www.lobbyhits.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://www.lobbyhits.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://www.lobbyhits.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://www.lobbyhits.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://www.lobbyhits.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://www.lobbyhits.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://www.lobbyhits.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://www.lobbyhits.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://www.lobbyhits.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://www.lobbyhits.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://www.lobbyhits.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://www.lobbyhits.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://www.lobbyhits.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

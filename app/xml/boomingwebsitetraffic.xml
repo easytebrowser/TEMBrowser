@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>BoomingWebsiteTraffic</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://boomingwebsitetraffic.com</host>
+	<loginFormUrl>http://boomingwebsitetraffic.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://boomingwebsitetraffic.com/members.php</loginUrl>
+	<mainUrl>http://boomingwebsitetraffic.com/members.php</mainUrl>
+	<surfUrl>http://boomingwebsitetraffic.com/surfing.php</surfUrl>
+	<unclaimedUrl>http://boomingwebsitetraffic.com/fc_emailinbox.php</unclaimedUrl>
+	<commissionUrl>http://boomingwebsitetraffic.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://boomingwebsitetraffic.com/mysites.php</creditUrl>
+	<rewardUrl>http://boomingwebsitetraffic.com/claim.php</rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl>http://boomingwebsitetraffic.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://boomingwebsitetraffic.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://boomingwebsitetraffic.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://boomingwebsitetraffic.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://boomingwebsitetraffic.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://boomingwebsitetraffic.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://boomingwebsitetraffic.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://boomingwebsitetraffic.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://boomingwebsitetraffic.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://boomingwebsitetraffic.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://boomingwebsitetraffic.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://boomingwebsitetraffic.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://boomingwebsitetraffic.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://boomingwebsitetraffic.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://boomingwebsitetraffic.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://boomingwebsitetraffic.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://boomingwebsitetraffic.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://boomingwebsitetraffic.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+	
+	<maxCount>3</maxCount>
+</site>

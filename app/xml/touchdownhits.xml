@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TouchdownHits</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://touchdownhits.com</host>
+	<loginFormUrl>http://touchdownhits.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://touchdownhits.com/members.php</loginUrl>
+	<mainUrl>http://touchdownhits.com/members.php</mainUrl>
+	<surfUrl>http://touchdownhits.com/surfing.php</surfUrl>
+	<commissionUrl>http://touchdownhits.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://touchdownhits.com/mysites.php</creditUrl>
+	<rewardUrl>http://touchdownhits.com/claim.php</rewardUrl>
+	<codeUrl>http://touchdownhits.com/surfcode.php</codeUrl>
+	<ptcUrl>http://touchdownhits.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://touchdownhits.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://touchdownhits.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://touchdownhits.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://touchdownhits.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://touchdownhits.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://touchdownhits.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://touchdownhits.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://touchdownhits.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://touchdownhits.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://touchdownhits.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://touchdownhits.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://touchdownhits.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://touchdownhits.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://touchdownhits.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://touchdownhits.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://touchdownhits.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://touchdownhits.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

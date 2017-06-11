@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>Vigilan-te</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://vigilan-te.com</host>
+	<loginFormUrl>http://vigilan-te.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://vigilan-te.com/members.php</loginUrl>
+	<mainUrl>http://vigilan-te.com/members.php</mainUrl>
+	<surfUrl>http://vigilan-te.com/surfing.php</surfUrl>
+	<commissionUrl>http://vigilan-te.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://vigilan-te.com/mysites.php</creditUrl>
+	<rewardUrl>http://vigilan-te.com/claim.php</rewardUrl>
+	<codeUrl>http://vigilan-te.com/surfcode.php</codeUrl>
+	<ptcUrl>http://vigilan-te.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://vigilan-te.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://vigilan-te.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://vigilan-te.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://vigilan-te.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://vigilan-te.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://vigilan-te.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://vigilan-te.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://vigilan-te.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://vigilan-te.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://vigilan-te.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://vigilan-te.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://vigilan-te.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://vigilan-te.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://vigilan-te.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://vigilan-te.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://vigilan-te.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://vigilan-te.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

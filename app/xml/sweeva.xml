@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>Sweeva</name>
+	<version>1.0.0</version>
+	<template>ListSurfing</template>
+	<host>http://www.sweeva.com</host>
+	<loginFormUrl>http://www.sweeva.com/members/?p=home</loginFormUrl>
+	<loginUrl>http://www.sweeva.com/login/</loginUrl>
+	<mainUrl>http://www.sweeva.com/members/?p=home</mainUrl>
+	<surfUrl>http://www.sweeva.com/sweeve/?username=</surfUrl>
+	<commissionUrl>http://www.sweeva.com/members/?p=home</commissionUrl>
+	<creditUrl>http://www.sweeva.com/members/?p=home</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>http://www.sweeva.com/sweeve/index.php?</bUrl>
+	<sUrl></sUrl>
+	<m1Url></m1Url>
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>username</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>username=$username&password=$password&path=/login/</postData>	
+	
+	<txtSurfedToday>class=views#Views</txtSurfedToday>
+	<txtCommission>Commissions Available#Earn</txtCommission>
+	<txtCredit>Credit Available#Buy</txtCredit>
+	<txtLoginSucess>members/logout</txtLoginSucess>
+	
+	<blockList></blockList>
+</site>

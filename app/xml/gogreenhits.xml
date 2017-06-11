@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>GoGreenHits</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://gogreenhits.com</host>
+	<loginFormUrl>http://gogreenhits.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://gogreenhits.com/members.php</loginUrl>
+	<mainUrl>http://gogreenhits.com/members.php</mainUrl>
+	<surfUrl>http://gogreenhits.com/surfing.php</surfUrl>
+	<commissionUrl>http://gogreenhits.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://gogreenhits.com/mysites.php</creditUrl>
+	<rewardUrl>http://gogreenhits.com/claim.php</rewardUrl>
+	<codeUrl>http://gogreenhits.com/surfcode.php</codeUrl>
+	<ptcUrl>http://gogreenhits.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://gogreenhits.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://gogreenhits.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://gogreenhits.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://gogreenhits.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://gogreenhits.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://gogreenhits.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://gogreenhits.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://gogreenhits.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://gogreenhits.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://gogreenhits.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://gogreenhits.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://gogreenhits.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://gogreenhits.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://gogreenhits.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://gogreenhits.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://gogreenhits.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://gogreenhits.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

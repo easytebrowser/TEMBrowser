@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>InfinityTrafficBoost</name>
+	<version>1.0.0</version>
+	<template>ITB</template>
+	<host>http://infinitytrafficboost.com</host>
+	<loginFormUrl>https://infinitytrafficboost.com/login.php?target=</loginFormUrl>
+	<loginUrl>https://infinitytrafficboost.com/do.login.php</loginUrl>
+	<mainUrl>https://infinitytrafficboost.com/dashboard.php</mainUrl>
+	<surfUrl>recommends2.php</surfUrl>
+	<commissionUrl></commissionUrl>
+	<creditUrl>https://infinitytrafficboost.com/dashboard.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>multisurfbar.php?id=</bUrl>
+	<sUrl></sUrl>
+	<m1Url></m1Url>
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>email</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>email=$username&password=$password&</postData>	
+	
+	<txtSurfedToday>Todays Pages#/tr</txtSurfedToday>
+	<txtCommission></txtCommission>
+	<txtCredit>Remaining Advertising Credits:#/span</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+
+	<blockList>http://infinitytrafficboost.com/recommends.php?id=</blockList>
+</site>

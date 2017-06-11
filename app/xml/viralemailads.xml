@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>ViralEmailAds</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://viralemailads.com</host>
+	<loginFormUrl>http://viralemailads.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://viralemailads.com/members.php</loginUrl>
+	<mainUrl>http://viralemailads.com/members.php</mainUrl>
+	<surfUrl>http://viralemailads.com/credit_click.php?userid=</surfUrl>	
+	<unclaimedUrl></unclaimedUrl>
+	<commissionUrl>http://viralemailads.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://viralemailads.com/mybanners.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://viralemailads.com/promocode.php</codeUrl>
+	<ptcUrl>http://viralemailads.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://viralemailads.com/ptc/showupdate.php</ptcPostUrl>
+	<category>Mailer</category>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<bannerUrl>http://viralemailads.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://viralemailads.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://viralemailads.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://viralemailads.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://viralemailads.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://viralemailads.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://viralemailads.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://viralemailads.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://viralemailads.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://viralemailads.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<typeCode>name</typeCode>
+	<txtCode>promocode</txtCode>
+	
+	<txtSurfedToday>Clicks Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+	
+	<maxCount>5</maxCount>
+</site>

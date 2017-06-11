@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>Surf-To-Earn</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://surf-to-earn.com</host>
+	<loginFormUrl>http://surf-to-earn.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://surf-to-earn.com/members.php</loginUrl>
+	<mainUrl>http://surf-to-earn.com/members.php</mainUrl>
+	<surfUrl>http://surf-to-earn.com/surfing.php</surfUrl>
+	<commissionUrl>http://surf-to-earn.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://surf-to-earn.com/mysites.php</creditUrl>
+	<rewardUrl>http://surf-to-earn.com/claim.php</rewardUrl>
+	<codeUrl>http://surf-to-earn.com/surfcode.php</codeUrl>
+	<ptcUrl>http://surf-to-earn.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://surf-to-earn.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://surf-to-earn.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://surf-to-earn.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://surf-to-earn.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://surf-to-earn.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://surf-to-earn.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://surf-to-earn.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://surf-to-earn.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://surf-to-earn.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://surf-to-earn.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://surf-to-earn.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://surf-to-earn.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://surf-to-earn.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://surf-to-earn.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://surf-to-earn.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://surf-to-earn.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://surf-to-earn.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

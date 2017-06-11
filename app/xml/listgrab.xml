@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>ListGrab</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://listgrab.com</host>
+	<loginFormUrl>http://listgrab.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://listgrab.com/members.php</loginUrl>
+	<mainUrl>http://listgrab.com/members.php</mainUrl>
+	<surfUrl>http://listgrab.com/credit_click.php?userid=</surfUrl>	
+	<unclaimedUrl>http://listgrab.com/inbox.php</unclaimedUrl>
+	<commissionUrl>http://listgrab.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://listgrab.com/mybanners.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://listgrab.com/etem_promoenter.php</codeUrl>
+	<ptcUrl>http://listgrab.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://listgrab.com/ptc/showupdate.php</ptcPostUrl>
+	<category>Mailer</category>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<bannerUrl>http://listgrab.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://listgrab.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://listgrab.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://listgrab.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://listgrab.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://listgrab.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://listgrab.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://listgrab.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://listgrab.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://listgrab.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<typeCode>name</typeCode>
+	<txtCode>promocode</txtCode>
+	
+	<txtSurfedToday>Clicks Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+	
+	<maxCount>10</maxCount>
+</site>

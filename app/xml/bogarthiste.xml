@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>BogarThisTE</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://bogarthiste.com</host>
+	<loginFormUrl>http://bogarthiste.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://bogarthiste.com/members.php</loginUrl>
+	<mainUrl>http://bogarthiste.com/members.php</mainUrl>
+	<surfUrl>http://bogarthiste.com/surfing.php</surfUrl>
+	<commissionUrl>http://bogarthiste.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://bogarthiste.com/mysites.php</creditUrl>
+	<rewardUrl>http://bogarthiste.com/claim.php</rewardUrl>
+	<codeUrl>http://bogarthiste.com/surfcode.php</codeUrl>
+	<ptcUrl>http://bogarthiste.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://bogarthiste.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://bogarthiste.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://bogarthiste.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://bogarthiste.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://bogarthiste.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://bogarthiste.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://bogarthiste.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://bogarthiste.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://bogarthiste.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://bogarthiste.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://bogarthiste.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://bogarthiste.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://bogarthiste.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://bogarthiste.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://bogarthiste.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://bogarthiste.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://bogarthiste.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

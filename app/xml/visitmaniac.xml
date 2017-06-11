@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>VisitManiac</name>
+	<version>1.0.0</version>
+	<template>Hit2Hit</template>
+	<host>http://www.visitmaniac.com</host>
+	<loginFormUrl>http://www.visitmaniac.com/login.php?e=invaa</loginFormUrl>
+	<loginUrl>http://www.visitmaniac.com/login.php</loginUrl>
+	<mainUrl>http://www.visitmaniac.com/members/?page=main</mainUrl>
+	<surfUrl>http://www.visitmaniac.com/surf.php</surfUrl>
+	<commissionUrl>http://www.visitmaniac.com/members/?page=main</commissionUrl>
+	<creditUrl>http://www.visitmaniac.com/members/?page=main</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl>http://www.visitmaniac.com/members/ptc.php</ptcUrl>
+	<ptcPostUrl>http://www.visitmaniac.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surf-footer.php</footerUrl>
+	<bUrl>surfbar.php</bUrl>
+	<sUrl>http://www.visitmaniac.com/img/</sUrl>
+	<m1Url>http://www.visitmaniac.com/img/</m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>loginid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>pwdid</txtPassword>	
+	<password></password>	
+	<postData>ffrma=sentsa&loginid=$username&pwdid=$password</postData>	
+	
+	<txtSurfedToday></txtSurfedToday>
+	<txtCommission>Total cash#tr</txtCommission>
+	<txtCredit>Current credits#tr</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+</site>

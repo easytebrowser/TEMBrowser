@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>NorthernTraffic</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://northerntraffic.net</host>
+	<loginFormUrl>http://northerntraffic.net/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://northerntraffic.net/members.php</loginUrl>
+	<mainUrl>http://northerntraffic.net/members.php</mainUrl>
+	<surfUrl>http://northerntraffic.net/surfing.php</surfUrl>
+	<commissionUrl>http://northerntraffic.net/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://northerntraffic.net/mysites.php</creditUrl>
+	<rewardUrl>http://northerntraffic.net/claim.php</rewardUrl>
+	<codeUrl>http://northerntraffic.net/surfcode.php</codeUrl>
+	<ptcUrl>http://northerntraffic.net/ptc.php</ptcUrl>
+	<ptcPostUrl>http://northerntraffic.net/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://northerntraffic.net/mysites.php</siteUrl>
+	<deleteSiteUrl>http://northerntraffic.net/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://northerntraffic.net/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://northerntraffic.net/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://northerntraffic.net/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://northerntraffic.net/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://northerntraffic.net/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://northerntraffic.net/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://northerntraffic.net/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://northerntraffic.net/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://northerntraffic.net/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://northerntraffic.net/mytexts.php</textUrl>
+	<deleteTextUrl>http://northerntraffic.net/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://northerntraffic.net/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://northerntraffic.net/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://northerntraffic.net/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>ShowBizHits</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://showbizhits.net</host>
+	<loginFormUrl>http://showbizhits.net/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://showbizhits.net/members.php</loginUrl>
+	<mainUrl>http://showbizhits.net/members.php</mainUrl>
+	<surfUrl>http://showbizhits.net/surfing.php</surfUrl>
+	<commissionUrl>http://showbizhits.net/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://showbizhits.net/mysites.php</creditUrl>
+	<rewardUrl>http://showbizhits.net/claim.php</rewardUrl>
+	<codeUrl>http://showbizhits.net/surfcode.php</codeUrl>
+	<ptcUrl>http://showbizhits.net/ptc.php</ptcUrl>
+	<ptcPostUrl>http://showbizhits.net/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://showbizhits.net/mysites.php</siteUrl>
+	<deleteSiteUrl>http://showbizhits.net/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://showbizhits.net/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://showbizhits.net/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://showbizhits.net/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://showbizhits.net/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://showbizhits.net/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://showbizhits.net/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://showbizhits.net/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://showbizhits.net/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://showbizhits.net/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://showbizhits.net/mytexts.php</textUrl>
+	<deleteTextUrl>http://showbizhits.net/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://showbizhits.net/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://showbizhits.net/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://showbizhits.net/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

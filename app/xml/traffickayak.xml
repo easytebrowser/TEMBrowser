@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TrafficKayak</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://traffickayak.com</host>
+	<loginFormUrl>http://traffickayak.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://traffickayak.com/members.php</loginUrl>
+	<mainUrl>http://traffickayak.com/members.php</mainUrl>
+	<surfUrl>http://traffickayak.com/surfing.php</surfUrl>
+	<commissionUrl>http://traffickayak.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://traffickayak.com/mysites.php</creditUrl>
+	<rewardUrl>http://traffickayak.com/claim.php</rewardUrl>
+	<codeUrl>http://traffickayak.com/surfcode.php</codeUrl>
+	<ptcUrl>http://traffickayak.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://traffickayak.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://traffickayak.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://traffickayak.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://traffickayak.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://traffickayak.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://traffickayak.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://traffickayak.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://traffickayak.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://traffickayak.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://traffickayak.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://traffickayak.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://traffickayak.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://traffickayak.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://traffickayak.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://traffickayak.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://traffickayak.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://traffickayak.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

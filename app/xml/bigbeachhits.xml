@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>BigBeachHits</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://bigbeachhits.com</host>
+	<loginFormUrl>http://bigbeachhits.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://bigbeachhits.com/members.php</loginUrl>
+	<mainUrl>http://bigbeachhits.com/members.php</mainUrl>
+	<surfUrl>http://bigbeachhits.com/surfing.php</surfUrl>
+	<commissionUrl>http://bigbeachhits.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://bigbeachhits.com/mysites.php</creditUrl>
+	<rewardUrl>http://bigbeachhits.com/claim.php</rewardUrl>
+	<codeUrl>http://bigbeachhits.com/surfcode.php</codeUrl>
+	<ptcUrl>http://bigbeachhits.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://bigbeachhits.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://bigbeachhits.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://bigbeachhits.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://bigbeachhits.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://bigbeachhits.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://bigbeachhits.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://bigbeachhits.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://bigbeachhits.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://bigbeachhits.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://bigbeachhits.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://bigbeachhits.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://bigbeachhits.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://bigbeachhits.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://bigbeachhits.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://bigbeachhits.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://bigbeachhits.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://bigbeachhits.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

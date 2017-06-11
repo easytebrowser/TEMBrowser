@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>NinjaSurf</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://ninjasurf.net</host>
+	<loginFormUrl>http://ninjasurf.net/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://ninjasurf.net/members.php</loginUrl>
+	<mainUrl>http://ninjasurf.net/members.php</mainUrl>
+	<surfUrl>http://ninjasurf.net/surfing.php</surfUrl>	
+	<commissionUrl>http://ninjasurf.net/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://ninjasurf.net/mysites.php</creditUrl>
+	<rewardUrl>http://ninjasurf.net/claim.php</rewardUrl>
+	<codeUrl>http://ninjasurf.net/surfcode.php</codeUrl>
+	<ptcUrl>http://ninjasurf.net/ptc.php</ptcUrl>
+	<ptcPostUrl>http://ninjasurf.net/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://ninjasurf.net/mysites.php</siteUrl>
+	<deleteSiteUrl>http://ninjasurf.net/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://ninjasurf.net/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://ninjasurf.net/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://ninjasurf.net/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://ninjasurf.net/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://ninjasurf.net/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://ninjasurf.net/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://ninjasurf.net/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://ninjasurf.net/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://ninjasurf.net/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://ninjasurf.net/mytexts.php</textUrl>
+	<deleteTextUrl>http://ninjasurf.net/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://ninjasurf.net/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://ninjasurf.net/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://ninjasurf.net/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#Total</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>ClickRoadsTE</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://clickroadste.com</host>
+	<loginFormUrl>http://clickroadste.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://clickroadste.com/members.php</loginUrl>
+	<mainUrl>http://clickroadste.com/members.php</mainUrl>
+	<surfUrl>http://clickroadste.com/surfing.php</surfUrl>
+	<commissionUrl>http://clickroadste.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://clickroadste.com/mysites.php</creditUrl>
+	<rewardUrl>http://clickroadste.com/claim.php</rewardUrl>
+	<codeUrl>http://clickroadste.com/surfcode.php</codeUrl>
+	<ptcUrl>http://clickroadste.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://clickroadste.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://clickroadste.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://clickroadste.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://clickroadste.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://clickroadste.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://clickroadste.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://clickroadste.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://clickroadste.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://clickroadste.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://clickroadste.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://clickroadste.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://clickroadste.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://clickroadste.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://clickroadste.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://clickroadste.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://clickroadste.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://clickroadste.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>Splash-Wave</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://splash-wave.com</host>
+	<loginFormUrl>http://splash-wave.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://splash-wave.com/members.php</loginUrl>
+	<mainUrl>http://splash-wave.com/members.php</mainUrl>
+	<surfUrl>http://splash-wave.com/surfing.php</surfUrl>
+	<commissionUrl>http://splash-wave.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://splash-wave.com/mysites.php</creditUrl>
+	<rewardUrl>http://splash-wave.com/claim.php</rewardUrl>
+	<codeUrl>http://splash-wave.com/surfcode.php</codeUrl>
+	<ptcUrl>http://splash-wave.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://splash-wave.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://splash-wave.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://splash-wave.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://splash-wave.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://splash-wave.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://splash-wave.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://splash-wave.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://splash-wave.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://splash-wave.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://splash-wave.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://splash-wave.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://splash-wave.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://splash-wave.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://splash-wave.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://splash-wave.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://splash-wave.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://splash-wave.com/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>
