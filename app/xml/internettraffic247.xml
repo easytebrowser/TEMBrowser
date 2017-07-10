@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>InternetTraffic247</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>IT247</template>
 	<host>http://internettraffic247.com</host>
 	<loginFormUrl>http://internettraffic247.com/members.php</loginFormUrl>
@@ -16,7 +16,7 @@
 	<ptcPostUrl></ptcPostUrl>
 	
 	<footerUrl></footerUrl>
-	<bUrl>http://internettraffic247.com/Surf/trexfoot1.php?ID=</bUrl>
+	<bUrl>http://internettraffic247.com/Surf/trexfoot</bUrl>
 	<sUrl></sUrl>
 	<m1Url></m1Url>
 	<m2Url></m2Url>
@@ -37,5 +37,5 @@
 	<txtCredit>id=credits#span</txtCredit>
 	<txtLoginSucess>logout.php</txtLoginSucess>
 	
-	<blockList>Manual.php?ID=</blockList>
+	<blockList>Manual.php?ID=|members.php</blockList>
 </site>

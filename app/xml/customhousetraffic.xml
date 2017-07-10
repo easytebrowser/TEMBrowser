@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>CustomHouseTraffic</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>LFMTE</template>
 	<host>http://customhousetraffic.com</host>
 	<loginFormUrl>http://customhousetraffic.com/login.php?s=noauth</loginFormUrl>
-	<loginUrl>http://customhousetraffic.com/members.php</loginUrl>
+	<loginUrl>http://customhousetraffic.com/surfing.php</loginUrl>
 	<mainUrl>http://customhousetraffic.com/members.php</mainUrl>
 	<surfUrl>http://customhousetraffic.com/surfing.php</surfUrl>
 	<commissionUrl>http://customhousetraffic.com/members.php?mf=mc</commissionUrl>

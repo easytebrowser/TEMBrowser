@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>BeeHits</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>LFMTE</template>
 	<host>http://beehits.com</host>
-	<loginFormUrl>http://beehits.com/login.php?s=noauth</loginFormUrl>
-	<loginUrl>http://beehits.com/members.php</loginUrl>
+	<loginFormUrl>https://beehits.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>https://beehits.com/members.php</loginUrl>
 	<mainUrl>http://beehits.com/members.php</mainUrl>
 	<surfUrl>http://beehits.com/surfing.php</surfUrl>
 	<commissionUrl>http://beehits.com/members.php?mf=mc</commissionUrl>

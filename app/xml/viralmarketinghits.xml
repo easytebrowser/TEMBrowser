@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>ViralMarketingHits</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://viralmarketinghits.com</host>
+	<loginFormUrl>http://viralmarketinghits.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://viralmarketinghits.com/members.php</loginUrl>
+	<mainUrl>http://viralmarketinghits.com/members.php</mainUrl>
+	<surfUrl>http://viralmarketinghits.com/surfing.php</surfUrl>
+	<commissionUrl>http://viralmarketinghits.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://viralmarketinghits.com/mysites.php</creditUrl>
+	<rewardUrl>http://viralmarketinghits.com/claim.php</rewardUrl>
+	<codeUrl>http://viralmarketinghits.com/surfcode.php</codeUrl>
+	<ptcUrl>http://viralmarketinghits.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://viralmarketinghits.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://viralmarketinghits.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://viralmarketinghits.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://viralmarketinghits.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://viralmarketinghits.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://viralmarketinghits.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://viralmarketinghits.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://viralmarketinghits.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://viralmarketinghits.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://viralmarketinghits.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://viralmarketinghits.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://viralmarketinghits.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://viralmarketinghits.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://viralmarketinghits.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://viralmarketinghits.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://viralmarketinghits.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://viralmarketinghits.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

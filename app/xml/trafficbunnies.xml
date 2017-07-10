@@ -6,7 +6,7 @@
 	<host>http://www.trafficbunnies.com</host>
 	<loginFormUrl>http://www.trafficbunnies.com/index.php?_w=login</loginFormUrl>
 	<loginUrl>http://www.trafficbunnies.com/index.php?_a=login_form</loginUrl>
-	<mainUrl>http://www.trafficbunnies.com/?_w=tools</mainUrl>
+	<mainUrl>http://www.trafficbunnies.com/index.php?_w=banner_board</mainUrl>
 	<surfUrl>http://www.trafficbunnies.com/surf.php</surfUrl>
 	<commissionUrl>http://www.trafficbunnies.com/?_w=cash</commissionUrl>
 	<creditUrl>http://www.trafficbunnies.com/?_w=websites</creditUrl>

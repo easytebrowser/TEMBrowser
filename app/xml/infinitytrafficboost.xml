@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>InfinityTrafficBoost</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<template>ITB</template>
 	<host>http://infinitytrafficboost.com</host>
 	<loginFormUrl>https://infinitytrafficboost.com/login.php?target=</loginFormUrl>
 	<loginUrl>https://infinitytrafficboost.com/do.login.php</loginUrl>
 	<mainUrl>https://infinitytrafficboost.com/dashboard.php</mainUrl>
-	<surfUrl>recommends2.php</surfUrl>
+	<surfUrl>recommends.php</surfUrl>
 	<commissionUrl></commissionUrl>
 	<creditUrl>https://infinitytrafficboost.com/dashboard.php</creditUrl>
 	<rewardUrl></rewardUrl>

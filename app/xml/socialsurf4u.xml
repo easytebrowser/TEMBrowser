@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>SocialSurf4U</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>StartXchange</template>
 	<host>http://www.socialsurf4u.com</host>
-	<loginFormUrl>http://www.socialsurf4u.com/login.php?msg=login1</loginFormUrl>
-	<loginUrl>http://www.socialsurf4u.com/login.php</loginUrl>
+	<loginFormUrl>https://www.socialsurf4u.com/login.php?msg=</loginFormUrl>
+	<loginUrl>https://www.socialsurf4u.com/login.php</loginUrl>
 	<mainUrl>http://www.socialsurf4u.com/dash/dashboard.php</mainUrl>
 	<surfUrl>http://www.socialsurf4u.com/dash/surf.php</surfUrl>
 	<commissionUrl>http://www.socialsurf4u.com/dash/dashboard.php</commissionUrl>

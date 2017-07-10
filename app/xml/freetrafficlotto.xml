@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>FreeTrafficLotto</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<template>Hit2Hit</template>
 	<host>http://www.freetrafficlotto.com</host>
 	<loginFormUrl>http://www.freetrafficlotto.com/login.php?e=invaa</loginFormUrl>
@@ -32,7 +32,7 @@
 	<password></password>	
 	<postData>ffrma=sentsa&loginid=$username&pwdid=$password</postData>	
 	
-	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtSurfedToday></txtSurfedToday>
 	<txtCommission>Current cash#tr</txtCommission>
 	<txtCredit>Current credits#tr</txtCredit>
 	<txtLoginSucess>logout.php</txtLoginSucess>
