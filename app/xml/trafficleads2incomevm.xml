@@ -16,6 +16,7 @@
 	<ptcUrl>http://trafficleads2incomevm.com/ptc.php</ptcUrl>
 	<ptcPostUrl>http://trafficleads2incomevm.com/ptc/showupdate.php</ptcPostUrl>
 	<category>Mailer</category>
+	<sendMailUrl>http://trafficleads2incomevm.com/sendmailing.php</sendMailUrl>
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>

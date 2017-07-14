@@ -16,6 +16,7 @@
 	<codeUrl>http://www.emailxprofits.com/surfcode.php</codeUrl>
 	<ptcUrl>http://www.emailxprofits.com/ptc.php</ptcUrl>
 	<category>Mailer</category>
+	<sendMailUrl>http://www.emailxprofits.com/sendmailing.php</sendMailUrl>
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>

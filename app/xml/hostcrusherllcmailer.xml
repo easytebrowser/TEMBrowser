@@ -16,6 +16,7 @@
 	<ptcUrl>http://hostcrusherllcmailer.com/ptc.php</ptcUrl>
 	<ptcPostUrl>http://hostcrusherllcmailer.com/ptc/showupdate.php</ptcPostUrl>
 	<category>Mailer</category>
+	<sendMailUrl>http://hostcrusherllcmailer.com/sendmailing.php</sendMailUrl>
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>

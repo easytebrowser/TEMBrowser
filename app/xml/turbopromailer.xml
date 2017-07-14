@@ -12,10 +12,11 @@
 	<commissionUrl>http://turbopromailer.com/members.php?mf=mc</commissionUrl>
 	<creditUrl>http://turbopromailer.com/mybanners.php</creditUrl>
 	<rewardUrl></rewardUrl>
-	<codeUrl>http://alphamailer.info/promo.php</codeUrl>
+	<codeUrl>http://turbopromailer.com/promo.php</codeUrl>
 	<ptcUrl>http://turbopromailer.com/ptc.php</ptcUrl>
 	<ptcPostUrl>http://turbopromailer.com/ptc/showupdate.php</ptcPostUrl>
 	<category>Mailer</category>
+	<sendMailUrl>http://turbopromailer.com/sendmailing.php</sendMailUrl>
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>

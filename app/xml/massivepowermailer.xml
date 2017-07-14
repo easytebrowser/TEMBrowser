@@ -12,10 +12,11 @@
 	<commissionUrl>http://massivepowermailer.com/members.php?mf=mc</commissionUrl>
 	<creditUrl>http://massivepowermailer.com/mybanners.php</creditUrl>
 	<rewardUrl></rewardUrl>
-	<codeUrl>http://alphamailer.info/promo.php</codeUrl>
+	<codeUrl>http://massivepowermailer.com/promo.php</codeUrl>
 	<ptcUrl>http://massivepowermailer.com/ptc.php</ptcUrl>
 	<ptcPostUrl>http://massivepowermailer.com/ptc/showupdate.php</ptcPostUrl>
 	<category>Mailer</category>
+	<sendMailUrl>http://massivepowermailer.com/sendmailing.php</sendMailUrl>
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>

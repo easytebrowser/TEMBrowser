@@ -16,6 +16,7 @@
 	<ptcUrl>http://dynamitemailingexplosion.com/ptc.php</ptcUrl>
 	<ptcPostUrl>http://dynamitemailingexplosion.com/ptc/showupdate.php</ptcPostUrl>
 	<category>Mailer</category>
+	<sendMailUrl>http://dynamitemailingexplosion.com/sendmailing.php</sendMailUrl>
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>

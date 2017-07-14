@@ -16,6 +16,7 @@
 	<ptcUrl>http://listmoola.com/ptc.php</ptcUrl>
 	<ptcPostUrl>http://listmoola.com/ptc/showupdate.php</ptcPostUrl>
 	<category>Mailer</category>
+	<sendMailUrl>http://listmoola.com/sendmailing.php</sendMailUrl>
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>

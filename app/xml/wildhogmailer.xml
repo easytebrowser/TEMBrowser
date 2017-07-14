@@ -16,6 +16,7 @@
 	<ptcUrl>http://www.wildhogmailer.com/ptc.php</ptcUrl>
 	<ptcPostUrl>http://www.wildhogmailer.com/ptc/showupdate.php</ptcPostUrl>
 	<category>Mailer</category>
+	<sendMailUrl>http://www.wildhogmailer.com/sendmailing.php</sendMailUrl>
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>

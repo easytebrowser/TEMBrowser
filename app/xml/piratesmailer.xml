@@ -16,6 +16,7 @@
 	<ptcUrl>http://piratesmailer.com/ptc.php</ptcUrl>
 	<ptcPostUrl>http://piratesmailer.com/ptc/showupdate.php</ptcPostUrl>
 	<category>Mailer</category>
+	<sendMailUrl>http://piratesmailer.com/sendmailing.php</sendMailUrl>
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>

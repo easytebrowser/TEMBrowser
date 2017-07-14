@@ -16,6 +16,7 @@
 	<ptcUrl>http://75percentmailer.com/ptc.php</ptcUrl>
 	<ptcPostUrl>http://75percentmailer.com/ptc/showupdate.php</ptcPostUrl>
 	<category>Mailer</category>
+	<sendMailUrl>http://75percentmailer.com/sendmailing.php</sendMailUrl>
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>

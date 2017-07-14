@@ -16,6 +16,7 @@
 	<ptcUrl>http://redrocketmailer.com/ptc.php</ptcUrl>
 	<ptcPostUrl>http://redrocketmailer.com/ptc/showupdate.php</ptcPostUrl>
 	<category>Mailer</category>
+	<sendMailUrl>http://redrocketmailer.com/sendmailing.php</sendMailUrl>
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>
