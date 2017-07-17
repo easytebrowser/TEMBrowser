@@ -72,48 +72,7 @@ function hideModal(id){
 }
 
 function submitModalForm(id, type){
-	if(type == '0' || type == '1'){
-		var rid = $.trim($('#modal_rid').val());
-		if(rid == ''){
-			bootbox.alert("Referral ID is mandatory.");
-			return false;
-		}
-		var bannerUrl =  $.trim($('#modal_banner_url').val());	
-		if(bannerUrl != '' && !isURL(bannerUrl)){
-			bootbox.alert("Banner Image URL is invalid.");
-			return false;
-		}else if(bannerUrl.length > 100){
-			bootbox.alert("Banner Image URL maxlength is 100 characters.");
-			return false;		
-		}	
-		var tooltip = $.trim($('#modal_tooltip').val());
-		if(tooltip.length < 5 || tooltip.length > 75){
-			bootbox.alert("Tooltip Text must between 5 and 75 characters.");
-			return false;
-		}
-		$.ajax({
-			type : "post",
-			data : {
-				id : id,
-				type : type,
-				rid : rid,
-				bannerUrl : bannerUrl,
-				tooltip : tooltip
-			},
-			url : "rest/user/adManage",
-			success : function(info) {
-				if(info == 'OK'){	
-					$('#portlet-config').hide();
-					window.location.replace(window.location.href); 	        				
-				} else {
-					bootbox.alert(info);
-				}
-			},
-			error : function() {
-				bootbox.alert("Server not available, please try again later.");
-			}
-		});
-	}else if(type == '2'){
+	if(type == '2'){
 		var siteName = $.trim($('#ppc_site_name').val());
 		if(siteName.length < 5 || siteName.length > 50){
 			bootbox.alert("Site Name length is 5-50 characters.");

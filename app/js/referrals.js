@@ -2,10 +2,29 @@ var Referrals = function() {
 	
 	return {
 		init: function () {
-
+			$('#level_sel').change(function(){
+				loadReferrals(this.value);
+			});
+			loadReferrals(1);
         }
 	};
 }();
+
+function loadReferrals(level){
+	$.ajax({
+		type : "post",
+		data : {
+			level : level
+		},
+		url : "rest/page/loadReferrals",
+		success : function(info) {	
+			$('#referrals_tbody').html(info);
+		},
+		error : function() {
+			bootbox.alert("Server not available, please try again later.");
+		}
+	});
+}
 
 function sendMessage(username){
 	$('#modal_username').html(username);

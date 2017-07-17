@@ -1,32 +1,7 @@
 var AdSetup = function() {
 	
 	var handleSelec2 = function () {
-        $('#select2_site_name').select2({
-            placeholder: "Select a Site",
-            allowClear: true
-        });
-        $('#select2_site_name').change(function(){
-        	var selectedSite = $('#select2_site_name').val();
-        	if(selectedSite == ''){
-        		$('#recomm_show_div').hide();
-        		$('#recomm_show_div').html('');
-        	}else{
-        		$.ajax({
-        			type : "post",
-        			data : {
-        				siteName : selectedSite
-        			},
-        			url : "rest/page/rst",
-        			success : function(info) {
-        				$('#recomm_show_div').html(info);
-        				$('#recomm_show_div').show();
-        			},
-        			error : function() {
-        				bootbox.alert("Server not available, please try again later.");
-        			}
-        		});
-        	}
-        });
+        
         $('#timer').change(function(){
         	var timer = $('#timer').val();
         	var price = parseInt(timer) * 2.5 / 100;
@@ -80,110 +55,6 @@ var AdSetup = function() {
         }
 	};
 }();
-
-function initOrderForm(type, siteName, signupUrl){
-	var subSingupUrl = signupUrl.substring(0, signupUrl.lastIndexOf('=') + 1);
-	var points = $('#points').val();
-	var price;
-	if(type == 0){
-		$('#modal_days_div').hide();
-		price = 1000;
-	}else{
-		$('#modal_days').val(1);
-		$('#modal_days_div').show();
-		price = 100;
-	}
-
-	$('#modal_signup_url').html(subSingupUrl);
-	$('#modal_rid').val('');
-	$('#modal_banner_url').val('');
-	$('#modal_tooltip').val('');
-	$('#modal_points').html(points);
-	$('#modal_site_name').val(siteName);
-	$('#modal_type').val(type);
-	$('#modal_prize').html(parseFloat(price).toFixed(2));
-	$('#ad_portlet-config').show();
-}
-
-function changeDays(){
-	var price = $('#modal_prize').html();
-	var days = $('#modal_days').val();
-	price = parseFloat(100 * parseInt(days)).toFixed(2);
-	$('#modal_prize').html(price);
-}
-
-function submitModalForm(){		
-	var type = $('#modal_type').val();
-	if(type == ''){
-		bootbox.alert("Parameter error.");
-		return false;
-	}
-	var siteName = $.trim($('#modal_site_name').val());
-	if(siteName == ''){
-		bootbox.alert("Site Name is mandatory.");
-		return false;
-	}
-	var rid = $.trim($('#modal_rid').val());
-	if(rid == ''){
-		bootbox.alert("Referral ID is mandatory.");
-		return false;
-	}
-	var bannerUrl =  $.trim($('#modal_banner_url').val());	
-	if(bannerUrl != '' && !isURL(bannerUrl)){
-		bootbox.alert("Banner Image URL is invalid.");
-		return false;
-	}else if(bannerUrl.length > 100){
-		bootbox.alert("Banner Image URL maxlength is 100 characters.");
-		return false;		
-	}	
-	var tooltip = $.trim($('#modal_tooltip').val());
-	if(tooltip.length < 5 || tooltip.length > 75){
-		bootbox.alert("Tooltip Text must between 5 and 75 characters.");
-		return false;
-	}
-	var days = $.trim($('#modal_days').val());
-	if(type == 1){
-		if(days == '' || parseInt(days) < 1 || parseInt(days) > 999){
-			bootbox.alert("Showing Days is mandatory.");
-			return false;
-		}
-	}
-	var price = $('#modal_prize').html();
-	var points = $('#points').val();
-	if(parseFloat(points) - parseFloat(price) < 0){
-		bootbox.alert("Your points balance is not enough.");
-		return false;
-	}
-	$.ajax({
-		type : "post",
-		data : {
-			type : type,
-			siteName : siteName,
-			rid : rid,
-			bannerUrl : bannerUrl,
-			tooltip : tooltip,
-			days : days
-		},
-		url : "rest/user/adSetup",
-		success : function(info) {
-			if(info == 'OK'){	
-				$('#ad_portlet-config').hide();
-				bootbox.alert({ 
-		            message: 'Your advertising is active now.',  
-		            callback: function() {  
-		            	window.location.replace(window.location.href);
-		            },  
-		            title: "Congratulations",  
-		        });  	        				
-			} else {
-				bootbox.alert(info);
-			}
-		},
-		error : function() {
-			bootbox.alert("Server not available, please try again later.");
-		}
-	});
-}
 
 function submitPPCForm(){	
 	var siteName = $.trim($('#ppc_site_name').val());

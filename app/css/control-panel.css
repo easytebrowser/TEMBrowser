@@ -21,7 +21,7 @@ Control Panel Page
 }
 
 .portlet.box .portlet-title {
-	padding:2px 2px 0px 2px
+	padding: 1px 10px 1px 10px;
 }
 
 .portlet-title .caption {
@@ -32,6 +32,10 @@ Control Panel Page
 
 .portlet.box .portlet-body {
 	padding:1px;
+}
+
+.row-fluid [class*="span"]{
+	min-height: 25px;
 }
 
 .table {
@@ -49,7 +53,7 @@ Control Panel Page
 }
 
 .table th, .table td {
-	padding: 2px;
+	padding: 0 1px 0 1px;
 	line-height: 20px;
 	vertical-align: middle;
 	
@@ -76,6 +80,10 @@ div.checker {
 	margin-right: 0px;
 }
 
+.btn-group>.btn, .btn-group>.dropdown-menu, .btn-group>.popover {
+	font-size: 12px;
+}
+
 .uneditable-input,
 textarea.m-wrap,
 input[type="text"].m-wrap,
@@ -100,7 +108,8 @@ input[type="color"].m-wrap {
 .dataTables_filter label {
 	line-height: 25px !important;
 	font-size: 12px;
-	padding: 4px 5px 0px 0px;
+	padding: 0;
+	margin-bottom: 2px;
 }
 
 .pagination ul>li>a, .pagination ul>li>span {
@@ -131,4 +140,94 @@ input[type="color"].m-wrap {
 .portlet-title .actions > .btn-group > .btn {
 	padding: 1px 5px;
 	margin-top : 4px;
+}
+
+.portlet-body .btn-group {
+	margin-top: 2px !important;
+	margin-bottom: 0 !important;
+}
+
+.dropdown-menu li > a {
+	padding: 4px 0 4px 10px;
+}
+
+.dropdown-menu .divider {
+	margin: 1px 1px;
+}
+
+.accordion-heading {
+	background: #e5e5e5;
+}
+
+.accordion-heading.blue {
+	background: #4b8df8;
+}
+
+.accordion-heading.purple {
+	background: #852b99;
+}
+
+.accordion-heading.green {
+	background: #35aa47;
+}
+
+.accordion-heading.yellow {
+	background: #ffb848;
+}
+
+.accordion-heading.red {
+	background: #d84a38;
+}
+
+.accordion-heading.black {
+	background: #555555;
+}
+
+.accordion-heading .accordion-toggle{
+	padding: 2px 8px;
+}
+
+.accordion-inner {
+	min-height: 105px;
+	max-height: 230px;
+	padding: 0px !important;
+	border: none;
+	overflow-x: hidden; 
+	overflow-y:auto;
+}
+
+.portlet-body::-webkit-scrollbar{width: 5px;}
+.portlet-body::-webkit-scrollbar-track{-webkit-border-radius: 5px; border-radius: 5px; border:1px solid #000000;}
+.portlet-body::-webkit-scrollbar-thumb{-webkit-border-radius: 5px; border-radius: 5px; background: #000000;}
+
+.accordion-inner::-webkit-scrollbar{width: 5px;}
+.accordion-inner::-webkit-scrollbar-track{-webkit-border-radius: 5px; border-radius: 5px; border:1px solid #e5e5e5;}
+.accordion-inner::-webkit-scrollbar-thumb{-webkit-border-radius: 5px; border-radius: 5px; background: #e5e5e5;}
+
+.accordion-inner.blue::-webkit-scrollbar{width: 5px;}
+.accordion-inner.blue::-webkit-scrollbar-track{-webkit-border-radius: 5px; border-radius: 5px; border:1px solid #4b8df8;}
+.accordion-inner.blue::-webkit-scrollbar-thumb{-webkit-border-radius: 5px; border-radius: 5px; background: #4b8df8;}
+
+.accordion-inner.purple::-webkit-scrollbar{width: 5px;}
+.accordion-inner.purple::-webkit-scrollbar-track{-webkit-border-radius: 5px; border-radius: 5px; border:1px solid #852b99;}
+.accordion-inner.purple::-webkit-scrollbar-thumb{-webkit-border-radius: 5px; border-radius: 5px; background: #852b99;}
+
+.accordion-inner.green::-webkit-scrollbar{width: 5px;}
+.accordion-inner.green::-webkit-scrollbar-track{-webkit-border-radius: 5px; border-radius: 5px; border:1px solid #35aa47;}
+.accordion-inner.green::-webkit-scrollbar-thumb{-webkit-border-radius: 5px; border-radius: 5px; background: #35aa47;}
+
+.accordion-inner.yellow::-webkit-scrollbar{width: 5px;}
+.accordion-inner.yellow::-webkit-scrollbar-track{-webkit-border-radius: 5px; border-radius: 5px; border:1px solid #ffb848;}
+.accordion-inner.yellow::-webkit-scrollbar-thumb{-webkit-border-radius: 5px; border-radius: 5px; background: #ffb848;}
+
+.accordion-inner.red::-webkit-scrollbar{width: 5px;}
+.accordion-inner.red::-webkit-scrollbar-track{-webkit-border-radius: 5px; border-radius: 5px; border:1px solid #d84a38;}
+.accordion-inner.red::-webkit-scrollbar-thumb{-webkit-border-radius: 5px; border-radius: 5px; background: #d84a38;}
+
+.accordion-inner.red::-webkit-scrollbar{width: 5px;}
+.accordion-inner.red::-webkit-scrollbar-track{-webkit-border-radius: 5px; border-radius: 5px; border:1px solid #555555;}
+.accordion-inner.red::-webkit-scrollbar-thumb{-webkit-border-radius: 5px; border-radius: 5px; background: #555555;}
+
+.accordion {
+	margin-bottom: 0;
 }

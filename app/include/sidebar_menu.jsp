@@ -24,12 +24,8 @@
 						<li><a href="rest/page/accountHistory/?t=p">Points</a></li>									
 					</ul>
 				</li>
-				<li><a href="javascript:;"> Templates <span class="arrow"></span></a>
-					<ul class="sub-menu">
-						<li><a href="rest/page/sites/?t=a">Available</a></li>
-						<li><a href="rest/page/sites/?t=p">Purchased</a></li>									
-					</ul>
-				</li>							
+				<li><a href="rest/page/sites">Downline Builder</a></li>
+				<li><a href="rest/page/dmailer">Downline Mailer</a></li>
 				<li><a href="javascript:;"> Advertising <span class="arrow"></span></a>
 					<ul class="sub-menu">
 						<li><a href="rest/page/adSetup">Set Up</a></li>
@@ -53,7 +49,7 @@
 		</li>		
 	</ul>
 </div>
-<script src="media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
+<script src="${path }media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
 <script>
 jQuery(document).ready(function() {
 	//设置选中菜单样式

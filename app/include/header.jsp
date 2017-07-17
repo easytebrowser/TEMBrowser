@@ -34,12 +34,8 @@
 										<li><a href="rest/page/accountHistory/?t=p">Points</a></li>									
 									</ul>
 								</li>
-								<li class="dropdown-submenu"><a href="javascript:;"> Templates <span class="arrow"></span></a>
-									<ul class="dropdown-menu">
-										<li><a href="rest/page/sites/?t=a">Available</a></li>
-										<li><a href="rest/page/sites/?t=p">Purchased</a></li>									
-									</ul>
-								</li>							
+								<li><a href="rest/page/sites">Downline Builder</a></li>
+								<li><a href="rest/page/dmailer">Downline Mailer</a></li>
 								<li class="dropdown-submenu"><a href="javascript:;"> Advertising <span class="arrow"></span></a>
 									<ul class="dropdown-menu">
 										<li><a href="rest/page/adSetup">Set Up</a></li>
@@ -76,124 +72,37 @@
 			<ul class="nav pull-right">
 				<!-- BEGIN NOTIFICATION DROPDOWN -->
 				<li class="dropdown" id="header_notification_bar">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" onclick="getHeaderData('1')">
 						<i class="icon-warning-sign"></i> 
-						<span class="badge">${sessionScope.notificationCount }</span>
+						<span class="badge" id="notificationCount"></span>
 					</a>
-					<ul class="dropdown-menu extended notification" style="width:300px !important;">
-						<li>
-							<p>You have ${sessionScope.notificationCount } new notifications</p>
-						</li>
-						<c:forEach var="item" items="${sessionScope.notificationList }" varStatus="status">	
-							<c:if test="${item.type == '0' }">
-								<c:set var="color" value="label-warning"></c:set>
-								<c:set var="icon" value="icon-bell"></c:set>
-							</c:if>
-							<c:if test="${item.type == '1' }">
-								<c:set var="color" value="label-info"></c:set>
-								<c:set var="icon" value="icon-gift"></c:set>
-							</c:if>
-							<c:if test="${item.type == '2' }">
-								<c:set var="color" value="label-warning"></c:set>
-								<c:set var="icon" value="icon-bell"></c:set>
-							</c:if>
-							<c:if test="${item.type == '3' }">
-								<c:set var="color" value="label-important"></c:set>
-								<c:set var="icon" value="icon-bolt"></c:set>
-							</c:if>
-							<c:if test="${item.type == '4' }">
-								<c:set var="color" value="label-success"></c:set>
-								<c:set var="icon" value="icon-ok-sign"></c:set>
-							</c:if>
-							<c:if test="${item.type == '5' }">
-								<c:set var="color" value="label-important"></c:set>
-								<c:set var="icon" value="icon-remove-sign"></c:set>
-							</c:if>
-							<li><a href="rest/page/notification"> 
-								<span class="label ${color }"><i class="${icon }"></i></span> ${item.title }
-								<span class="time pull-right">${item.dateRange }</span>
-							</a></li>						
-						</c:forEach>					
-						<li class="external"><a href="rest/page/notification">See all notifications <i class="m-icon-swapright"></i></a></li>
-					</ul>
+					<ul class="dropdown-menu extended notification" style="width:300px !important;" id="notificationData"></ul>
 				</li>
 				<!-- END NOTIFICATION DROPDOWN -->
 				<!-- BEGIN INBOX DROPDOWN -->
 				<li class="dropdown" id="header_inbox_bar">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" onclick="getHeaderData('2')"> 
 						<i class="icon-envelope"></i> 
-						<span class="badge">${sessionScope.messageCount }</span>
+						<span class="badge" id="messageCount"></span>
 					</a>
-					<ul class="dropdown-menu extended inbox">
-						<li>
-							<p>You have ${sessionScope.messageCount } new messages</p>
-						</li>
-						<c:forEach var="item" items="${sessionScope.messageList }" varStatus="status">	
-							<li><a href="rest/page/message"> 
-								<span class="photo"><img src="http://gravatar.com/avatar/${item.md5_email }?s=40&d=&r=g" /> </span>
-								<span class="subject"> 
-									<span class="from">
-									<c:choose>
-										<c:when test="${item.first_name == null || item.last_name == null }">${item.sender }</c:when>
-										<c:otherwise>${item.first_name } ${item.last_name }</c:otherwise>
-									</c:choose>
-									</span> 
-									<span class="time">${item.date_range }</span>
-								</span> 
-								<span class="message"> ${item.content } </span>
-						</a></li>
-						</c:forEach>						
-						<li class="external"><a href="rest/page/message">See all messages <i class="m-icon-swapright"></i></a></li>
-					</ul></li>
+					<ul class="dropdown-menu extended inbox" id="messageData"></ul>
+				</li>
 				<!-- END INBOX DROPDOWN -->
 				<!-- BEGIN TODO DROPDOWN -->
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+					<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" onclick="getHeaderData('3')"> 
 						<i class="icon-tasks"></i> 
-						<span class="badge">${sessionScope.todoCount }</span>
+						<span class="badge" id="todoCount"></span>
 					</a>
-					<ul class="dropdown-menu extended tasks">
-						<li>
-							<p>You have ${sessionScope.todoCount } pending task(s)</p>
-						</li>
-						<c:forEach var="item" items="${sessionScope.todoList }">
-						<c:if test="${item.type == 0 }">
-							<li><a href="rest/page/adStats"> 
-								<span class="task"> 
-									<span class="desc">Pending approve comments</span> 
-									<span class="percent">${item.percent }%</span>
-								</span> 
-								<span class="progress progress-success"> 
-									<span style="width: ${item.percent }%;" class="bar"></span>
-								</span>
-							</a></li>
-						</c:if>
-						<c:if test="${item.type == 1 }">
-							<li><a href="#"> 
-								<span class="task"> 
-									<span class="desc">Assign points to advertising</span> 
-									<span class="percent">${item.percent }%</span>
-								</span> 
-								<span class="progress progress-danger progress-striped active"> 
-									<span style="width: ${item.percent }%;" class="bar"></span>
-								</span>
-							</a></li>
-						</c:if>						
-						</c:forEach>						
-						<li class="external"><a href="rest/page/task">See all available tasks <i class="m-icon-swapright"></i></a></li>
-					</ul></li>
+					<ul class="dropdown-menu extended tasks" id="todoData"></ul>
+				</li>
 				<!-- END TODO DROPDOWN -->
 				<!-- BEGIN USER LOGIN DROPDOWN -->
 				<shiro:user>
 				<li class="dropdown user">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
-						<img src="http://gravatar.com/avatar/${sessionScope.loginedUser.md5Email }?s=29&d=&r=g" /> 
-						<span class="username"> 
-							<c:choose>
-								<c:when test="${sessionScope.loginedUser.firstName == null || sessionScope.loginedUser.firstName == '' || sessionScope.loginedUser.lastName == null || sessionScope.loginedUser.lastName == ''}">${sessionScope.loginedUser.username }</c:when>
-								<c:otherwise>${sessionScope.loginedUser.firstName} ${sessionScope.loginedUser.lastName}</c:otherwise>
-							</c:choose>
-						</span> 
+						<img src="http://gravatar.com/avatar/${user.md5Email }?s=29&d=&r=g" /> 
+						<span class="username">${user.username }</span> 
 						<i class="icon-angle-down"></i>
 					</a>
 					<ul class="dropdown-menu">
@@ -217,7 +126,28 @@
 	</div>
 	<!-- END TOP NAVIGATION BAR -->
 </div>
-<script src="media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
+<script src="${path }media/js/jquery-1.10.1.min.js" type="text/javascript"></script>
+<shiro:user>  			
+<script>
+jQuery(document).ready(function() {	
+	$.ajax({
+		type : "post",
+		data : {},
+		url : "rest/page/pageHeader",
+		dataType:"json",
+		success : function(info) {
+			$('#notificationCount').html(info['notificationCount']);
+			$('#messageCount').html(info['messageCount']);
+			$('#todoCount').html(info['todoCount']);
+		},
+		error : function() {
+			bootbox.alert("Server not available, please try again later.");
+		}
+	});   
+});	
+
+</script>
+</shiro:user>
 <script>
 jQuery(document).ready(function() {
 	//设置选中菜单样式
@@ -240,4 +170,26 @@ jQuery(document).ready(function() {
 		}
 	});
 });	
+
+function getHeaderData(type){
+	$.ajax({
+		type : "post",
+		data : {
+			type : type
+		},
+		url : "rest/page/getHeaderData",
+		success : function(info) {
+			if(type == '1'){
+				$('#notificationData').html(info);
+			}else if(type == '2'){
+				$('#messageData').html(info);
+			}else if(type == '3'){
+				$('#todoData').html(info);
+			}
+		},
+		error : function() {
+			bootbox.alert("Server not available, please try again later.");
+		}
+	});   
+}
 </script>

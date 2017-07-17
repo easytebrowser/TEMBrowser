@@ -156,7 +156,21 @@ var Dashboard = function () {
             $('#dashboard-report-range span').html(Date.today().add({
                 days: -9
             }).toString('MMM dd, yyyy') + ' - ' + Date.today().toString('MMM dd, yyyy'));
-        },        
+        },   
+        
+        initCrossPromos: function () {
+        	$.ajax({
+    			type : "post",
+    			data : {},
+    			url : "rest/page/crossPromos",
+    			success : function(info) {
+    				$("#div_cross_promos").html(info);    				
+    			},
+    			error : function() {
+    				bootbox.alert("Server not available, please try again later.");
+    			}
+    		});    
+        },
 
         initSurfedChart: function (siteName) {
             $.ajax({
@@ -505,114 +519,10 @@ var Dashboard = function () {
         		    }]
         		});
             }       
-        },    
-        
-        initNewSites: function () {
-        	$.ajax({
-    			type : "post",
-    			data : {},
-    			url : "rest/page/newSites",
-    			success : function(info) {
-    				$("#div_new_sites").html(info);    				
-    			},
-    			error : function() {
-    				bootbox.alert("Server not available, please try again later.");
-    			}
-    		});    
-        },
-        
-        initRecommendedSites: function () {
-        	$.ajax({
-    			type : "post",
-    			data : {},
-    			url : "rest/page/recommendedSites",
-    			success : function(info) {
-    				$("#div_recommended_sites").html(info);    				
-    			},
-    			error : function() {
-    				bootbox.alert("Server not available, please try again later.");
-    			}
-    		});    
-        },
-        
-        initSurfDeals: function () {
-        	$.ajax({
-    			type : "post",
-    			data : {},
-    			url : "rest/page/surfDeals",
-    			success : function(info) {
-    				$("#div_surf_deals").html(info);    				
-    			},
-    			error : function() {
-    				bootbox.alert("Server not available, please try again later.");
-    			}
-    		});    
-        },
-        
-        initTopContests: function () {
-        	$.ajax({
-    			type : "post",
-    			data : {},
-    			url : "rest/page/topContests",
-    			success : function(info) {
-    				$("#div_top_contests").html(info);    				
-    			},
-    			error : function() {
-    				bootbox.alert("Server not available, please try again later.");
-    			}
-    		});    
-        },
-        
+        }
     };
 
 }();
-
-function updateByBatchId(batchId, category, obj) {
-	var status = "T";
-	if(category == '1'){
-		status = "M";
-	}
-	$.ajax({
-		type : "post",
-		data : {
-			batchId : batchId,
-			status : status,
-			category : category
-		},
-		url : "rest/userSite/updateByBatchId",
-		success : function(info) {
-			if(info == 'OK'){
-				$(obj).attr('class', 'btn gray');
-				$(obj).attr('title', 'Already in your surfing list');
-				bootbox.alert("All sites in this group has been added to your surfing list.");
-				window.location.replace(window.location.href);
-			}else{
-				bootbox.alert(info);
-			}
-		},
-		error : function() {
-			bootbox.alert("Server not available, please try again later.");
-		}
-	});
-}
-
-function cacheClicked(advertisingId){
-	if(id == ''){
-		return;
-	}
-	$.ajax({
-		type : "post",
-		data : {
-			advertisingId : advertisingId
-		},
-		url : "rest/page/cacheClicked",
-		success : function(info) {			
-		},
-		error : function() {
-			bootbox.alert("Server not available, please try again later.");
-		}
-	});
-}
 
 function sendMessage(username){
 	$('#modal_username').html(username);
@@ -641,4 +551,67 @@ function doSendMessage(){
 			bootbox.alert("Server not available, please try again later.");
 		}
 	});
+}
+
+function purchase(obj, siteName, price, historyCount, upline) {			
+	if(parseInt(historyCount) < 10){
+		price = '0.00';
+	}
+	bootbox.setLocale("en_US");  
+	bootbox.confirm("Purchase this template will cost you " + price + " point(s), continue?", function (result) {  
+        if(result) {  
+        	doPurchase(obj, siteName, upline);
+        } else {  
+            return;
+        }  
+    });
+}
+
+function doPurchase(obj, siteName, upline){
+	$.ajax({
+		type : "post",
+		data : {
+			siteName : siteName,
+			upline : upline
+		},
+		url : "rest/userSite/purchase",
+		success : function(info) {
+			if(info == 'OK'){
+				bootbox.alert({ 
+		            message: 'This template has been added to your account successfully.',  
+		            callback: function() { 
+		            	$(obj).attr({
+							'class': 'btn green mini',
+							'title': 'Start surfing this site',
+							'onclick': "doSurfFromDashboard(this, '" + siteName + "')"
+						});
+		            	$(obj).html('Surfing');
+		            },  
+		            title: "Congratulations",  
+		        }); 
+				reloadSites();
+			}else{
+				bootbox.alert(info);
+				return;
+			}
+		},
+		error : function() {
+			bootbox.alert("Server not available, please try again later.");
+		}
+	});
+}
+
+function reloadSites(){
+	window.java.reloadSites();
+}
+
+function doSurfFromDashboard(obj, siteName){
+	var status = window.java.startSurfing(siteName, "0");	
+	if (status == 'ERROR') {
+		alert("Can not load template, please try again later or contact admin");
+	} else if (status == 'SUCCESS') {
+		$(obj).attr({
+			'class': 'btn grey mini'
+		});
+	}
 }
