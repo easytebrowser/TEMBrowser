@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>Hit4Click</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>LFMTE</template>
-	<host>http://hit4click.com</host>
-	<loginFormUrl>https://hit4click.com/login.php?s=noauth</loginFormUrl>
-	<loginUrl>https://hit4click.com/members.php</loginUrl>
-	<mainUrl>http://hit4click.com/members.php</mainUrl>
-	<surfUrl>http://hit4click.com/surfing.php</surfUrl>
-	<commissionUrl>http://hit4click.com/members.php?mf=mc</commissionUrl>
-	<creditUrl>http://hit4click.com/mysites.php</creditUrl>
-	<rewardUrl>http://hit4click.com/claim.php</rewardUrl>
-	<codeUrl>http://hit4click.com/surfcode.php</codeUrl>
-	<ptcUrl>http://hit4click.com/ptc.php</ptcUrl>
-	<ptcPostUrl>http://hit4click.com/ptc/showupdate.php</ptcPostUrl>
+	<host>http://www.hit4click.com</host>
+	<loginFormUrl>https://www.hit4click.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>https://www.hit4click.com/members.php</loginUrl>
+	<mainUrl>http://www.hit4click.com/members.php</mainUrl>
+	<surfUrl>http://www.hit4click.com/surfing.php</surfUrl>
+	<commissionUrl>http://www.hit4click.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://www.hit4click.com/mysites.php</creditUrl>
+	<rewardUrl>http://www.hit4click.com/claim.php</rewardUrl>
+	<codeUrl>http://www.hit4click.com/surfcode.php</codeUrl>
+	<ptcUrl>http://www.hit4click.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://www.hit4click.com/ptc/showupdate.php</ptcPostUrl>
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>
@@ -23,22 +23,22 @@
 	<m3Url>surfclickicon.php?iconid=3</m3Url>
 	<m4Url>surfclickicon.php?iconid=4</m4Url>
 	
-	<siteUrl>http://hit4click.com/mysites.php</siteUrl>
-	<deleteSiteUrl>http://hit4click.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
-	<deleteSiteConfirmUrl>http://hit4click.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
-	<addSiteUrl>http://hit4click.com/mysites.php?addsite=yes</addSiteUrl>
-	<assignCreditsUrl>http://hit4click.com/mysites.php?quickassign=yes</assignCreditsUrl>
-	<autoAssignUrl>http://hit4click.com/autoassign.php</autoAssignUrl>
-	<bannerUrl>http://hit4click.com/mybanners.php</bannerUrl>
-	<deleteBannerUrl>http://hit4click.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
-	<deleteBannerConfirmUrl>http://hit4click.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
-	<addBannerUrl>http://hit4click.com/mybanners.php?addbanner=yes</addBannerUrl>
-	<assignBannerUrl>http://hit4click.com/mybanners.php?assignimps=yes</assignBannerUrl>
-	<textUrl>http://hit4click.com/mytexts.php</textUrl>
-	<deleteTextUrl>http://hit4click.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
-	<deleteTextConfirmUrl>http://hit4click.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
-	<addTextUrl>http://hit4click.com/mytexts.php?addtext=yes</addTextUrl>
-	<assignTextUrl>http://hit4click.com/mytexts.php?assignimps=yes</assignTextUrl>
+	<siteUrl>http://www.hit4click.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://www.hit4click.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://www.hit4click.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://www.hit4click.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://www.hit4click.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://www.hit4click.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://www.hit4click.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://www.hit4click.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://www.hit4click.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://www.hit4click.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://www.hit4click.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://www.hit4click.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://www.hit4click.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://www.hit4click.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://www.hit4click.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://www.hit4click.com/mytexts.php?assignimps=yes</assignTextUrl>
 
 	<typeUsername>name</typeUsername>
 	<txtUsername>login</txtUsername>
