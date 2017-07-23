@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>Hit4Click</name>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<template>LFMTE</template>
 	<host>http://www.hit4click.com</host>
-	<loginFormUrl>https://www.hit4click.com/login.php?s=noauth</loginFormUrl>
-	<loginUrl>https://www.hit4click.com/members.php</loginUrl>
+	<loginFormUrl>http://www.hit4click.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://www.hit4click.com/members.php</loginUrl>
 	<mainUrl>http://www.hit4click.com/members.php</mainUrl>
 	<surfUrl>http://www.hit4click.com/surfing.php</surfUrl>
 	<commissionUrl>http://www.hit4click.com/members.php?mf=mc</commissionUrl>
