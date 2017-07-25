@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>HitLink</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>Hit2Hit</template>
 	<host>http://www.hitlink.com</host>
 	<loginFormUrl>http://www.hitlink.com/public/login.php</loginFormUrl>
 	<loginUrl>http://www.hitlink.com/public/login.php</loginUrl>
 	<mainUrl>http://www.hitlink.com/public/members/account/details.php</mainUrl>
-	<surfUrl>surf.php</surfUrl>
+	<surfUrl>http://www.hitlink.com/public/members/surf/surf.php</surfUrl>
 	<commissionUrl>http://www.hitlink.com/public/members/account/details.php</commissionUrl>
 	<creditUrl>http://www.hitlink.com/public/members/account/details.php</creditUrl>
 	<rewardUrl></rewardUrl>
