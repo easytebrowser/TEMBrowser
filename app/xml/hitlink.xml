@@ -6,7 +6,7 @@
 	<host>http://www.hitlink.com</host>
 	<loginFormUrl>http://www.hitlink.com/public/login.php</loginFormUrl>
 	<loginUrl>http://www.hitlink.com/public/login.php</loginUrl>
-	<mainUrl>http://www.hitlink.com/public/members/account/details.php</mainUrl>
+	<mainUrl>http://www.hitlink.com//p/</mainUrl>
 	<surfUrl>http://www.hitlink.com/public/members/surf/surf.php</surfUrl>
 	<commissionUrl>http://www.hitlink.com/public/members/account/details.php</commissionUrl>
 	<creditUrl>http://www.hitlink.com/public/members/account/details.php</creditUrl>
