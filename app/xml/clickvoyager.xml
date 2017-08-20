@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>ClickVoyager</name>
+	<version>1.0.0</version>
+	<template>ClickVoyager</template>
+	<host>http://www.clickvoyager.com</host>
+	<loginFormUrl>https://www.clickvoyager.com/login.php</loginFormUrl>
+	<loginUrl>https://www.clickvoyager.com/login.php</loginUrl>
+	<mainUrl>https://www.clickvoyager.com/members.php</mainUrl>	
+	<surfUrl>http://www.clickvoyager.com/surf.php</surfUrl>
+	<commissionUrl></commissionUrl>
+	<creditUrl>https://www.clickvoyager.com/accountstats.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>minx/surf/grunt.php?key=</bUrl>	
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>username</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>username=$username&password=$password&remember=remember&logIn=Log In</postData>	
+	
+	<txtSurfedToday>Sites Surfed:#Credits</txtSurfedToday>
+	<txtCommission></txtCommission>
+	<txtCredit>Credit Balance#/tr</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+</site>
