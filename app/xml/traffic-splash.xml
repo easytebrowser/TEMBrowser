@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>Traffic-Splash</name>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<template>LFMTE</template>
 	<host>http://www.traffic-splash.com</host>
 	<loginFormUrl>http://www.traffic-splash.com/login.php?s=noauth</loginFormUrl>
