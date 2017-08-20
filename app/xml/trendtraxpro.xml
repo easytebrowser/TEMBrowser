@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>TrendTraxPro</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>LFMTE</template>
 	<host>http://trendtraxpro.com</host>
 	<loginFormUrl>https://trendtraxpro.com/login.php?s=noauth</loginFormUrl>
