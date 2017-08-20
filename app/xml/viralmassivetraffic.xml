@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>ViralMassiveTraffic</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>LFMTE</template>
 	<host>http://viralmassivetraffic.com</host>
 	<loginFormUrl>http://viralmassivetraffic.com/login.php?s=noauth</loginFormUrl>
 	<loginUrl>http://viralmassivetraffic.com/members.php</loginUrl>
 	<mainUrl>http://viralmassivetraffic.com/members.php</mainUrl>
 	<surfUrl>http://viralmassivetraffic.com/credit_click.php?userid=</surfUrl>	
-	<unclaimedUrl></unclaimedUrl>
+	<unclaimedUrl>http://viralmassivetraffic.com/unreademails.php</unclaimedUrl>
 	<commissionUrl>http://viralmassivetraffic.com/members.php?mf=mc</commissionUrl>
 	<creditUrl>http://viralmassivetraffic.com/mybanners.php</creditUrl>
 	<rewardUrl></rewardUrl>
