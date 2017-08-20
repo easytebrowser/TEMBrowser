@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>JackpotMailer</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>LFMTE</template>
 	<host>http://www.jackpotmailer.com</host>
 	<loginFormUrl>http://www.jackpotmailer.com/login.php?s=noauth</loginFormUrl>
