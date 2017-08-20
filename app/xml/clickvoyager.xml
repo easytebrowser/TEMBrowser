@@ -32,5 +32,5 @@
 	<txtCredit>Credit Balance#/tr</txtCredit>
 	<txtLoginSucess>logout.php</txtLoginSucess>
 	
-	<blockList>https://www.clickvoyager.com/members.php</blockList>
+	<blockList>http://www.clickvoyager.com/members.php</blockList>
 </site>
