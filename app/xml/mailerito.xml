@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>Mailerito</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>LFMTE</template>
 	<host>http://mailerito.com</host>
 	<loginFormUrl>http://mailerito.com/login.php?s=noauth</loginFormUrl>
@@ -54,5 +54,5 @@
 	<txtCredit>You have#c</txtCredit>
 	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
 	
-	<maxCount>10</maxCount>
+	<maxCount>5</maxCount>
 </site>
