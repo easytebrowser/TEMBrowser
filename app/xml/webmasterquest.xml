@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>WebmasterQuest</name>
+	<version>1.0.0</version>
+	<template>WebmasterQuest</template>
+	<host>http://webmasterquest.com</host>
+	<loginFormUrl>http://webmasterquest.com/login.php?page=</loginFormUrl>
+	<loginUrl>http://webmasterquest.com/members/index.php</loginUrl>
+	<mainUrl>http://webmasterquest.com/members/index.php</mainUrl>	
+	<surfUrl>members/surfstart.php?Username=</surfUrl>
+	<unclaimedUrl>members/e_surfstart.php?Username=</unclaimedUrl>
+	<commissionUrl>http://webmasterquest.com/members/index.php</commissionUrl>
+	<creditUrl>http://webmasterquest.com/members/index.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://webmasterquest.com/members/promo.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>members/nav_tv2.php?Username=</bUrl>	
+	
+	<typeUsername>id</typeUsername>
+	<txtUsername>Login_user</txtUsername>
+	<username></username>
+	
+	<typePassword>id</typePassword>	
+	<txtPassword>Login_pass</txtPassword>	
+	<password></password>	
+	<postData>Login_user=$username&Login_pass=$password</postData>	
+	
+	<txtSurfedToday>Views so far today#Total</txtSurfedToday>
+	<txtCommission>Convert into Credits#/tr</txtCommission>
+	<txtCredit>Unused credits#/tr</txtCredit>
+	<txtLoginSucess>index.php?Submit=Log out</txtLoginSucess>
+	
+	<blockList></blockList>
+</site>

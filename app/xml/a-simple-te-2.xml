@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>A-Simple-TE-2</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://a-simple-te-2.com</host>
+	<loginFormUrl>http://a-simple-te-2.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://a-simple-te-2.com/members.php</loginUrl>
+	<mainUrl>http://a-simple-te-2.com/members.php</mainUrl>
+	<surfUrl>http://a-simple-te-2.com/surfing.php</surfUrl>
+	<commissionUrl>http://a-simple-te-2.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://a-simple-te-2.com/mysites.php</creditUrl>
+	<rewardUrl>http://a-simple-te-2.com/claim.php</rewardUrl>
+	<codeUrl>http://a-simple-te-2.com/surfcode.php</codeUrl>
+	<ptcUrl>http://a-simple-te-2.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://a-simple-te-2.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://a-simple-te-2.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://a-simple-te-2.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://a-simple-te-2.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://a-simple-te-2.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://a-simple-te-2.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://a-simple-te-2.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://a-simple-te-2.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://a-simple-te-2.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://a-simple-te-2.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://a-simple-te-2.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://a-simple-te-2.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://a-simple-te-2.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://a-simple-te-2.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://a-simple-te-2.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://a-simple-te-2.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://a-simple-te-2.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>
