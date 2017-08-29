@@ -2,12 +2,12 @@
 <site>
 	<name>50ADayGetsYouPaid</name>
 	<version>1.0.0</version>
-	<template>Common</template>
+	<template>ADGYP</template>
 	<host>http://50adaygetsyoupaid.com</host>
 	<loginFormUrl>http://50adaygetsyoupaid.com/login.php</loginFormUrl>
 	<loginUrl>http://50adaygetsyoupaid.com/login.php?go=login</loginUrl>
 	<mainUrl>http://50adaygetsyoupaid.com/dashboard.php</mainUrl>	
-	<surfUrl>http://50adaygetsyoupaid.com/surf.php</surfUrl>
+	<surfUrl>http://50adaygetsyoupaid.com/surf.php</surfUrl>	
 	<commissionUrl>http://50adaygetsyoupaid.com/stats.php</commissionUrl>
 	<creditUrl>http://50adaygetsyoupaid.com/stats.php</creditUrl>
 	<rewardUrl></rewardUrl>
@@ -29,7 +29,7 @@
 	
 	<txtSurfedToday>Surfed Today:#/font</txtSurfedToday>
 	<txtCommission>OWED:#PAID</txtCommission>
-	<txtCredit>YOUR CREDITS:#/CREDITS</txtCredit>
+	<txtCredit>YOUR CREDITS:#CREDITS</txtCredit>
 	<txtLoginSucess>logout.php</txtLoginSucess>
 	
 	<blockList></blockList>

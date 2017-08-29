@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>ListSurfing</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>ListSurfing</template>
 	<host>http://www.listsurfing.com</host>
-	<loginFormUrl>http://www.listsurfing.com/index.html?e=invaa</loginFormUrl>
-	<loginUrl>http://www.listsurfing.com/index.html?e=invaa</loginUrl>
+	<loginFormUrl>http://www.listsurfing.com/login.php?e=invaa</loginFormUrl>
+	<loginUrl>http://www.listsurfing.com/login.php</loginUrl>
 	<mainUrl>http://www.listsurfing.com/members/index.php</mainUrl>
 	<surfUrl>http://www.listsurfing.com/surf/</surfUrl>
 	<commissionUrl>http://www.listsurfing.com/members/?page=main</commissionUrl>

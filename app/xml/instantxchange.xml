@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>InstantXchange</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>InstantXchange</template>
 	<host>http://www.instantxchange.com</host>
 	<loginFormUrl>http://www.instantxchange.com/index.php</loginFormUrl>
@@ -33,7 +33,7 @@
 	<postData>u=$username&p=$password</postData>	
 	
 	<txtSurfedToday>Surfed Today:#/b</txtSurfedToday>
-	<txtCommission>Cash:$request</txtCommission>
+	<txtCommission>Cash:#request</txtCommission>
 	<txtCredit>Available Credits:#assign</txtCredit>
 	<txtLoginSucess>logout.php</txtLoginSucess>
 

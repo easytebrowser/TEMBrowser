@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>AngelsOnFire4Traffic</name>
+	<version>1.0.0</version>
+	<template>VTACO</template>
+	<host>http://angelsonfire4traffic.com</host>
+	<loginFormUrl>http://angelsonfire4traffic.com/index.php</loginFormUrl>
+	<loginUrl>http://angelsonfire4traffic.com/login.php</loginUrl>
+	<mainUrl>http://angelsonfire4traffic.com/members/index.php</mainUrl>	
+	<surfUrl>http://angelsonfire4traffic.com/members/surfexchange.php</surfUrl>	
+	<unclaimedUrl>http://angelsonfire4traffic.com/members/earncredits.php</unclaimedUrl>
+	<commissionUrl>http://angelsonfire4traffic.com/members/index.php</commissionUrl>
+	<creditUrl>http://angelsonfire4traffic.com/members/index.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://angelsonfire4traffic.com/members/referraltools.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl>surfexchange.php?userid=</footerUrl>
+	<bUrl>surfexchange.php?pageid=</bUrl>	
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>userid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>userid=$username&password=$password&remember=1&login=Login</postData>	
+	
+	<txtSurfedToday>You have viewed#sites</txtSurfedToday>
+	<txtCommission>Your Commissions:#/font</txtCommission>
+	<txtCredit>Your Credits:#/font</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+	
+	<maxCount>10</maxCount>
+	<blockList></blockList>
+</site>

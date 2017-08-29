@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>TrafficBunnies</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>VastHits</template>
 	<host>http://www.trafficbunnies.com</host>
 	<loginFormUrl>http://www.trafficbunnies.com/index.php?_w=login</loginFormUrl>
@@ -30,10 +30,11 @@
 	<typePassword>name</typePassword>	
 	<txtPassword>password</txtPassword>	
 	<password></password>	
-	<postData>email=$username&password=$password&B1=Submit</postData>	
+	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
 	
 	<txtSurfedToday>Sites Surfed#Credits</txtSurfedToday>
 	<txtCommission>Your Account Cash#M</txtCommission>
-	<txtCredit>Hits Available#tr</txtCredit>
+	<txtCredit>Hits
+		Available#tr</txtCredit>
 	<txtLoginSucess>_w=logout</txtLoginSucess>
 </site>

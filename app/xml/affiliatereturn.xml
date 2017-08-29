@@ -6,7 +6,7 @@
 	<host>http://affiliatereturn.com</host>
 	<loginFormUrl>http://affiliatereturn.com/virtual/2/</loginFormUrl>
 	<loginUrl>http://affiliatereturn.com/index.php?_a=login_form</loginUrl>
-	<mainUrl>http://affiliatereturn.com/?_w=tools</mainUrl>
+	<mainUrl>http://affiliatereturn.com/index.php?_w=tools</mainUrl>
 	<surfUrl>http://affiliatereturn.com/surf.php</surfUrl>
 	<commissionUrl>http://affiliatereturn.com/?_w=cash</commissionUrl>
 	<creditUrl>http://affiliatereturn.com/?_w=tools</creditUrl>
@@ -30,10 +30,12 @@
 	<typePassword>name</typePassword>	
 	<txtPassword>password</txtPassword>	
 	<password></password>	
-	<postData>email=$username&password=$password&B1=Submit</postData>	
+	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
 	
-	<txtSurfedToday></txtSurfedToday>
+	<txtSurfedToday>This Session#Total</txtSurfedToday>
 	<txtCommission>Your Account Cash#M</txtCommission>
 	<txtCredit>Hits Available#/tr</txtCredit>
 	<txtLoginSucess>_w=logout</txtLoginSucess>
+	
+	<blockList>http://affiliatereturn.com/surfnow.php</blockList>
 </site>

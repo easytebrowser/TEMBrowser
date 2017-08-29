@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>ApeHits</name>
+	<version>1.0.0</version>
+	<template>VastHits</template>
+	<host>http://apehits.com</host>
+	<loginFormUrl>https://apehits.com/index.php?_w=login</loginFormUrl>
+	<loginUrl>https://apehits.com/index.php?_a=login_form</loginUrl>
+	<mainUrl>https://apehits.com/?_w=tools</mainUrl>
+	<surfUrl>http://apehits.com/surf.php</surfUrl>
+	<commissionUrl>https://apehits.com/?_w=cash</commissionUrl>
+	<creditUrl>https://apehits.com/?_w=websites</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>https://apehits.com/?_w=downline</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>surfbars/multisurfbar.php</bUrl>
+	<sUrl>/images/surfbar/</sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>email</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
+	
+	<txtSurfedToday><![CDATA[Todays Surf#Upgrade]]></txtSurfedToday>
+	<txtCommission>Your Account Cash#M</txtCommission>
+	<txtCredit>Hits
+		Available#/tr</txtCredit>
+	<txtLoginSucess>_w=logout</txtLoginSucess>
+</site>

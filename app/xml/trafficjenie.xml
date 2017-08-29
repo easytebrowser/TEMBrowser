@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>TrafficJenie</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>VastHits</template>
 	<host>http://trafficjenie.info</host>
 	<loginFormUrl>http://trafficjenie.info/index.php?_w=login</loginFormUrl>
@@ -30,7 +30,7 @@
 	<typePassword>name</typePassword>	
 	<txtPassword>password</txtPassword>	
 	<password></password>	
-	<postData>email=$username&password=$password&B1=Submit</postData>	
+	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
 	
 	<txtSurfedToday>Currently On Page#font</txtSurfedToday>
 	<txtCommission>Your Account Cash#M</txtCommission>

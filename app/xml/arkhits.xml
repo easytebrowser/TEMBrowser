@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>ArkHits</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>Hit2Hit</template>
 	<host>http://www.arkhits.com</host>
 	<loginFormUrl>http://www.arkhits.com/login.php?e=invaa</loginFormUrl>
@@ -36,7 +36,7 @@
 	<txtCode>code</txtCode>
 
 	<txtSurfedToday>Page Views Today#Credits</txtSurfedToday>
-	<txtCommission>Total cash:#tr</txtCommission>
-	<txtCredit>Current credits:#tr</txtCredit>
+	<txtCommission>Total cash#tr</txtCommission>
+	<txtCredit>Current credits#tr</txtCredit>
 	<txtLoginSucess>logout.php</txtLoginSucess>
 </site>

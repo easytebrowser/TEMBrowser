@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>HitSwamp</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>VastHits</template>
 	<host>http://hitswamp.net</host>
 	<loginFormUrl>http://hitswamp.net/index.php?_w=login</loginFormUrl>
@@ -9,7 +9,7 @@
 	<mainUrl>http://hitswamp.net/?_w=tools</mainUrl>
 	<surfUrl>http://hitswamp.net/surf.php</surfUrl>
 	<commissionUrl>http://hitswamp.net/?_w=cash</commissionUrl>
-	<creditUrl>http://hitswamp.net/?_w=websites</creditUrl>
+	<creditUrl>http://hitswamp.net/?_w=convert</creditUrl>
 	<rewardUrl></rewardUrl>
 	<codeUrl></codeUrl>
 	<ptcUrl></ptcUrl>
@@ -30,10 +30,10 @@
 	<typePassword>name</typePassword>	
 	<txtPassword>password</txtPassword>	
 	<password></password>	
-	<postData>email=$username&password=$password&B1=Submit</postData>	
+	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
 	
-	<txtSurfedToday>Surfed Today:#Sites</txtSurfedToday>
+	<txtSurfedToday>Currently On Page#/font</txtSurfedToday>
 	<txtCommission>Your Account Cash#M</txtCommission>
-	<txtCredit></txtCredit>
+	<txtCredit>Website Hits :#/tr</txtCredit>
 	<txtLoginSucess>_w=logout</txtLoginSucess>
 </site>
