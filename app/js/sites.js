@@ -1,27 +1,53 @@
+var pageNo = 1;
+var pageSize = 10;
+var totalPages = 0;
+
 var Sites = function() {
 	return {
 		
 		init: function (t) {
-			$.ajax({
-				type : "post",
-				data : {
-					t : t
-				},
-				url : "rest/page/loadSites",
-				success : function(info) {
-					if(t == 'a'){
-						$('#available_tbody').html(info);
-						var availableCount = $('#availableCount').val();
-						$('#tab_a').html('Available(' + availableCount + ')')
-					}else{
-						$('#purchase_tbody').html(info);
-						var purchasedCount = $('#purchasedCount').val();
-						$('#tab_p').html('Purchased(' + purchasedCount + ')')
-					}
-				},
-				error : function() {
-					bootbox.alert("Server not available, please try again later.");
-				}
+			pageNo = 1;
+			totalPages = 0;
+			$('#t').val(t);
+			// 获取分页显示内容
+			getContent(pageNo);
+
+			$("#page_size_a").bind("change", function() {
+				pageSize = $(this).val();
+				getContent(1);
+			});
+
+			$("#category_a").bind("change", function() {
+				getContent(1);
+			});
+			
+			$('#search_text_a').keypress(function (e) {
+		    	if (e.which == 13) {
+		    		getContent(1);
+		    	}
+		    });
+
+			$("#btn_search_a").bind("click", function() {
+				getContent(1);
+			});
+			
+			$("#page_size_p").bind("change", function() {
+				pageSize = $(this).val();
+				getContent(1);
+			});
+
+			$("#category_p").bind("change", function() {
+				getContent(1);
+			});
+			
+			$('#search_text_p').keypress(function (e) {
+		    	if (e.which == 13) {
+		    		getContent(1);
+		    	}
+		    });
+
+			$("#btn_search_p").bind("click", function() {
+				getContent(1);
 			});
         },
 	
@@ -52,6 +78,38 @@ var Sites = function() {
 	};
 }();
 
+//获取分页显示内容
+function getContent(page) {
+	var t = $('#t').val();
+	$.ajax({
+		type : "post",
+		data : {
+			t : t,
+			pageNo : page,
+			pageSize : $('#page_size_' + t).val(),
+			category : $('#category_' + t).val(),
+			searchText : $('#search_text_' + t).val()
+		},
+		url : "rest/page/loadSites",
+		success : function(info) {
+			$('#tbody_' + t).html(info);
+			if(t != 'i'){
+				pageNo = $("#page_no_" + t).val();
+				totalPages = $("#total_pages_" + t).val();
+				
+				// 分页显示数据
+				var options = {
+					currentPage : pageNo, // 当前页数
+					totalPages : totalPages, // 总页数
+				};
+				$("#paginator_" + t).bootstrapPaginator(options);
+			}			
+		},
+		error : function() {
+			bootbox.alert("Server not available, please try again later.");
+		}
+	});
+}
 
 function doPurchase(siteName, upline){
 	$.ajax({
@@ -109,15 +167,20 @@ function doRemove(siteName){
 }
 
 function updateRid(siteName, obj){
+	var rid = $(obj).val();
 	$.ajax({
 		type : "post",
 		data : {
 			siteName : siteName,
-			rid : $(obj).val()
+			rid : rid
 		},
 		url : "rest/userSite/updateRid",
-		success : function(info) {	
-			
+		success : function(info) {
+			if(rid == ''){
+				$(obj).attr('style', 'height:25px; margin-bottom:0 !important; width:100px !important; border:1px solid #ed4e2a;');
+			}else{
+				$(obj).attr('style', 'height:25px; margin-bottom:0 !important; width:100px !important;');
+			}			
 		},
 		error : function() {
 			bootbox.alert("Server not available, please try again later.");
