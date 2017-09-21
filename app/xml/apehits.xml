@@ -32,7 +32,7 @@
 	<password></password>	
 	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
 	
-	<txtSurfedToday><![CDATA[Todays Surf#Upgrade]]></txtSurfedToday>
+	<txtSurfedToday><![CDATA[Todays Surf#Ratio]]></txtSurfedToday>
 	<txtCommission>Your Account Cash#M</txtCommission>
 	<txtCredit>Hits
 		Available#/tr</txtCredit>
