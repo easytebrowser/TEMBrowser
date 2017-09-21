@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>AppleBlossomTE</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>VastHits</template>
 	<host>http://appleblossomte.com</host>
 	<loginFormUrl>http://appleblossomte.com/index.php?_w=login</loginFormUrl>
 	<loginUrl>http://appleblossomte.com/index.php?_a=login_form</loginUrl>
-	<mainUrl>http://appleblossomte.com/?_w=tools</mainUrl>
+	<mainUrl>http://appleblossomte.com/index.php?_w=buytraffic</mainUrl>
 	<surfUrl>http://appleblossomte.com/surf.php</surfUrl>
 	<commissionUrl>http://appleblossomte.com/?_w=cash</commissionUrl>
 	<creditUrl>http://appleblossomte.com/?_w=websites</creditUrl>
