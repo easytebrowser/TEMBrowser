@@ -17,7 +17,7 @@
 	
 	<footerUrl></footerUrl>
 	<bUrl>surfbars/imagebar.php</bUrl>
-	<sUrl>/images/surfbar/</sUrl>
+	<sUrl>/surfbars/images/</sUrl>
 	<m1Url></m1Url>	
 	<m2Url></m2Url>
 	<m3Url></m3Url>
