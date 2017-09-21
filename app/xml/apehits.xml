@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>ApeHits</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>VastHits</template>
 	<host>http://apehits.com</host>
 	<loginFormUrl>https://apehits.com/index.php?_w=login</loginFormUrl>
@@ -16,7 +16,7 @@
 	<ptcPostUrl></ptcPostUrl>
 	
 	<footerUrl></footerUrl>
-	<bUrl>surfbars/multisurfbar.php</bUrl>
+	<bUrl>surfbars/imagebar.php</bUrl>
 	<sUrl>/images/surfbar/</sUrl>
 	<m1Url></m1Url>	
 	<m2Url></m2Url>
@@ -37,4 +37,6 @@
 	<txtCredit>Hits
 		Available#/tr</txtCredit>
 	<txtLoginSucess>_w=logout</txtLoginSucess>
+	
+	<blockList>https://apehits.com/?_w=tools</blockList>
 </site>
