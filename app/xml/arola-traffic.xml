@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>Arola-Traffic</name>
+	<version>1.0.0</version>
+	<template>VastHits</template>
+	<host>http://arola-traffic.com</host>
+	<loginFormUrl>http://arola-traffic.com/index.php?_w=login</loginFormUrl>
+	<loginUrl>http://arola-traffic.com/index.php?_a=login_form</loginUrl>
+	<mainUrl>http://arola-traffic.com/?_w=tools</mainUrl>
+	<surfUrl>http://arola-traffic.com/surf.php</surfUrl>
+	<commissionUrl>http://arola-traffic.com/?_w=cash</commissionUrl>
+	<creditUrl>http://arola-traffic.com/?_w=websites</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://arola-traffic.com/?_w=downline</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>surfbars/multisurfbar.php</bUrl>
+	<sUrl></sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>email</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
+	
+	<txtSurfedToday><![CDATA[This Session#Add]]></txtSurfedToday>
+	<txtCommission>Your Account Cash#M</txtCommission>
+	<txtCredit>Hits
+		Available#/tr</txtCredit>
+	<txtLoginSucess>_w=logout</txtLoginSucess>
+	
+	<blockList>http://arola-traffic.com/surfnow.php</blockList>
+</site>
