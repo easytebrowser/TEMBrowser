@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>BanzaiPipelineSurf</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<template>VastHits</template>
 	<host>http://banzaipipelinesurf.com</host>
 	<loginFormUrl>http://banzaipipelinesurf.com/index.php?_w=login</loginFormUrl>
@@ -38,5 +38,5 @@
 		Available#/tr</txtCredit>
 	<txtLoginSucess>_w=logout</txtLoginSucess>
 	
-	<blockList>http://banzaipipelinesurf.com/surfnow.php</blockList>
+	<blockList>_w=tools|surfnow.php</blockList>
 </site>

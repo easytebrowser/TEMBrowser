@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-	<name>ProManualSurfer</name>
+	<name>BiggyTraffic</name>
 	<version>1.0.2</version>
 	<template>VastHits</template>
-	<host>http://promanualsurfer.info</host>
-	<loginFormUrl>http://promanualsurfer.info/index.php?_w=login</loginFormUrl>
-	<loginUrl>http://promanualsurfer.info/index.php?_a=login_form</loginUrl>
-	<mainUrl>http://promanualsurfer.info/?_w=tools</mainUrl>
-	<surfUrl>http://promanualsurfer.info/surf.php</surfUrl>
-	<commissionUrl>http://promanualsurfer.info/?_w=cash</commissionUrl>
-	<creditUrl>http://promanualsurfer.info/?_w=websites</creditUrl>
+	<host>http://biggytraffic.com</host>
+	<loginFormUrl>https://biggytraffic.com/index.php?_w=login</loginFormUrl>
+	<loginUrl>https://biggytraffic.com/index.php?_a=login_form</loginUrl>
+	<mainUrl>https://biggytraffic.com/?_w=tools</mainUrl>
+	<surfUrl>http://biggytraffic.com/surf.php</surfUrl>
+	<commissionUrl>https://biggytraffic.com/index.php?_w=cash</commissionUrl>
+	<creditUrl>https://biggytraffic.com/index.php?_w=cash</creditUrl>
 	<rewardUrl></rewardUrl>
-	<codeUrl></codeUrl>
+	<codeUrl>https://biggytraffic.com/?_w=downline</codeUrl>
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
 	
 	<footerUrl></footerUrl>
 	<bUrl>surfbars/imagebar.php</bUrl>
-	<sUrl>/surfbars/</sUrl>
+	<sUrl>/surfbars/images/</sUrl>
 	<m1Url></m1Url>	
 	<m2Url></m2Url>
 	<m3Url></m3Url>
@@ -32,10 +32,9 @@
 	<password></password>	
 	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
 	
-	<txtSurfedToday>Currently On Page#font</txtSurfedToday>
+	<txtSurfedToday><![CDATA[Surfed:#Credits]]></txtSurfedToday>
 	<txtCommission>Your Account Cash#M</txtCommission>
-	<txtCredit>Hits
-		Available#tr</txtCredit>
+	<txtCredit>_w=websites#/a</txtCredit>
 	<txtLoginSucess>_w=logout</txtLoginSucess>
 	
 	<blockList>_w=tools|surfnow.php</blockList>

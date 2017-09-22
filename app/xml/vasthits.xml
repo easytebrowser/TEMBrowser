@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>VastHits</name>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<template>VastHits</template>
 	<host>http://vasthits.com</host>
 	<loginFormUrl>http://vasthits.com/index.php?_w=login</loginFormUrl>
@@ -37,4 +37,6 @@
 	<txtCredit>Hits
 		Available#tr</txtCredit>
 	<txtLoginSucess>_w=logout</txtLoginSucess>
+	
+	<blockList>_w=tools|surfnow.php</blockList>
 </site>

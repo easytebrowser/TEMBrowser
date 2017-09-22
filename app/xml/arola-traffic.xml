@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>Arola-Traffic</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<template>VastHits</template>
 	<host>http://arola-traffic.com</host>
 	<loginFormUrl>http://arola-traffic.com/index.php?_w=login</loginFormUrl>
@@ -38,5 +38,5 @@
 		Available#/tr</txtCredit>
 	<txtLoginSucess>_w=logout</txtLoginSucess>
 	
-	<blockList>http://arola-traffic.com/surfnow.php</blockList>
+	<blockList>_w=tools|surfnow.php</blockList>
 </site>

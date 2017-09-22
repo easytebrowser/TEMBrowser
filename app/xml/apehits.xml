@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>ApeHits</name>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<template>VastHits</template>
 	<host>http://apehits.com</host>
 	<loginFormUrl>https://apehits.com/index.php?_w=login</loginFormUrl>
@@ -38,5 +38,5 @@
 		Available#/tr</txtCredit>
 	<txtLoginSucess>_w=logout</txtLoginSucess>
 	
-	<blockList>https://apehits.com/?_w=tools</blockList>
+	<blockList>_w=tools|surfnow.php</blockList>
 </site>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>BeerSudzSurf</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<template>VastHits</template>
 	<host>http://beersudzsurf.com</host>
 	<loginFormUrl>http://beersudzsurf.com/index.php?_w=login</loginFormUrl>
@@ -38,5 +38,5 @@
 		Available#/tr</txtCredit>
 	<txtLoginSucess>_w=logout</txtLoginSucess>
 	
-	<blockList>http://beersudzsurf.com/surfnow.php</blockList>
+	<blockList>_w=tools|surfnow.php</blockList>
 </site>

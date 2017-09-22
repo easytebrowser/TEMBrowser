@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>AffiliateReturn</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<template>VastHits</template>
 	<host>http://affiliatereturn.com</host>
 	<loginFormUrl>http://affiliatereturn.com/virtual/2/</loginFormUrl>
@@ -37,5 +37,5 @@
 	<txtCredit>Hits Available#/tr</txtCredit>
 	<txtLoginSucess>_w=logout</txtLoginSucess>
 	
-	<blockList>http://affiliatereturn.com/surfnow.php</blockList>
+	<blockList>_w=tools|surfnow.php</blockList>
 </site>
