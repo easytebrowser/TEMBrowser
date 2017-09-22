@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>ProTrafficShop</name>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<template>Hit2Hit</template>
 	<host>http://www.protrafficshop.com</host>
 	<loginFormUrl>http://www.protrafficshop.com/login.php?e=invaa</loginFormUrl>
