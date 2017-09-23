@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>FreeTrafficLotto</name>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 	<template>Hit2Hit</template>
 	<host>http://www.freetrafficlotto.com</host>
 	<loginFormUrl>http://www.freetrafficlotto.com/login.php?e=invaa</loginFormUrl>
@@ -37,5 +37,5 @@
 	<txtCredit>Current credits#tr</txtCredit>
 	<txtLoginSucess>logout.php</txtLoginSucess>
 	
-	<blockList>http://www.freetrafficlotto.com/start.php</blockList>
+	<blockList>start.php</blockList>
 </site>
