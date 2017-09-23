@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>ProClickExchange</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>Hit2Hit</template>
 	<host>http://www.proclickexchange.com</host>
 	<loginFormUrl>http://www.proclickexchange.com/login.php?e=invaa</loginFormUrl>

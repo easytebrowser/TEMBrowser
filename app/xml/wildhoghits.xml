@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>WildHogHits</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>Hit2Hit</template>
 	<host>http://www.wildhoghits.com</host>
 	<loginFormUrl>http://www.wildhoghits.com/login.php?e=invaa</loginFormUrl>
