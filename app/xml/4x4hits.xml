@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>4x4Hits</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<template>Hit2Hit</template>
 	<host>http://www.4x4hits.com</host>
 	<loginFormUrl>http://www.4x4hits.com/login.php?e=invaa</loginFormUrl>
