@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>Soaring4Traffic</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<template>Hit2Hit</template>
 	<host>http://www.soaring4traffic.com</host>
 	<loginFormUrl>http://www.soaring4traffic.com/login.php?e=invaa</loginFormUrl>
 	<loginUrl>http://www.soaring4traffic.com/login.php</loginUrl>
-	<mainUrl>http://www.soaring4traffic.com/members/?page=main</mainUrl>
+	<mainUrl>http://www.soaring4traffic.com/members/index.php?page=main</mainUrl>
 	<surfUrl>http://www.soaring4traffic.com/surf.php</surfUrl>
 	<commissionUrl>http://www.soaring4traffic.com/members/?page=main</commissionUrl>
 	<creditUrl>http://www.soaring4traffic.com/members/?page=main</creditUrl>
