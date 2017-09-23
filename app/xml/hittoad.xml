@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>HitToad</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<template>Hit2Hit</template>
 	<host>http://www.hittoad.com</host>
 	<loginFormUrl>http://www.hittoad.com/login.php?e=invaa</loginFormUrl>
 	<loginUrl>http://www.hittoad.com/login.php</loginUrl>
 	<mainUrl>http://www.hittoad.com/members/?page=main</mainUrl>
-	<surfUrl>http://www.hittoad.com/surf.php</surfUrl>
+	<surfUrl>http://www.hittoad.com/start.php</surfUrl>
 	<commissionUrl>http://www.hittoad.com/members/?page=main</commissionUrl>
 	<creditUrl>http://www.hittoad.com/members/?page=main</creditUrl>
 	<rewardUrl></rewardUrl>
@@ -37,5 +37,5 @@
 	<txtCredit>Current credits#tr</txtCredit>
 	<txtLoginSucess>logout.php</txtLoginSucess>
 	
-	<blockList>http://www.hittoad.com/start.php</blockList>
+	<blockList>start.php</blockList>
 </site>
