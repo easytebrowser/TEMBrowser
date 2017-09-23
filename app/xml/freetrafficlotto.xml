@@ -7,7 +7,7 @@
 	<loginFormUrl>http://www.freetrafficlotto.com/login.php?e=invaa</loginFormUrl>
 	<loginUrl>http://www.freetrafficlotto.com/login.php</loginUrl>
 	<mainUrl>http://www.freetrafficlotto.com/members/?page=main</mainUrl>
-	<surfUrl>http://www.freetrafficlotto.com/surf.php</surfUrl>
+	<surfUrl>http://www.freetrafficlotto.com/start.php</surfUrl>
 	<commissionUrl>http://www.freetrafficlotto.com/members/?page=main</commissionUrl>
 	<creditUrl>http://www.freetrafficlotto.com/members/?page=main</creditUrl>
 	<rewardUrl></rewardUrl>
