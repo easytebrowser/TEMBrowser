@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>TrafficDodgems</name>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<template>TrafficSwirl</template>
 	<host>http://trafficdodgems.com</host>
 	<loginFormUrl>http://trafficdodgems.com/login.php?s=noauth</loginFormUrl>
@@ -17,8 +17,8 @@
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar.php</bUrl>
-	<sUrl></sUrl>
-	<m1Url></m1Url>	
+	<sUrl>surfimage</sUrl>
+	<m1Url>surfclickimage</m1Url>	
 	<m2Url></m2Url>
 	<m3Url></m3Url>
 	<m4Url></m4Url>
