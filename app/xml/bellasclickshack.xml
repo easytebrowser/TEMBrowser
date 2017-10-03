@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>BellasClickShack</name>
+	<version>1.0.0</version>
+	<template>Hit2Hit</template>
+	<host>http://www.bellasclickshack.com</host>
+	<loginFormUrl>http://www.bellasclickshack.com/login.php?e=invaa</loginFormUrl>
+	<loginUrl>http://www.bellasclickshack.com/login.php</loginUrl>
+	<mainUrl>http://www.bellasclickshack.com/members/?page=main</mainUrl>
+	<surfUrl>http://www.bellasclickshack.com/surf.php</surfUrl>
+	<commissionUrl>http://www.bellasclickshack.com/members/?page=main</commissionUrl>
+	<creditUrl>http://www.bellasclickshack.com/members/?page=main</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl>http://www.bellasclickshack.com/members/ptc.php</ptcUrl>
+	<ptcPostUrl>http://www.bellasclickshack.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>surfbar.php</bUrl>
+	<sUrl>http://www.bellasclickshack.com/img/surfbar/</sUrl>
+	<m1Url>http://www.bellasclickshack.com/img/surfbar/</m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>loginid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>pwdid</txtPassword>	
+	<password></password>	
+	<postData>ffrma=sentsa&loginid=$username&pwdid=$password</postData>	
+	
+	<txtSurfedToday>Surfed Today#/tr</txtSurfedToday>
+	<txtCommission>Total cash#tr</txtCommission>
+	<txtCredit>Current credits#tr</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+</site>

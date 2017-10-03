@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>BucketsofBanners</name>
+	<version>1.0.0</version>
+	<template>BucketsofBanners</template>
+	<host>http://bucketsofbanners.com</host>
+	<loginFormUrl>http://bucketsofbanners.com/mem/login.php</loginFormUrl>
+	<loginUrl>http://bucketsofbanners.com/mem/login.php</loginUrl>
+	<mainUrl>http://bucketsofbanners.com/mem/index.php</mainUrl>	
+	<surfUrl>http://bucketsofbanners.com/surf_site.php</surfUrl>	
+	<commissionUrl>http://bucketsofbanners.com/mem/coms.php</commissionUrl>
+	<creditUrl>http://bucketsofbanners.com/mem/index.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://bucketsofbanners.com/mem/promo.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>surfbar2.php?PHPSESSID=</bUrl>	
+	<sUrl>http://bucketsofbanners.com/img/</sUrl>
+	<m1Url>http://bucketsofbanners.com/img/</m1Url>	
+	
+	<typeUsername>id</typeUsername>
+	<txtUsername>uname</txtUsername>
+	<username></username>
+	
+	<typePassword>id</typePassword>	
+	<txtPassword>pass</txtPassword>	
+	<password></password>	
+	<postData>uname=$username&pass=$password</postData>	
+	
+	<txtSurfedToday>Surfed Last 24 Hours:#/b</txtSurfedToday>
+	<txtCommission>Commissions Available#/strong</txtCommission>
+	<txtCredit>Your Credits Available#Assign</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+	
+	<blockList></blockList>
+</site>
