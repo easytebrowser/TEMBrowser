@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>Fox-Hits</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://fox-hits.com</host>
+	<loginFormUrl>http://fox-hits.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://fox-hits.com/members.php</loginUrl>
+	<mainUrl>http://fox-hits.com/members.php</mainUrl>
+	<surfUrl>http://fox-hits.com/surfing.php</surfUrl>
+	<commissionUrl>http://fox-hits.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://fox-hits.com/mysites.php</creditUrl>
+	<rewardUrl>http://fox-hits.com/claim.php</rewardUrl>
+	<codeUrl>http://fox-hits.com/surfcode.php</codeUrl>
+	<ptcUrl>http://fox-hits.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://fox-hits.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://fox-hits.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://fox-hits.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://fox-hits.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://fox-hits.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://fox-hits.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://fox-hits.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://fox-hits.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://fox-hits.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://fox-hits.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://fox-hits.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://fox-hits.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://fox-hits.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://fox-hits.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://fox-hits.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://fox-hits.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://fox-hits.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

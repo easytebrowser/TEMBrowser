@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-	<name>AngelsOnFire4Traffic</name>
-	<version>1.0.1</version>
+	<name>ExpressWebTraffic</name>
+	<version>1.0.0</version>
 	<template>VTACO</template>
-	<host>http://angelsonfire4traffic.com</host>
-	<loginFormUrl>http://angelsonfire4traffic.com/index.php</loginFormUrl>
-	<loginUrl>http://angelsonfire4traffic.com/login.php</loginUrl>
-	<mainUrl>http://angelsonfire4traffic.com/members/index.php</mainUrl>	
-	<surfUrl>http://angelsonfire4traffic.com/members/surfexchange.php</surfUrl>	
-	<unclaimedUrl>http://angelsonfire4traffic.com/members/earncredits.php</unclaimedUrl>
-	<commissionUrl>http://angelsonfire4traffic.com/members/index.php</commissionUrl>
-	<creditUrl>http://angelsonfire4traffic.com/members/index.php</creditUrl>
+	<host>http://expresswebtraffic.com</host>
+	<loginFormUrl>http://expresswebtraffic.com/userlogin.php</loginFormUrl>
+	<loginUrl>http://expresswebtraffic.com/login.php</loginUrl>
+	<mainUrl>http://expresswebtraffic.com/members/index.php</mainUrl>	
+	<surfUrl>http://expresswebtraffic.com/members/surfexchange.php</surfUrl>	
+	<unclaimedUrl>http://expresswebtraffic.com/members/earncredits.php</unclaimedUrl>
+	<commissionUrl>http://expresswebtraffic.com/members/index.php</commissionUrl>
+	<creditUrl>http://expresswebtraffic.com/members/index.php</creditUrl>
 	<rewardUrl></rewardUrl>
-	<codeUrl>http://angelsonfire4traffic.com/members/referraltools.php</codeUrl>
+	<codeUrl>http://expresswebtraffic.com/members/referraltools.php</codeUrl>
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
 	

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>Business-Bailout</name>
+	<version>1.0.0</version>
+	<template>VTACO</template>
+	<host>http://business-bailout.com</host>
+	<loginFormUrl>http://business-bailout.com/memberlogin.php</loginFormUrl>
+	<loginUrl>http://business-bailout.com/login.php</loginUrl>
+	<mainUrl>http://business-bailout.com/members/index.php</mainUrl>	
+	<surfUrl>http://business-bailout.com/members/surf.php</surfUrl>	
+	<unclaimedUrl>http://business-bailout.com/members/solobox.php</unclaimedUrl>
+	<commissionUrl></commissionUrl>
+	<creditUrl>http://business-bailout.com/members/index.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://business-bailout.com/members/stats.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>surf2.php</bUrl>	
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>userid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>userid=$username&password=$password&remember=1&login=Login</postData>	
+	
+	<txtSurfedToday>Pages Surfed:#Points</txtSurfedToday>
+	<txtCommission></txtCommission>
+	<txtCredit>You Have#credits</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+	
+	<maxCount>10</maxCount>
+	<blockList>clicks.php?userid=</blockList>
+</site>

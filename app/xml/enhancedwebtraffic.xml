@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>EnhancedWebTraffic</name>
+	<version>1.0.0</version>
+	<template>VTACO</template>
+	<host>http://enhancedwebtraffic.com</host>
+	<loginFormUrl>http://enhancedwebtraffic.com/memberlogin.php</loginFormUrl>
+	<loginUrl>http://enhancedwebtraffic.com/login.php</loginUrl>
+	<mainUrl>http://enhancedwebtraffic.com/members/index.php</mainUrl>	
+	<surfUrl>http://enhancedwebtraffic.com/members/surf.php</surfUrl>	
+	<unclaimedUrl>http://enhancedwebtraffic.com/members/solobox.php</unclaimedUrl>
+	<commissionUrl>http://enhancedwebtraffic.com/members/index.php</commissionUrl>
+	<creditUrl>http://enhancedwebtraffic.com/members/index.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://enhancedwebtraffic.com/members/stats.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>surf2.php</bUrl>	
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>userid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>userid=$username&password=$password&remember=1&login=Login</postData>	
+	
+	<txtSurfedToday>Pages Surfed#Points</txtSurfedToday>
+	<txtCommission>credits and#eBuck</txtCommission>
+	<txtCredit>You are a#credits</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+	
+	<maxCount>10</maxCount>
+	<blockList>clicks.php</blockList>
+</site>

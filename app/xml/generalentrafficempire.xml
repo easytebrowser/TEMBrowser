@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>GeneralenTrafficEmpire</name>
+	<version>1.0.0</version>
+	<template>Hit2Hit</template>
+	<host>http://www.generalentrafficempire.com</host>
+	<loginFormUrl>http://www.generalentrafficempire.com/login.php?e=invaa</loginFormUrl>
+	<loginUrl>http://www.generalentrafficempire.com/login.php</loginUrl>
+	<mainUrl>http://www.generalentrafficempire.com/members/?page=main</mainUrl>
+	<surfUrl>http://www.generalentrafficempire.com/surf.php</surfUrl>
+	<commissionUrl>http://www.generalentrafficempire.com/members/?page=main</commissionUrl>
+	<creditUrl>http://www.generalentrafficempire.com/members/?page=main</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://www.generalentrafficempire.com/members/promo_code.php</codeUrl>
+	<ptcUrl>http://www.generalentrafficempire.com/members/ptc.php</ptcUrl>
+	<ptcPostUrl>http://www.generalentrafficempire.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>surfbar.php</bUrl>
+	<sUrl>http://www.generalentrafficempire.com/images/surfbar/</sUrl>
+	<m1Url>http://www.generalentrafficempire.com/images/surfbar/</m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>loginid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>pwdid</txtPassword>	
+	<password></password>	
+	<postData>ffrma=sentsa&loginid=$username&pwdid=$password</postData>	
+	
+	<typeCode>name</typeCode>
+	<txtCode>code</txtCode>
+
+	<txtSurfedToday>chatmessage#Pages Surfed</txtSurfedToday>
+	<txtCommission>Total cash#tr</txtCommission>
+	<txtCredit>Current credits#tr</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+</site>

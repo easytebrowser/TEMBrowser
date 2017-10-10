@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>Fire-Dragon-Hits</name>
+	<version>1.0.0</version>
+	<template>VastHits</template>
+	<host>http://fire-dragon-hits.com</host>
+	<loginFormUrl>http://fire-dragon-hits.com/index.php?_w=login</loginFormUrl>
+	<loginUrl>http://fire-dragon-hits.com/index.php?_a=login_form</loginUrl>
+	<mainUrl>http://fire-dragon-hits.com/?_w=tools</mainUrl>
+	<surfUrl>http://fire-dragon-hits.com/surf.php</surfUrl>
+	<commissionUrl>http://fire-dragon-hits.com/?_w=cash</commissionUrl>
+	<creditUrl>http://fire-dragon-hits.com/?_w=cash</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>surfbars/multisurfbar.php</bUrl>
+	<sUrl>/images/surfbar/</sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>email</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
+	
+	<txtSurfedToday><![CDATA[Todays Surf#Add]]></txtSurfedToday>
+	<txtCommission>Your Account Cash#M</txtCommission>
+	<txtCredit>Hits
+		Available#/tr</txtCredit>
+	<txtLoginSucess>_w=logout</txtLoginSucess>
+	
+	<blockList>_w=tools|surfnow.php</blockList>
+</site>
