@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>LuckyList</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://luckylist.net</host>
+	<loginFormUrl>http://luckylist.net/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://luckylist.net/members.php</loginUrl>
+	<mainUrl>http://luckylist.net/members.php</mainUrl>
+	<surfUrl>http://luckylist.net/surfing.php</surfUrl>
+	<commissionUrl>http://luckylist.net/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://luckylist.net/mysites.php</creditUrl>
+	<rewardUrl>http://luckylist.net/claim.php</rewardUrl>
+	<codeUrl>http://luckylist.net/surfcode.php</codeUrl>
+	<ptcUrl>http://luckylist.net/ptc.php</ptcUrl>
+	<ptcPostUrl>http://luckylist.net/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://luckylist.net/mysites.php</siteUrl>
+	<deleteSiteUrl>http://luckylist.net/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://luckylist.net/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://luckylist.net/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://luckylist.net/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://luckylist.net/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://luckylist.net/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://luckylist.net/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://luckylist.net/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://luckylist.net/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://luckylist.net/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://luckylist.net/mytexts.php</textUrl>
+	<deleteTextUrl>http://luckylist.net/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://luckylist.net/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://luckylist.net/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://luckylist.net/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

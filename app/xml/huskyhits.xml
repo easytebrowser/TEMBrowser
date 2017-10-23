@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>HuskyHits</name>
+	<version>1.0.0</version>
+	<template>TrafficDreamers</template>
+	<host>http://www.huskyhits.com</host>
+	<loginFormUrl>http://www.huskyhits.com/members/membersmenu.php</loginFormUrl>
+	<loginUrl>http://www.huskyhits.com/login02.php</loginUrl>
+	<mainUrl>http://www.huskyhits.com/members/membersmenu.php</mainUrl>	
+	<surfUrl>http://www.huskyhits.com/manualtraffic/surf.php</surfUrl>
+	<commissionUrl>http://www.huskyhits.com/members/membercashearnings.php</commissionUrl>
+	<creditUrl>http://www.huskyhits.com/manualtraffic/membercredits.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://www.huskyhits.com/members/memberpromo.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl>straffic5.php</footerUrl>
+	<bUrl>straffic2.php</bUrl>	
+	<sUrl>images/securityimages/</sUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>editid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>editpassword</txtPassword>	
+	<password></password>	
+	<postData>editid=$username&editpassword=$password&splashflag=y</postData>	
+	
+	<txtSurfedToday>Sites Visited:#|</txtSurfedToday>
+	<txtCommission>You currently have#in</txtCommission>
+	<txtCredit>Balance Remaining#/tr</txtCredit>
+	<txtLoginSucess>memberquit.php</txtLoginSucess>
+	
+	<blockList></blockList>
+</site>

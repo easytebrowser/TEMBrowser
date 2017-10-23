@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>Lords-Of-Traffic</name>
+	<version>1.0.0</version>
+	<template>Hit2Hit</template>
+	<host>http://lords-of-traffic.com</host>
+	<loginFormUrl>http://lords-of-traffic.com/login.php?e=invaa</loginFormUrl>
+	<loginUrl>http://lords-of-traffic.com/login.php</loginUrl>
+	<mainUrl>http://lords-of-traffic.com/members/?page=main</mainUrl>
+	<surfUrl>http://lords-of-traffic.com/surf_v4.php</surfUrl>
+	<commissionUrl>http://lords-of-traffic.com/members/?page=main</commissionUrl>
+	<creditUrl>http://lords-of-traffic.com/members/?page=main</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl>http://lords-of-traffic.com/members/ptc.php</ptcUrl>
+	<ptcPostUrl>http://lords-of-traffic.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>surfbar_v4.php</bUrl>
+	<sUrl></sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>loginid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>pwdid</txtPassword>	
+	<password></password>	
+	<postData>ffrma=sentsa&loginid=$username&pwdid=$password</postData>	
+	
+	<txtSurfedToday>Pages:#Earned</txtSurfedToday>
+	<txtCommission>Commissions:#/tr</txtCommission>
+	<txtCredit>Credits:#/tr</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+</site>
