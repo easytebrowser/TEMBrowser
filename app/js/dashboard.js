@@ -186,6 +186,20 @@ var Dashboard = function () {
     		});    
         },
         
+        initNewPTCs: function () {
+        	$.ajax({
+    			type : "post",
+    			data : {},
+    			url : "rest/page/newPTCs",
+    			success : function(info) {
+    				$("#div_new_ptcs").html(info);    				
+    			},
+    			error : function() {
+    				bootbox.alert("Server not available, please try again later.");
+    			}
+    		});    
+        },
+        
         initCrossPromos: function () {
         	$.ajax({
     			type : "post",
