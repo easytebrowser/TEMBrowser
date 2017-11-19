@@ -74,6 +74,7 @@ var ControlPanel = function() {
 					}					
 				});	
 				initDivHeight();
+				initGroupTitle(0);
 			},
 			error : function() {
 				bootbox.alert("Server not available, please try again later.");
@@ -81,11 +82,20 @@ var ControlPanel = function() {
 		});
 	}
 	
+	var initConnect = function() {
+		connect();
+		 $('#chat_message').keypress(function (e) {
+			 if (e.which == 13) {
+				 sendMessage();
+			 }
+		 });
+	}
+	
 	return {
 		init : function() {
 			initMySites();
 			initMyGroups();
-			initGroupTitle(0);
+			initConnect();
 			window.java.reloadSites();
 		},
 		
@@ -494,7 +504,11 @@ function showHideMySites(obj){
 	var type = $(obj).attr('class');
 	var top = '254px';
 	if(type == 'collapse'){
-		top = '57px';
+		top = '57px';		
+	}else{
+		$("#group_row").show();
+		$('#chat_row').attr('style', 'height:26px;max-height:26px');
+		$('#collapse_chats').attr('class', 'expand');
 	}
 	$('#group_row').attr('style', 'top:' + top);
 	initDivHeight();
@@ -504,10 +518,43 @@ function initDivHeight(){
 	var top = parseInt($('#my_sites_row').outerHeight(true)) + 29;
 	$('#group_row').attr('style', 'top:' + top);
 	
+	var height;
 	$("#group_row").find('div.row-fluid').each(function(){
-		var height = parseInt($(this).outerHeight(true) - 30) + 'px';
-		$(this).find('div.portlet-body').attr('style', 'height:' + height + ';max-height:' + height);
+		if($(this).is(":visible")){
+			height = parseInt($(this).outerHeight(true) - 55);
+			$(this).find('div.portlet-body').attr('style', 'height:' + height + 'px;max-height:' + height + 'px');
+		}		
 	});
+	
+//	var collapseChats = $('#collapse_chats').attr('class');
+//	alert(collapseChats);
+//	if(collapseChats == 'collapse'){
+//		$("#group_row").hide();
+//		$('#chat_row').attr('style', 'height:' + (height + 56) + 'px;max-height:' + (height + 56) + 'px');
+//	}else{
+//		$("#group_row").show();
+//		$('#chat_row').attr('style', 'height:26px;max-height:26px');
+//		$('#collapse_chats').attr('class', 'expand');
+//	}
+}
+
+function showHideChats(){
+	var collapseChats = $('#collapse_chats').attr('class');
+	if(collapseChats == 'expand'){
+		var height = parseInt($('#my_sites_row').outerHeight(true)) + parseInt($('#group_row').outerHeight(true)) + 29;
+		$('#my_sites_row').hide();
+		$("#group_title").hide();
+		$("#group_row").hide();
+		$('#chat_row').attr('style', 'height:' + height + 'px;max-height:' + height + 'px');		
+		$('.slimScrollDiv').attr('style', 'height:' + (height - 104) + 'px;margin-top:5px');
+		$('#blink').html('0');
+		$('#blink').attr('class', '');
+	}else{
+		$('#chat_row').attr('style', 'height:28px;max-height:28px');
+		$('#my_sites_row').show();
+		$("#group_title").show();
+		$("#group_row").show();
+	}
 }
 
 function showHideGroup(groupId){
@@ -651,4 +698,83 @@ function initGroupTitle(type){
 			$('#group_btn_down').hide();
 		}
 	}	
+}
+
+var socket;
+function connect() {
+	if ('WebSocket' in window) {
+		socket = new WebSocket('ws://tembrowser.com/rest/websocket');
+		socket.onmessage = function(evt) {
+			var received_msg = JSON.parse(evt.data);
+			showMessage(received_msg);
+		}
+	} else {
+		console.log('Websocket not supported');
+	}
+}
+
+function sendMessage() {  
+    var chatMessage = $('#chat_message').val();
+    var chatTo = $('#chat_to').val();
+    $('#chat_message').val('');
+    socket.send(JSON.stringify({ 'to': chatTo, 'content': chatMessage }));  
+}  
+
+function showMessage(message) {
+	if(message.type == '0'){
+		$('#ul_online_users').html('<li><a href="javascript:;" onclick="selectChatUser(\'\', \'\')"><img src="media/image/all_users.gif" style="border:2px solid #e5e5e5;"> Send to all users</a></li>');
+		var users = message.content;
+		for(var i = 0; i < users.length; i++){
+			var username = users[i].username;
+			var md5Email = users[i].md5Email;
+			var status = users[i].status;
+			var title = '';
+			var color = '';
+			if(status == '9'){
+				if(username == 'easytebrowser'){
+					title = 'Administrator';
+					color = 'goldenrod';
+				}else if(username == 'Oasis'){
+					title = 'CEO & Supporter';
+					color = 'goldenrod';
+				}else{
+					title = 'Upgraded member';
+					color = '#35aa47';
+				}
+			}else{
+				title = 'Free member';
+				color = '#e5e5e5';
+			}
+			var str = '<li><a href="javascript:;" title="' + title + '" onclick="selectChatUser(\'' + username + '\', \'' + md5Email + '\')"><img src="http://gravatar.com/avatar/' + md5Email + '?s=45&d=&r=g" style="border: 2px solid ' + color + '"> ' + username + '</a></li>';
+			$('#ul_online_users').append(str);
+		}
+	}else if(message.type == '1'){
+		var username = $('#username').val();
+		if(username == message.from){
+			var str = '<li class="out"><img class="avatar" src="http://gravatar.com/avatar/' + message.md5Email + '?s=45&d=&r=g"><div class="message"><span class="arrow"></span><a href="javascript:;" class="name" onclick="selectChatUser(\'' + message.from + '\', \'' + message.md5Email + '\')">' + message.from + '</a><span class="datetime">' + message.time + '</span><span class="body">' + message.content + '</span></div></li>';
+			$('#ul_chats').append(str);
+			
+		}else{
+			var str = '<li class="in"><img class="avatar" src="http://gravatar.com/avatar/' + message.md5Email + '?s=45&d=&r=g"><div class="message"><span class="arrow"></span><a href="javascript:;" class="name" onclick="selectChatUser(\'' + message.from + '\', \'' + message.md5Email + '\')">' + message.from + '</a><span class="datetime">' + message.time + '</span><span class="body">' + message.content + '</span></div></li>';
+			$('#ul_chats').append(str);
+		}
+		var collapseChats = $('#collapse_chats').attr('class');
+		if(collapseChats == 'expand'){
+			$('#blink').html(parseInt($('#blink').html()) + 1);
+			$('#blink').attr('class', 'blink');
+		}
+		$('.scroller').scrollTop($('.scroller')[0].scrollHeight);
+	}else{
+		
+	}
+}
+
+function selectChatUser(username, md5Email){
+	$('#chat_to').val(username);
+	if(username == ''){		
+		$('#btn_select_user').html('<i class="m-icon-big-swapright m-icon-white"></i>');
+	}else{
+		$('#btn_select_user').html('<img src="http://gravatar.com/avatar/' + md5Email + '?s=29&d=&r=g">');
+	}
+	$('#portlet-online-users').modal('hide');
 }

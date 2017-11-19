@@ -223,6 +223,8 @@ input[type="color"].m-wrap {
 .portlet.box.red > .portlet-body::-webkit-scrollbar-track{-webkit-border-radius: 5px; border-radius: 5px; border:1px solid #d84a38;}
 .portlet.box.red > .portlet-body::-webkit-scrollbar-thumb{-webkit-border-radius: 5px; border-radius: 5px; background: #d84a38;}
 
+.portlet-title .caption i {margin-top: 4px;}
+
 #group_title {
 	height: 28px;
 }
@@ -243,3 +245,110 @@ input[type="color"].m-wrap {
 .portlet.box .portlet-title .tools.group span{padding:2px 2px; width:14px; height:14px; margin:0; border:2px solid #3d3d3d;}
 
 .portlet.box .portlet-title .tools.group span.active{border: 2px solid whitesmoke;}
+
+#chat_row {position: fixed; bottom: 0;}
+
+.badge {
+  cursor:pointer;
+  background-color: #4b8df8;
+  position: absolute;
+  font-family: 'Open Sans';
+  font-size: 11px !important;
+  font-weight: 300;
+  top: 4px;
+  right: 40px;
+  padding: 3px 7px 3px 7px;
+  color: white !important;
+  text-shadow: none;
+  border-width: 0;
+  border-style: solid;
+  -webkit-border-radius: 12px !important;
+  -moz-border-radius: 12px !important;
+  border-radius: 12px !important;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* 定义keyframe动画，命名为blink */
+
+@keyframes blink{
+  0%{opacity: 1;}
+  50%{opacity: 1;}
+  50.01%{opacity: 0;} /* 注意这里定义50.01%立刻透明度为０，可以设置闪烁效果 */
+  100%{opacity: 0;} 
+}
+
+/* 添加兼容性前缀 */
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-ms-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+/* 定义blink类*/
+.blink{
+	font-weight: 500;
+    animation: blink .75s linear infinite;  
+    /* 其它浏览器兼容性前缀 */
+    -webkit-animation: blink .75s linear infinite;
+    -moz-animation: blink .75s linear infinite;
+    -ms-animation: blink .75s linear infinite;
+    -o-animation: blink .75s linear infinite;
+    color: #fff;
+}
+
+.online-dropdown-menu {
+	list-style: none;
+	margin: 0;
+}
+
+.online-dropdown-menu li > a {
+  padding: 6px 0 6px 13px;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  clear: both;
+  font-weight: normal;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.online-dropdown-menu li > a:hover, 
+.online-dropdown-menu .active > a, 
+.online-dropdown-menu .active > a:hover {
+  text-decoration: none;
+  background-image: none;
+  background-color: #eee;
+  color: #333;
+  filter:none;
+}
+
+.chat-form .btn-cont .btn{margin-top:8px; margin-left:-10px; width:40px; height:30px;}
+.chat-form .btn-cont .btn i {position:relative; bottom:6;}
+.chats li .datetime{margin-left:5px;}
+
+.scroller{overflow-x: hidden; overflow-y: auto;}
