@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TrafficSwarm</name>
+	<version>1.0.0</version>
+	<template>TrafficSwarm</template>
+	<host>http://www.trafficswarm.com</host>
+	<loginFormUrl>https://www.trafficswarm.com/login</loginFormUrl>
+	<loginUrl>https://www.trafficswarm.com/login</loginUrl>
+	<mainUrl>http://www.trafficswarm.com/member-home</mainUrl>	
+	<surfUrl>http://www.trafficswarm.com/surf</surfUrl>
+	<commissionUrl>http://www.trafficswarm.com/member-home</commissionUrl>
+	<creditUrl>http://www.trafficswarm.com/member-home</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://www.trafficswarm.com/refer-others</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>/swarm/surfc.pl?pid=</bUrl>	
+	
+	<typeUsername>id</typeUsername>
+	<txtUsername>username</txtUsername>
+	<username></username>
+	
+	<typePassword>id</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>username=$username&password=$password&x=43&y=29</postData>	
+	
+	<txtSurfedToday>Surfed today:#/div</txtSurfedToday>
+	<txtCommission>Commissions owed:#Status</txtCommission>
+	<txtCredit>Credits available:#Commissions</txtCredit>
+	<txtLoginSucess>/logout</txtLoginSucess>
+	
+	<blockList>http://www.trafficswarm.com/member-home</blockList>
+</site>
