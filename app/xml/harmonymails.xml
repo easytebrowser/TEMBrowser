@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>HarmonyMails</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://harmonymails.com</host>
+	<loginFormUrl>http://harmonymails.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://harmonymails.com/members.php</loginUrl>
+	<mainUrl>http://harmonymails.com/members.php</mainUrl>
+	<surfUrl>http://harmonymails.com/credit_click.php?userid=</surfUrl>	
+	<unclaimedUrl>http://harmonymails.com/inbox.php</unclaimedUrl>
+	<commissionUrl>http://harmonymails.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://harmonymails.com/mybanners.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://harmonymails.com/promocode.php</codeUrl>
+	<ptcUrl>http://harmonymails.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://harmonymails.com/ptc/showupdate.php</ptcPostUrl>
+	<category>Mailer</category>
+	<sendMailUrl>http://harmonymails.com/sendmailing.php</sendMailUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<bannerUrl>http://harmonymails.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://harmonymails.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://harmonymails.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://harmonymails.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://harmonymails.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://harmonymails.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://harmonymails.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://harmonymails.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://harmonymails.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://harmonymails.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<typeCode>name</typeCode>
+	<txtCode>promocode</txtCode>
+	
+	<txtSurfedToday>Clicks Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+	
+	<maxCount>3</maxCount>
+</site>

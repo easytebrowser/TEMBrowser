@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>AnnounceMySite</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://announcemysite.com</host>
+	<loginFormUrl>http://announcemysite.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://announcemysite.com/members.php</loginUrl>
+	<mainUrl>http://announcemysite.com/members.php</mainUrl>
+	<surfUrl>http://announcemysite.com/credit_click.php?userid=</surfUrl>	
+	<unclaimedUrl>http://announcemysite.com/inbox.php</unclaimedUrl>
+	<commissionUrl>http://announcemysite.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://announcemysite.com/mybanners.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://announcemysite.com/promocode.php</codeUrl>
+	<ptcUrl>http://announcemysite.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://announcemysite.com/ptc/showupdate.php</ptcPostUrl>
+	<category>Mailer</category>
+	<sendMailUrl>http://announcemysite.com/sendmailing.php</sendMailUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<bannerUrl>http://announcemysite.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://announcemysite.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://announcemysite.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://announcemysite.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://announcemysite.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://announcemysite.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://announcemysite.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://announcemysite.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://announcemysite.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://announcemysite.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<typeCode>name</typeCode>
+	<txtCode>promocode</txtCode>
+	
+	<txtSurfedToday>Clicks Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+	
+	<maxCount>5</maxCount>
+</site>
