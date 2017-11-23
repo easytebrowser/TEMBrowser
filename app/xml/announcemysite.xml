@@ -54,5 +54,5 @@
 	<txtCredit>You have#c</txtCredit>
 	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
 	
-	<maxCount>5</maxCount>
+	<maxCount>1</maxCount>
 </site>
