@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>50ADayGetsYouPaid</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>ADGYP</template>
 	<host>http://50adaygetsyoupaid.com</host>
 	<loginFormUrl>http://50adaygetsyoupaid.com/login.php</loginFormUrl>
@@ -27,7 +27,7 @@
 	<password></password>	
 	<postData>user1=$username&pass1=$password&x=63&y=7</postData>	
 	
-	<txtSurfedToday>Surfed Today:#/font</txtSurfedToday>
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
 	<txtCommission>OWED:#PAID</txtCommission>
 	<txtCredit>YOUR CREDITS:#CREDITS</txtCredit>
 	<txtLoginSucess>logout.php</txtLoginSucess>
