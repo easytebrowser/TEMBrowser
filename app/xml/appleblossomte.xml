@@ -6,7 +6,7 @@
 	<host>http://appleblossomte.com</host>
 	<loginFormUrl>http://appleblossomte.com/index.php?_w=login</loginFormUrl>
 	<loginUrl>http://appleblossomte.com/index.php?_a=login_form</loginUrl>
-	<mainUrl>http://appleblossomte.com/index.php?_w=buytraffic</mainUrl>
+	<mainUrl>http://appleblossomte.com/?_w=tools</mainUrl>
 	<surfUrl>http://appleblossomte.com/surf.php</surfUrl>
 	<commissionUrl>http://appleblossomte.com/?_w=cash</commissionUrl>
 	<creditUrl>http://appleblossomte.com/?_w=websites</creditUrl>
@@ -32,7 +32,7 @@
 	<password></password>	
 	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
 	
-	<txtSurfedToday><![CDATA[Todays Surf#Upgrade]]></txtSurfedToday>
+	<txtSurfedToday><![CDATA[Todays Surf#br]]></txtSurfedToday>
 	<txtCommission>Your Account Cash#M</txtCommission>
 	<txtCredit>Hits
 		Available#/tr</txtCredit>
