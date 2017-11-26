@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>HappyDaysTraffic</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<template>VastHits</template>
 	<host>http://happydaystraffic.com</host>
-	<loginFormUrl>http://vasthits.com/index.php?_w=login</loginFormUrl>
+	<loginFormUrl>http://happydaystraffic.com/index.php?_w=login</loginFormUrl>
 	<loginUrl>http://happydaystraffic.com/index.php?_a=login_form</loginUrl>
 	<mainUrl>http://happydaystraffic.com/index.php?_w=tools</mainUrl>
 	<surfUrl>http://happydaystraffic.com/surf.php</surfUrl>
