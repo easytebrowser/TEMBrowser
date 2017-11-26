@@ -3,22 +3,22 @@
 	<name>DeepSpaceTraffic</name>
 	<version>1.0.0</version>
 	<template>Hit2Hit</template>
-	<host>http://www.deepspacetraffic.com</host>
-	<loginFormUrl>http://www.deepspacetraffic.com/login.php?e=invaa</loginFormUrl>
-	<loginUrl>http://www.deepspacetraffic.com/login.php</loginUrl>
-	<mainUrl>http://www.deepspacetraffic.com/members/?page=main</mainUrl>
-	<surfUrl>http://www.deepspacetraffic.com/surf.php</surfUrl>
-	<commissionUrl>http://www.deepspacetraffic.com/members/?page=main</commissionUrl>
-	<creditUrl>http://www.deepspacetraffic.com/members/?page=main</creditUrl>
+	<host>http://deepspacetraffic.com</host>
+	<loginFormUrl>http://deepspacetraffic.com/login.php?e=invaa</loginFormUrl>
+	<loginUrl>http://deepspacetraffic.com/login.php</loginUrl>
+	<mainUrl>http://deepspacetraffic.com/members/?page=main</mainUrl>
+	<surfUrl>http://deepspacetraffic.com/surf.php</surfUrl>
+	<commissionUrl>http://deepspacetraffic.com/members/?page=main</commissionUrl>
+	<creditUrl>http://deepspacetraffic.com/members/?page=main</creditUrl>
 	<rewardUrl></rewardUrl>
 	<codeUrl></codeUrl>
-	<ptcUrl>http://www.deepspacetraffic.com/members/ptc.php</ptcUrl>
-	<ptcPostUrl>http://www.deepspacetraffic.com/ptc/showupdate.php</ptcPostUrl>
+	<ptcUrl>http://deepspacetraffic.com/members/ptc.php</ptcUrl>
+	<ptcPostUrl>http://deepspacetraffic.com/ptc/showupdate.php</ptcPostUrl>
 	
 	<footerUrl></footerUrl>
 	<bUrl>surfbar.php</bUrl>
-	<sUrl>http://www.deepspacetraffic.com/img/</sUrl>
-	<m1Url>http://www.deepspacetraffic.com/img/</m1Url>	
+	<sUrl>http://deepspacetraffic.com/img/</sUrl>
+	<m1Url>http://deepspacetraffic.com/img/</m1Url>	
 	<m2Url></m2Url>
 	<m3Url></m3Url>
 	<m4Url></m4Url>

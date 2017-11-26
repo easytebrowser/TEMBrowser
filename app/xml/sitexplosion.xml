@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>SiteXplosion</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>LFMTE</template>
 	<host>http://sitexplosion.com</host>
 	<loginFormUrl>http://sitexplosion.com/login.php?s=noauth</loginFormUrl>
@@ -53,4 +53,6 @@
 	<txtCommission>Total Owing:#tr</txtCommission>
 	<txtCredit>You have#c</txtCredit>
 	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+	
+	<blockList>members.php</blockList>
 </site>

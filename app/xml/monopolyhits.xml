@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-	<name>FallSurfing</name>
-	<version>1.0.2</version>
+	<name>MonopolyHits</name>
+	<version>1.0.0</version>
 	<template>VastHits</template>
-	<host>http://fallsurfing.net</host>
-	<loginFormUrl>http://fallsurfing.net/index.php?_w=login</loginFormUrl>
-	<loginUrl>http://fallsurfing.net/index.php?_a=login_form</loginUrl>
-	<mainUrl>http://fallsurfing.net/index.php?_w=competition</mainUrl>
-	<surfUrl>http://fallsurfing.net/surf.php</surfUrl>
-	<commissionUrl>http://fallsurfing.net/?_w=cash</commissionUrl>
-	<creditUrl>http://fallsurfing.net/?_w=cash</creditUrl>
+	<host>http://monopolyhits.com</host>
+	<loginFormUrl>http://monopolyhits.com/index.php?_w=login</loginFormUrl>
+	<loginUrl>http://monopolyhits.com/index.php?_a=login_form</loginUrl>
+	<mainUrl>http://monopolyhits.com/index.php?_w=tools</mainUrl>
+	<surfUrl>http://monopolyhits.com/surf.php</surfUrl>
+	<commissionUrl>http://monopolyhits.com/?_w=cash</commissionUrl>
+	<creditUrl>http://monopolyhits.com/?_w=cash</creditUrl>
 	<rewardUrl></rewardUrl>
 	<codeUrl></codeUrl>
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
 	
 	<footerUrl></footerUrl>
-	<bUrl>surfbars/surfbar.php</bUrl>
-	<sUrl>/surfbars/</sUrl>
+	<bUrl>surfbars/multisurfbar.php</bUrl>
+	<sUrl>/surfbars/images/</sUrl>
 	<m1Url></m1Url>	
 	<m2Url></m2Url>
 	<m3Url></m3Url>
@@ -34,8 +34,8 @@
 	
 	<txtSurfedToday>This Session#Add</txtSurfedToday>
 	<txtCommission>Your Account Cash#M</txtCommission>
-	<txtCredit>Hits Available#/tr</txtCredit>
+	<txtCredit>Hits Available:#/tr</txtCredit>
 	<txtLoginSucess>_w=logout</txtLoginSucess>
 	
-	<blockList>_w=tools|surfnow.php</blockList>
+	<blockList>_w=tools|surf.php|surfnow.php</blockList>
 </site>

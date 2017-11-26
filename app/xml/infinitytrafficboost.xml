@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>InfinityTrafficBoost</name>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<template>ITB</template>
 	<host>http://infinitytrafficboost.com</host>
 	<loginFormUrl>https://infinitytrafficboost.com/login.php?target=</loginFormUrl>
 	<loginUrl>https://infinitytrafficboost.com/do.login.php</loginUrl>
 	<mainUrl>https://infinitytrafficboost.com/dashboard.php</mainUrl>
 	<surfUrl>recommends.php</surfUrl>
-	<commissionUrl></commissionUrl>
+	<commissionUrl>https://infinitytrafficboost.com/dashboard.php</commissionUrl>
 	<creditUrl>https://infinitytrafficboost.com/dashboard.php</creditUrl>
 	<rewardUrl></rewardUrl>
 	<codeUrl></codeUrl>
@@ -33,7 +33,7 @@
 	<postData>email=$username&password=$password&</postData>	
 	
 	<txtSurfedToday>Todays Pages#/tr</txtSurfedToday>
-	<txtCommission></txtCommission>
+	<txtCommission>Current Earnings Amount:/span</txtCommission>
 	<txtCredit>Remaining Advertising Credits:#/span</txtCredit>
 	<txtLoginSucess>logout.php</txtLoginSucess>
 
