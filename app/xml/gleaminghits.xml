@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>GleamingHits</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<template>VastHits</template>
 	<host>http://gleaminghits.com</host>
-	<loginFormUrl>http://vasthits.com/index.php?_w=login</loginFormUrl>
+	<loginFormUrl>http://gleaminghits.com/index.php?_w=login</loginFormUrl>
 	<loginUrl>http://gleaminghits.com/index.php?_a=login_form</loginUrl>
 	<mainUrl>http://gleaminghits.com/index.php?_w=tools</mainUrl>
 	<surfUrl>http://gleaminghits.com/surf.php</surfUrl>
