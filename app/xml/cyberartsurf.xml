@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>CyberArtSurf</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<template>VastHits</template>
 	<host>http://cyberartsurf.com</host>
 	<loginFormUrl>http://cyberartsurf.com/index.php?_w=login</loginFormUrl>
 	<loginUrl>http://cyberartsurf.com/index.php?_a=login_form</loginUrl>
-	<mainUrl>http://cyberartsurf.com/index.php?_w=virtuali</mainUrl>
+	<mainUrl>http://cyberartsurf.com/?_w=tools</mainUrl>
 	<surfUrl>http://cyberartsurf.com/surf.php</surfUrl>
 	<commissionUrl>http://cyberartsurf.com/?_w=cash</commissionUrl>
 	<creditUrl>http://cyberartsurf.com/?_w=tools</creditUrl>
