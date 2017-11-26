@@ -15,7 +15,7 @@
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
 	
-	<footerUrl></footerUrl>
+	<footerUrl>http://appleblossomte.com/surfbars/section/footer.php</footerUrl>
 	<bUrl>surfbars/imagebar.php</bUrl>
 	<sUrl>/surfbars/images/</sUrl>
 	<m1Url></m1Url>	
@@ -32,7 +32,7 @@
 	<password></password>	
 	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
 	
-	<txtSurfedToday><![CDATA[Todays Surf#br]]></txtSurfedToday>
+	<txtSurfedToday>Surfed Today:#Sites</txtSurfedToday>
 	<txtCommission>Your Account Cash#M</txtCommission>
 	<txtCredit>Hits
 		Available#/tr</txtCredit>
