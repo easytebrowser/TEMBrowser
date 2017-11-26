@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>ApeHits</name>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<template>VastHits</template>
 	<host>http://apehits.com</host>
-	<loginFormUrl>https://apehits.com/index.php?_w=login</loginFormUrl>
-	<loginUrl>https://apehits.com/index.php?_a=login_form</loginUrl>
-	<mainUrl>https://apehits.com/?_w=tools</mainUrl>
+	<loginFormUrl>http://apehits.com/index.php?_w=login</loginFormUrl>
+	<loginUrl>http://apehits.com/index.php?_a=login_form</loginUrl>
+	<mainUrl>http://apehits.com/?_w=tools</mainUrl>
 	<surfUrl>http://apehits.com/surf.php</surfUrl>
-	<commissionUrl>https://apehits.com/?_w=cash</commissionUrl>
-	<creditUrl>https://apehits.com/?_w=websites</creditUrl>
+	<commissionUrl>http://apehits.com/?_w=cash</commissionUrl>
+	<creditUrl>http://apehits.com/?_w=websites</creditUrl>
 	<rewardUrl></rewardUrl>
-	<codeUrl>https://apehits.com/?_w=downline</codeUrl>
+	<codeUrl>http://apehits.com/?_w=downline</codeUrl>
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
 	
