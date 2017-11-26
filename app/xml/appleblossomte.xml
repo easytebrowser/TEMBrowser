@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>AppleBlossomTE</name>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<template>VastHits</template>
 	<host>http://appleblossomte.com</host>
 	<loginFormUrl>http://appleblossomte.com/index.php?_w=login</loginFormUrl>
@@ -16,7 +16,7 @@
 	<ptcPostUrl></ptcPostUrl>
 	
 	<footerUrl></footerUrl>
-	<bUrl>surfbars/multisurfbar.php</bUrl>
+	<bUrl>surfbars/imagebar.php</bUrl>
 	<sUrl>/surfbars/images/</sUrl>
 	<m1Url></m1Url>	
 	<m2Url></m2Url>
