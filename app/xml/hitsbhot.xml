@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>HitsBHot</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<template>VastHits</template>
 	<host>http://hitsbhot.com</host>
 	<loginFormUrl>http://hitsbhot.com/index.php?_w=login</loginFormUrl>
@@ -17,7 +17,7 @@
 	
 	<footerUrl></footerUrl>
 	<bUrl>surfbars/multisurfbar.php</bUrl>
-	<sUrl>/surfbars/images/</sUrl>
+	<sUrl>/surfbars/</sUrl>
 	<m1Url></m1Url>	
 	<m2Url></m2Url>
 	<m3Url></m3Url>
@@ -32,7 +32,7 @@
 	<password></password>	
 	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
 	
-	<txtSurfedToday>Todays Surf#Upgrade</txtSurfedToday>
+	<txtSurfedToday>Currently On Page#/font</txtSurfedToday>
 	<txtCommission>Your Account Cash#M</txtCommission>
 	<txtCredit>Hits
 		Available#/tr</txtCredit>

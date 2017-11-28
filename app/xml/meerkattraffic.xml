@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>MeerkatTraffic</name>
-	<version>1.0.0</version>
+	<version>1.0.2</version>
 	<template>VastHits</template>
 	<host>http://meerkattraffic.com</host>
 	<loginFormUrl>http://meerkattraffic.com/index.php?_w=login</loginFormUrl>
@@ -32,7 +32,7 @@
 	<password></password>	
 	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
 	
-	<txtSurfedToday>Surfed#Add</txtSurfedToday>
+	<txtSurfedToday>Todays Surfs#Add</txtSurfedToday>
 	<txtCommission>Your Meerkat Cash#M</txtCommission>
 	<txtCredit>Hits
 		Available#/tr</txtCredit>

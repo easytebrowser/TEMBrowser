@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>HappyDaysTraffic</name>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<template>VastHits</template>
 	<host>http://happydaystraffic.com</host>
 	<loginFormUrl>http://happydaystraffic.com/index.php?_w=login</loginFormUrl>
@@ -17,7 +17,7 @@
 	
 	<footerUrl></footerUrl>
 	<bUrl>surfbars/surfbar.php</bUrl>
-	<sUrl></sUrl>
+	<sUrl>/images/surfbar/</sUrl>
 	<m1Url></m1Url>	
 	<m2Url></m2Url>
 	<m3Url></m3Url>
