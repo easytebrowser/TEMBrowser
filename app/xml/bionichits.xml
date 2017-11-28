@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>BionicHits</name>
-	<version>1.0.1</version>
+	<version>1.0.0</version>
 	<template>LFMTE</template>
 	<host>http://bionichits.com</host>
 	<loginFormUrl>http://bionichits.com/login.php?s=noauth</loginFormUrl>
 	<loginUrl>http://bionichits.com/members.php</loginUrl>
 	<mainUrl>http://bionichits.com/members.php</mainUrl>
-	<surfUrl>http://bionichits.com/surfing.htm</surfUrl>
+	<surfUrl>http://bionichits.com/surfing.php</surfUrl>
 	<commissionUrl>http://bionichits.com/members.php?mf=mc</commissionUrl>
 	<creditUrl>http://bionichits.com/mysites.php</creditUrl>
 	<rewardUrl>http://bionichits.com/claim.php</rewardUrl>
