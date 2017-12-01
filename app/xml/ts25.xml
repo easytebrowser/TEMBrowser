@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TS25</name>
+	<version>1.0.0</version>
+	<template>TrafficEra</template>
+	<host>http://ts25.com</host>
+	<loginFormUrl>http://ts25.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://ts25.com/members.php</loginUrl>
+	<mainUrl>http://ts25.com/members/main.jsp</mainUrl>	
+	<surfUrl>http://ts25.com/surf/index.php?surfer=</surfUrl>
+	<unclaimedUrl>surf/surf.jsp?surfer=</unclaimedUrl>
+	<commissionUrl>http://ts25.com/members/main.jsp</commissionUrl>
+	<creditUrl>http://ts25.com/members/main.jsp</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://ts25.com/members/downline_link.jsp</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>surf_top.php?rd=</bUrl>	
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&submit=Login</postData>	
+	
+	<txtSurfedToday></txtSurfedToday>
+	<txtCommission>LogiBucks#/tr</txtCommission>
+	<txtCredit>Personal Account#/tr</txtCredit>
+	<txtLoginSucess>/surf/surf.jsp?surfer=</txtLoginSucess>
+	
+	<blockList></blockList>
+</site>

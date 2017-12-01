@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TEBitcoin</name>
+	<version>1.0.0</version>
+	<template>TEBitcoin</template>
+	<host>http://tebitcoin.com</host>
+	<loginFormUrl>http://tebitcoin.com/members/index.php</loginFormUrl>
+	<loginUrl>http://tebitcoin.com/members/index.php</loginUrl>
+	<mainUrl>http://tebitcoin.com/members/members.php</mainUrl>	
+	<surfUrl>http://tebitcoin.com/surf.php?id=</surfUrl>
+	<commissionUrl>http://tebitcoin.com/members/members.php</commissionUrl>
+	<creditUrl>http://tebitcoin.com/members/members.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://tebitcoin.com/members/banners.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>surfbar.php</bUrl>	
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>username</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>username=$username&password=$password</postData>	
+	
+	<txtSurfedToday>Surfed Today:#/font</txtSurfedToday>
+	<txtCommission>Earnings:#/td</txtCommission>
+	<txtCredit>Account Credits:#/td</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+	
+	<blockList>http://tebitcoin.com/surf.php?id=|http://tebitcoin.com/members/members.php</blockList>
+</site>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-	<name>MonopolyHits</name>
+	<name>TrafficProsper</name>
 	<version>1.0.0</version>
 	<template>VastHits</template>
-	<host>http://monopolyhits.com</host>
-	<loginFormUrl>http://monopolyhits.com/index.php?_w=login</loginFormUrl>
-	<loginUrl>http://monopolyhits.com/index.php?_a=login_form</loginUrl>
-	<mainUrl>http://monopolyhits.com/index.php?_w=tools</mainUrl>
-	<surfUrl>http://monopolyhits.com/surf.php</surfUrl>
-	<commissionUrl>http://monopolyhits.com/?_w=cash</commissionUrl>
-	<creditUrl>http://monopolyhits.com/?_w=cash</creditUrl>
+	<host>http://trafficprosper.com</host>
+	<loginFormUrl>http://trafficprosper.com/index.php?_w=login</loginFormUrl>
+	<loginUrl>http://trafficprosper.com/index.php?_a=login_form</loginUrl>
+	<mainUrl>http://trafficprosper.com/index.php?_w=tools</mainUrl>
+	<surfUrl>http://trafficprosper.com/surf.php</surfUrl>
+	<commissionUrl>http://trafficprosper.com/index.php?_w=cash</commissionUrl>
+	<creditUrl>http://trafficprosper.com/index.php?_w=convert</creditUrl>
 	<rewardUrl></rewardUrl>
 	<codeUrl></codeUrl>
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
 	
-	<footerUrl>surfbars/section/footer.php</footerUrl>
+	<footerUrl></footerUrl>
 	<bUrl>surfbars/multisurfbar.php</bUrl>
-	<sUrl>/surfbars/images/</sUrl>
+	<sUrl></sUrl>
 	<m1Url></m1Url>	
 	<m2Url></m2Url>
 	<m3Url></m3Url>
@@ -32,9 +32,9 @@
 	<password></password>	
 	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
 	
-	<txtSurfedToday>Surfed Today:#Sites</txtSurfedToday>
+	<txtSurfedToday>This Session#/tr</txtSurfedToday>
 	<txtCommission>Your Account Cash#M</txtCommission>
-	<txtCredit>Hits Available:#/tr</txtCredit>
+	<txtCredit>Website Hits :#/tr</txtCredit>
 	<txtLoginSucess>_w=logout</txtLoginSucess>
 	
 	<blockList>_w=tools|surf.php|surfnow.php</blockList>

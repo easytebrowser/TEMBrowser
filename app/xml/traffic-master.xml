@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>Traffic-Master</name>
+	<version>1.0.0</version>
+	<template>Hit2Hit</template>
+	<host>http://www.traffic-master.net</host>
+	<loginFormUrl>http://www.traffic-master.net/login.php?e=invaa</loginFormUrl>
+	<loginUrl>http://www.traffic-master.net/login.php</loginUrl>
+	<mainUrl>http://www.traffic-master.net/members/?page=main</mainUrl>
+	<surfUrl>http://www.traffic-master.net/surf.php</surfUrl>
+	<commissionUrl>http://www.traffic-master.net/members/?page=main</commissionUrl>
+	<creditUrl>http://www.traffic-master.net/members/?page=main</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl>http://www.traffic-master.net/members/ptc.php</ptcUrl>
+	<ptcPostUrl>http://www.traffic-master.net/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surf-footer.php</footerUrl>
+	<bUrl>surfbar.php</bUrl>
+	<sUrl>http://www.traffic-master.net/img/</sUrl>
+	<m1Url>img/</m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>loginid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>pwdid</txtPassword>	
+	<password></password>	
+	<postData>ffrma=sentsa&loginid=$username&pwdid=$password</postData>	
+	
+	<txtSurfedToday>Page Views Today#/font</txtSurfedToday>
+	<txtCommission>Cash :#tr</txtCommission>
+	<txtCredit>Credits :#tr</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+</site>

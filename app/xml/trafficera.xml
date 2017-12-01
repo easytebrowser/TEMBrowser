@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TrafficEra</name>
+	<version>1.0.0</version>
+	<template>TrafficEra</template>
+	<host>http://www.trafficera.com</host>
+	<loginFormUrl>http://www.trafficera.com/?a=login</loginFormUrl>
+	<loginUrl>http://www.trafficera.com/index.php</loginUrl>
+	<mainUrl>http://www.trafficera.com/members/?a=ma</mainUrl>	
+	<surfUrl>http://www.trafficera.com/surf/index.php</surfUrl>
+	<commissionUrl>http://www.trafficera.com/members/?a=ma</commissionUrl>
+	<creditUrl>http://www.trafficera.com/members/?a=ma</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://www.trafficera.com/members/?a=ma&b=ref_tools</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>surf_top.php?rd=</bUrl>	
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>username</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>username=$username&password=$password&submit=Login</postData>	
+	
+	<txtSurfedToday></txtSurfedToday>
+	<txtCommission>Logibucks:#/span</txtCommission>
+	<txtCredit>Time Credits:#/span</txtCredit>
+	<txtLoginSucess>?a=logout</txtLoginSucess>
+	
+	<blockList></blockList>
+</site>

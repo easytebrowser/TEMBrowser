@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>RobinHoodTraffic</name>
+	<version>1.0.0</version>
+	<template>VastHits</template>
+	<host>http://robinhoodtraffic.com</host>
+	<loginFormUrl>http://robinhoodtraffic.com/index.php?_w=login</loginFormUrl>
+	<loginUrl>http://robinhoodtraffic.com/index.php?_a=login_form</loginUrl>
+	<mainUrl>http://robinhoodtraffic.com/index.php?_w=tools</mainUrl>
+	<surfUrl>http://robinhoodtraffic.com/surf.php</surfUrl>
+	<commissionUrl>http://robinhoodtraffic.com/index.php?_w=tools</commissionUrl>
+	<creditUrl>http://robinhoodtraffic.com/index.php?_w=tools</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>surfbars/imagebar.php</bUrl>
+	<sUrl>/surfbars/images/</sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>email</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
+	
+	<txtSurfedToday>Todays Surf:#br</txtSurfedToday>
+	<txtCommission>Commissions Earned:#/span</txtCommission>
+	<txtCredit>Total Credits:#/span</txtCredit>
+	<txtLoginSucess>_w=logout</txtLoginSucess>
+	
+	<blockList>_w=tools|surf.php|surfnow.php</blockList>
+</site>

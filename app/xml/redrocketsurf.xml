@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>RedRocketSurf</name>
+	<version>1.0.0</version>
+	<template>VTACO</template>
+	<host>http://redrocketsurf.com</host>
+	<loginFormUrl>http://redrocketsurf.com/index.php</loginFormUrl>
+	<loginUrl>http://redrocketsurf.com/login.php</loginUrl>
+	<mainUrl>http://redrocketsurf.com/members/index.php</mainUrl>	
+	<surfUrl>http://redrocketsurf.com/members/surfexchange.php</surfUrl>	
+	<unclaimedUrl></unclaimedUrl>
+	<commissionUrl>http://redrocketsurf.com/members/index.php</commissionUrl>
+	<creditUrl>http://redrocketsurf.com/members/index.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://redrocketsurf.com/members/referraltools.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl>surfexchange.php?userid=</footerUrl>
+	<bUrl>surfexchange.php?pageid=</bUrl>	
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>userid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>userid=$username&password=$password&remember=1&login=Login</postData>	
+	
+	<txtSurfedToday>You have viewed#sites</txtSurfedToday>
+	<txtCommission>Your Commissions:#/font</txtCommission>
+	<txtCredit>Your Credits:#/font</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+
+	<blockList>clicks.php</blockList>
+</site>

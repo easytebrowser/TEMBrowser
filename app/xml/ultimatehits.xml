@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-	<name>MonopolyHits</name>
+	<name>UltimateHits</name>
 	<version>1.0.0</version>
 	<template>VastHits</template>
-	<host>http://monopolyhits.com</host>
-	<loginFormUrl>http://monopolyhits.com/index.php?_w=login</loginFormUrl>
-	<loginUrl>http://monopolyhits.com/index.php?_a=login_form</loginUrl>
-	<mainUrl>http://monopolyhits.com/index.php?_w=tools</mainUrl>
-	<surfUrl>http://monopolyhits.com/surf.php</surfUrl>
-	<commissionUrl>http://monopolyhits.com/?_w=cash</commissionUrl>
-	<creditUrl>http://monopolyhits.com/?_w=cash</creditUrl>
+	<host>http://ultimatehits.net</host>
+	<loginFormUrl>http://ultimatehits.net/index.php?_w=login</loginFormUrl>
+	<loginUrl>http://ultimatehits.net/index.php?_a=login_form</loginUrl>
+	<mainUrl>http://ultimatehits.net/index.php?_w=tools</mainUrl>
+	<surfUrl>http://ultimatehits.net/surf.php</surfUrl>
+	<commissionUrl>http://ultimatehits.net/index.php?_w=cash</commissionUrl>
+	<creditUrl>http://ultimatehits.net/index.php?_w=convert</creditUrl>
 	<rewardUrl></rewardUrl>
-	<codeUrl></codeUrl>
+	<codeUrl>http://ultimatehits.net/virtual/3/</codeUrl>
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
 	
-	<footerUrl>surfbars/section/footer.php</footerUrl>
-	<bUrl>surfbars/multisurfbar.php</bUrl>
+	<footerUrl></footerUrl>
+	<bUrl>surfbars/imagebar.php</bUrl>
 	<sUrl>/surfbars/images/</sUrl>
 	<m1Url></m1Url>	
 	<m2Url></m2Url>
@@ -32,9 +32,9 @@
 	<password></password>	
 	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
 	
-	<txtSurfedToday>Surfed Today:#Sites</txtSurfedToday>
+	<txtSurfedToday>Todays Surfs#/tr</txtSurfedToday>
 	<txtCommission>Your Account Cash#M</txtCommission>
-	<txtCredit>Hits Available:#/tr</txtCredit>
+	<txtCredit>Website Hits :#/tr</txtCredit>
 	<txtLoginSucess>_w=logout</txtLoginSucess>
 	
 	<blockList>_w=tools|surf.php|surfnow.php</blockList>

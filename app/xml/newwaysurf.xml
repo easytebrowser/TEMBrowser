@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>NewWaySurf</name>
+	<version>1.0.0</version>
+	<template>NewWaySurf</template>
+	<host>http://www.newwaysurf.com</host>
+	<loginFormUrl>http://www.newwaysurf.com/index.php?action=home</loginFormUrl>
+	<loginUrl>http://www.newwaysurf.com/index.php?action=home</loginUrl>
+	<mainUrl>http://www.newwaysurf.com/index.php?action=members</mainUrl>	
+	<surfUrl>http://www.newwaysurf.com/surf.php?id=</surfUrl>
+	<commissionUrl>http://www.newwaysurf.com/index.php?action=commissions</commissionUrl>
+	<creditUrl>http://www.newwaysurf.com/index.php?action=sites</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://www.newwaysurf.com/index.php?action=promo</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>pages/frame_top.php?id=</bUrl>	
+	
+	<typeUsername>id</typeUsername>
+	<txtUsername>email</txtUsername>
+	<username></username>
+	
+	<typePassword>id</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>email=$username&password=$password&login=Login</postData>	
+	
+	<txtSurfedToday></txtSurfedToday>
+	<txtCommission>Cash:#/tr</txtCommission>
+	<txtCredit>Credits:#/div</txtCredit>
+	<txtLoginSucess>index.php?action=logout</txtLoginSucess>
+</site>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>Traffic2Profit</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://traffic2profit.com</host>
+	<loginFormUrl>http://traffic2profit.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://traffic2profit.com/members.php</loginUrl>
+	<mainUrl>http://traffic2profit.com/members.php</mainUrl>
+	<surfUrl>http://traffic2profit.com/surfing.php</surfUrl>
+	<commissionUrl>http://traffic2profit.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://traffic2profit.com/mysites.php</creditUrl>
+	<rewardUrl>http://traffic2profit.com/claim.php</rewardUrl>
+	<codeUrl>http://traffic2profit.com/surfcode.php</codeUrl>
+	<ptcUrl>http://traffic2profit.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://traffic2profit.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://traffic2profit.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://traffic2profit.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://traffic2profit.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://traffic2profit.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://traffic2profit.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://traffic2profit.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://traffic2profit.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://traffic2profit.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://traffic2profit.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://traffic2profit.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://traffic2profit.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://traffic2profit.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://traffic2profit.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://traffic2profit.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://traffic2profit.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://traffic2profit.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>
