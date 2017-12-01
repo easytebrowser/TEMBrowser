@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>Vinrasta</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>VastHits</template>
-	<host>http://Vinrasta.com</host>
-	<loginFormUrl>http://Vinrasta.com/index.php?_w=login</loginFormUrl>
-	<loginUrl>http://Vinrasta.com/index.php?_a=login_form</loginUrl>
-	<mainUrl>http://Vinrasta.com/index.php?_w=tools</mainUrl>
-	<surfUrl>http://Vinrasta.com/surf.php</surfUrl>
-	<commissionUrl>http://Vinrasta.com/index.php?_w=cash</commissionUrl>
+	<host>http://vinrasta.com</host>
+	<loginFormUrl>http://vinrasta.com/index.php?_w=login</loginFormUrl>
+	<loginUrl>http://vinrasta.com/index.php?_a=login_form</loginUrl>
+	<mainUrl>http://vinrasta.com/index.php?_w=tools</mainUrl>
+	<surfUrl>http://vinrasta.com/surf.php</surfUrl>
+	<commissionUrl>http://vinrasta.com/index.php?_w=cash</commissionUrl>
 	<creditUrl>http://vinrasta.com/index.php?_w=convert</creditUrl>
 	<rewardUrl></rewardUrl>
 	<codeUrl></codeUrl>
