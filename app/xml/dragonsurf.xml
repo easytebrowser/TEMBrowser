@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>DragonSurf</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>LFMTE</template>
-	<host>http://dragonsurf.biz</host>
-	<loginFormUrl>http://dragonsurf.biz/login.php?s=noauth</loginFormUrl>
-	<loginUrl>http://dragonsurf.biz/members.php</loginUrl>
-	<mainUrl>http://dragonsurf.biz/members.php</mainUrl>
-	<surfUrl>http://dragonsurf.biz/surfing.php</surfUrl>
-	<commissionUrl>http://dragonsurf.biz/members.php?mf=mc</commissionUrl>
-	<creditUrl>http://dragonsurf.biz/mysites.php</creditUrl>
-	<rewardUrl>http://dragonsurf.biz/claim.php</rewardUrl>
-	<codeUrl>http://dragonsurf.biz/surfcode.php</codeUrl>
-	<ptcUrl>http://dragonsurf.biz/ptc.php</ptcUrl>
-	<ptcPostUrl>http://dragonsurf.biz/ptc/showupdate.php</ptcPostUrl>
+	<host>http://dragonsurf.com</host>
+	<loginFormUrl>http://dragonsurf.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://dragonsurf.com/members.php</loginUrl>
+	<mainUrl>http://dragonsurf.com/members.php</mainUrl>
+	<surfUrl>http://dragonsurf.com/surfing.php</surfUrl>
+	<commissionUrl>http://dragonsurf.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://dragonsurf.com/mysites.php</creditUrl>
+	<rewardUrl>http://dragonsurf.com/claim.php</rewardUrl>
+	<codeUrl>http://dragonsurf.com/surfcode.php</codeUrl>
+	<ptcUrl>http://dragonsurf.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://dragonsurf.com/ptc/showupdate.php</ptcPostUrl>
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>
@@ -23,22 +23,22 @@
 	<m3Url>surfclickicon.php?iconid=3</m3Url>
 	<m4Url>surfclickicon.php?iconid=4</m4Url>
 	
-	<siteUrl>http://dragonsurf.biz/mysites.php</siteUrl>
-	<deleteSiteUrl>http://dragonsurf.biz/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
-	<deleteSiteConfirmUrl>http://dragonsurf.biz/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
-	<addSiteUrl>http://dragonsurf.biz/mysites.php?addsite=yes</addSiteUrl>
-	<assignCreditsUrl>http://dragonsurf.biz/mysites.php?quickassign=yes</assignCreditsUrl>
-	<autoAssignUrl>http://dragonsurf.biz/autoassign.php</autoAssignUrl>
-	<bannerUrl>http://dragonsurf.biz/mybanners.php</bannerUrl>
-	<deleteBannerUrl>http://dragonsurf.biz/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
-	<deleteBannerConfirmUrl>http://dragonsurf.biz/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
-	<addBannerUrl>http://dragonsurf.biz/mybanners.php?addbanner=yes</addBannerUrl>
-	<assignBannerUrl>http://dragonsurf.biz/mybanners.php?assignimps=yes</assignBannerUrl>
-	<textUrl>http://dragonsurf.biz/mytexts.php</textUrl>
-	<deleteTextUrl>http://dragonsurf.biz/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
-	<deleteTextConfirmUrl>http://dragonsurf.biz/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
-	<addTextUrl>http://dragonsurf.biz/mytexts.php?addtext=yes</addTextUrl>
-	<assignTextUrl>http://dragonsurf.biz/mytexts.php?assignimps=yes</assignTextUrl>
+	<siteUrl>http://dragonsurf.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://dragonsurf.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://dragonsurf.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://dragonsurf.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://dragonsurf.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://dragonsurf.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://dragonsurf.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://dragonsurf.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://dragonsurf.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://dragonsurf.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://dragonsurf.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://dragonsurf.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://dragonsurf.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://dragonsurf.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://dragonsurf.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://dragonsurf.com/mytexts.php?assignimps=yes</assignTextUrl>
 
 	<typeUsername>name</typeUsername>
 	<txtUsername>login</txtUsername>
