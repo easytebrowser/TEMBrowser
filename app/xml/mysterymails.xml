@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>MysteryMails</name>
+	<version>1.0.1</version>
+	<template>LFMTE</template>
+	<host>http://mysterymails.top</host>
+	<loginFormUrl>http://mysterymails.top/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://mysterymails.top/members.php</loginUrl>
+	<mainUrl>http://mysterymails.top/members.php</mainUrl>
+	<surfUrl>http://mysterymails.top/credit_click.php?userid=</surfUrl>	
+	<unclaimedUrl></unclaimedUrl>
+	<commissionUrl>http://mysterymails.top/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://mysterymails.top/mybanners.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://mysterymails.top/promocode.php</codeUrl>
+	<ptcUrl>http://mysterymails.top/ptc.php</ptcUrl>
+	<ptcPostUrl>http://mysterymails.top/ptc/showupdate.php</ptcPostUrl>
+	<category>Mailer</category>
+	<sendMailUrl>http://mysterymails.top/sendmailing.php</sendMailUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<bannerUrl>http://mysterymails.top/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://mysterymails.top/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://mysterymails.top/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://mysterymails.top/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://mysterymails.top/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://mysterymails.top/mytexts.php</textUrl>
+	<deleteTextUrl>http://mysterymails.top/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://mysterymails.top/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://mysterymails.top/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://mysterymails.top/mytexts.php?assignimps=yes</assignTextUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<typeCode>name</typeCode>
+	<txtCode>promocode</txtCode>
+	
+	<txtSurfedToday>Clicks Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+	
+	<maxCount>10</maxCount>
+</site>
