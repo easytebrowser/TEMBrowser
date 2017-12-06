@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>NewWaySurf</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>NewWaySurf</template>
 	<host>http://www.newwaysurf.com</host>
-	<loginFormUrl>http://www.newwaysurf.com/index.php?action=home</loginFormUrl>
-	<loginUrl>http://www.newwaysurf.com/index.php?action=home</loginUrl>
+	<loginFormUrl>http://www.newwaysurf.com/index.php?action=members</loginFormUrl>
+	<loginUrl>http://www.newwaysurf.com/index.php?action=members</loginUrl>
 	<mainUrl>http://www.newwaysurf.com/index.php?action=members</mainUrl>	
 	<surfUrl>http://www.newwaysurf.com/surf.php?id=</surfUrl>
 	<commissionUrl>http://www.newwaysurf.com/index.php?action=commissions</commissionUrl>
