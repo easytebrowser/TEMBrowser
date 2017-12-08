@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>TrafficFlags</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>LFMTE</template>
 	<host>http://trafficflags.com</host>
 	<loginFormUrl>http://trafficflags.com/login.php?s=noauth</loginFormUrl>
@@ -49,7 +49,7 @@
 	<password></password>	
 	<postData>login=$username&password=$password&Submit=Login</postData>	
 	
-	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtSurfedToday>Today Surfed#font</txtSurfedToday>
 	<txtCommission>Total Owing:#tr</txtCommission>
 	<txtCredit>You have#c</txtCredit>
 	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
