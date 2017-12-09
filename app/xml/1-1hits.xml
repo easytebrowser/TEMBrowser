@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>1-1Hits</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://1-1hits.com</host>
+	<loginFormUrl>http://1-1hits.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://1-1hits.com/members.php</loginUrl>
+	<mainUrl>http://1-1hits.com/members.php</mainUrl>
+	<surfUrl>http://1-1hits.com/surfing.php</surfUrl>
+	<commissionUrl>http://1-1hits.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://1-1hits.com/mysites.php</creditUrl>
+	<rewardUrl>http://1-1hits.com/claim.php</rewardUrl>
+	<codeUrl>http://1-1hits.com/surfcode.php</codeUrl>
+	<ptcUrl>http://1-1hits.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://1-1hits.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://1-1hits.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://1-1hits.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://1-1hits.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://1-1hits.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://1-1hits.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://1-1hits.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://1-1hits.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://1-1hits.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://1-1hits.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://1-1hits.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://1-1hits.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://1-1hits.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://1-1hits.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://1-1hits.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://1-1hits.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://1-1hits.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>
