@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>No-Minimum</name>
+	<version>1.0.0</version>
+	<template>DonkeyMails</template>
+	<host>http://www.no-minimum.com</host>
+	<loginFormUrl>http://www.no-minimum.com/pages/enter.php</loginFormUrl>
+	<loginUrl>http://www.no-minimum.com/pages/enter.php</loginUrl>
+	<mainUrl>http://www.no-minimum.com/pages/enter.php</mainUrl>
+	<surfUrl>/scripts/runner.php?PA=</surfUrl>	
+	<commissionUrl>http://www.no-minimum.com/pages/enter.php</commissionUrl>
+	<creditUrl>http://www.no-minimum.com/pages/enter.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://www.no-minimum.com/pages/refcenter.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>/scripts/runner.php?PA=</bUrl>
+	<sUrl></sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>username</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData></postData>	
+	
+	<txtSurfedToday></txtSurfedToday>
+	<txtCommission>Your Account Balance After All Transactions:#/tr</txtCommission>
+	<txtCredit>Total Points After All Transactions:#/tr</txtCredit>
+	<txtLoginSucess>Your Account Balance After All Transactions:</txtLoginSucess>
+	
+	<blockList>autosurf1.php|runner.php?AS=</blockList>
+</site>

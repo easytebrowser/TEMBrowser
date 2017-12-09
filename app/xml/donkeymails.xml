@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>DonkeyMails</name>
+	<version>1.0.0</version>
+	<template>DonkeyMails</template>
+	<host>http://donkeymails.com</host>
+	<loginFormUrl>http://donkeymails.com/pages/enter.php</loginFormUrl>
+	<loginUrl>http://donkeymails.com/pages/enter.php</loginUrl>
+	<mainUrl>http://donkeymails.com/pages/enter.php</mainUrl>
+	<surfUrl>/scripts/runner.php?PA=</surfUrl>	
+	<commissionUrl>http://donkeymails.com/pages/earnings.php</commissionUrl>
+	<creditUrl>http://donkeymails.com/pages/earnings.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://donkeymails.com/pages/reflinks.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>/scripts/runner.php?PA=</bUrl>
+	<sUrl></sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>username</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData></postData>	
+	
+	<txtSurfedToday></txtSurfedToday>
+	<txtCommission>Your account balance after#/tr</txtCommission>
+	<txtCredit>Total available Points#/tr</txtCredit>
+	<txtLoginSucess>Advertise and Upgrade Menu</txtLoginSucess>
+	
+	<blockList>newsurfer.php|runner.php</blockList>
+</site>
