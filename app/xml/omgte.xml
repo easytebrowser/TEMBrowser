@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>OmgTE</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>LFMTE</template>
 	<host>http://omgte.com</host>
 	<loginFormUrl>http://omgte.com/login.php?s=noauth</loginFormUrl>
@@ -17,11 +17,11 @@
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>
-	<sUrl>surficon.php</sUrl>
-	<m1Url>surfclickicon.php?iconid=1</m1Url>	
-	<m2Url>surfclickicon.php?iconid=2</m2Url>
-	<m3Url>surfclickicon.php?iconid=3</m3Url>
-	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	<sUrl></sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
 	
 	<siteUrl>http://omgte.com/mysites.php</siteUrl>
 	<deleteSiteUrl>http://omgte.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
