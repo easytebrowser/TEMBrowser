@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TennisTraffic</name>
+	<version>1.0.0</version>
+	<template>VastHits</template>
+	<host>http://tennistraffic.com</host>
+	<loginFormUrl>http://tennistraffic.com/index.php?_w=login</loginFormUrl>
+	<loginUrl>http://tennistraffic.com/index.php?_a=login_form</loginUrl>
+	<mainUrl>http://tennistraffic.com/index.php?_w=tools</mainUrl>
+	<surfUrl>http://tennistraffic.com/surf.php</surfUrl>
+	<commissionUrl>http://tennistraffic.com/index.php?_w=cash</commissionUrl>
+	<creditUrl>http://tennistraffic.com/index.php?_w=cash</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>surfbars/imagebar.php</bUrl>
+	<sUrl>/surfbars/</sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>email</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>email=$username&password=$password&remb=ON&B1=Submit</postData>	
+	
+	<txtSurfedToday>Sites Surfed#/font</txtSurfedToday>
+	<txtCommission>Your Account Cash#M</txtCommission>
+	<txtCredit>Hits
+		Available#/tr</txtCredit>
+	<txtLoginSucess>_w=logout</txtLoginSucess>
+	
+	<blockList>_w=tools|surf.php|surfnow.php</blockList>
+</site>
