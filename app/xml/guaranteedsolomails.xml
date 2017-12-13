@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>GuaranteedSoloMails</name>
+	<version>1.0.0</version>
+	<template>EmailHog</template>
+	<host>http://guaranteedsolomails.com</host>
+	<loginFormUrl>http://guaranteedsolomails.com/members/</loginFormUrl>
+	<loginUrl>http://guaranteedsolomails.com/login.php</loginUrl>
+	<mainUrl>http://guaranteedsolomails.com/members/</mainUrl>
+	<surfUrl>mail.php?user=</surfUrl>
+	<unclaimedUrl>http://guaranteedsolomails.com/members/mailbox.php</unclaimedUrl>	
+	<commissionUrl>http://guaranteedsolomails.com/members/commissions.php</commissionUrl>
+	<creditUrl>http://guaranteedsolomails.com/members/commissions.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://guaranteedsolomails.com/members/affiliatetoolbox.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	<category>Mailer</category>
+	<sendMailUrl>http://guaranteedsolomails.com/members/creditmailer.php</sendMailUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>mail2.php?credit=</bUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>userid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>userid=$username&password=$password&login=Login</postData>	
+	
+	<txtSurfedToday>You have viewed#credit</txtSurfedToday>
+	<txtCommission>You are owed#/b</txtCommission>
+	<txtCredit> with #/font</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+	
+	<maxCount>10</maxCount>
+</site>

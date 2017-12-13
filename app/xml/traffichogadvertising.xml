@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TrafficHogAdvertising</name>
+	<version>1.0.0</version>
+	<template>EmailHog</template>
+	<host>http://traffichogadvertising.com</host>
+	<loginFormUrl>http://traffichogadvertising.com/members/</loginFormUrl>
+	<loginUrl>http://traffichogadvertising.com/login.php</loginUrl>
+	<mainUrl>http://traffichogadvertising.com/members/</mainUrl>
+	<surfUrl>mail.php?user=</surfUrl>
+	<unclaimedUrl>http://traffichogadvertising.com/members/mailbox.php</unclaimedUrl>	
+	<commissionUrl>http://traffichogadvertising.com/members/commissions.php</commissionUrl>
+	<creditUrl>http://traffichogadvertising.com/members/commissions.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://traffichogadvertising.com/members/affiliatetoolbox.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	<category>Mailer</category>
+	<sendMailUrl>http://traffichogadvertising.com/members/creditmailer.php</sendMailUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>mail2.php?credit=</bUrl>
+
+	<typeUsername>name</typeUsername>
+	<txtUsername>userid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>userid=$username&password=$password&login=Login</postData>	
+	
+	<txtSurfedToday>You have viewed#credit</txtSurfedToday>
+	<txtCommission>You are owed#/b</txtCommission>
+	<txtCredit> with #/font</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+	
+	<maxCount>10</maxCount>
+</site>
