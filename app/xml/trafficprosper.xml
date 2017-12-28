@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>TrafficProsper</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>VastHits</template>
-	<host>http://trafficprosper.com</host>
-	<loginFormUrl>http://trafficprosper.com/index.php?_w=login</loginFormUrl>
-	<loginUrl>http://trafficprosper.com/index.php?_a=login_form</loginUrl>
-	<mainUrl>http://trafficprosper.com/index.php?_w=tools</mainUrl>
-	<surfUrl>http://trafficprosper.com/surf.php</surfUrl>
-	<commissionUrl>http://trafficprosper.com/index.php?_w=cash</commissionUrl>
-	<creditUrl>http://trafficprosper.com/index.php?_w=convert</creditUrl>
+	<host>http://trafficprosper.hlh.io</host>
+	<loginFormUrl>http://trafficprosper.hlh.io/index.php?_w=login</loginFormUrl>
+	<loginUrl>http://trafficprosper.hlh.io/index.php?_a=login_form</loginUrl>
+	<mainUrl>http://trafficprosper.hlh.io/index.php?_w=tools</mainUrl>
+	<surfUrl>http://trafficprosper.hlh.io/surf.php</surfUrl>
+	<commissionUrl>http://trafficprosper.hlh.io/index.php?_w=cash</commissionUrl>
+	<creditUrl>http://trafficprosper.hlh.io/index.php?_w=convert</creditUrl>
 	<rewardUrl></rewardUrl>
 	<codeUrl></codeUrl>
 	<ptcUrl></ptcUrl>
