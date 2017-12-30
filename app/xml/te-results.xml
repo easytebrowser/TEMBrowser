@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>TE-Results</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>LFMTE</template>
 	<host>http://te-results.com</host>
 	<loginFormUrl>http://te-results.com/login.php?s=noauth</loginFormUrl>
 	<loginUrl>http://te-results.com/members.php</loginUrl>
-	<mainUrl>http://te-results.com/pt56ok_members.php</mainUrl>
+	<mainUrl>http://te-results.com/members.php</mainUrl>
 	<surfUrl>http://te-results.com/surfing.php</surfUrl>
 	<commissionUrl>http://te-results.com/members.php?mf=mc</commissionUrl>
 	<creditUrl>http://te-results.com/mysites.php</creditUrl>
