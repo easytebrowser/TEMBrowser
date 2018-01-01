@@ -1,37 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>TrafficDreamers</name>
-	<version>1.0.0</version>
-	<template>TrafficDreamers</template>
+	<version>1.0.1</version>
+	<template>LFMTE</template>
 	<host>http://www.trafficdreamers.com</host>
-	<loginFormUrl>http://www.trafficdreamers.com/members/membersmenu.php</loginFormUrl>
-	<loginUrl>http://www.trafficdreamers.com/login02.php</loginUrl>
-	<mainUrl>http://www.trafficdreamers.com/members/membersmenu.php</mainUrl>	
-	<surfUrl>http://www.trafficdreamers.com/manualtraffic/surf.php</surfUrl>
-	<commissionUrl>http://www.trafficdreamers.com/members/membercashearnings.php</commissionUrl>
-	<creditUrl>http://www.trafficdreamers.com/manualtraffic/membercredits.php</creditUrl>
-	<rewardUrl></rewardUrl>
-	<codeUrl>http://www.trafficdreamers.com/members/memberpromo.php</codeUrl>
-	<ptcUrl></ptcUrl>
-	<ptcPostUrl></ptcPostUrl>
+	<loginFormUrl>http://www.trafficdreamers.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://www.trafficdreamers.com/members.php</loginUrl>
+	<mainUrl>http://www.trafficdreamers.com/members.php</mainUrl>
+	<surfUrl>http://www.trafficdreamers.com/surfing.php</surfUrl>
+	<commissionUrl>http://www.trafficdreamers.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://www.trafficdreamers.com/mysites.php</creditUrl>
+	<rewardUrl>http://www.trafficdreamers.com/claim.php</rewardUrl>
+	<codeUrl>http://www.trafficdreamers.com/surfcode.php</codeUrl>
+	<ptcUrl>http://www.trafficdreamers.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://www.trafficdreamers.com/ptc/showupdate.php</ptcPostUrl>
 	
-	<footerUrl>straffic5.php</footerUrl>
-	<bUrl>straffic2.php</bUrl>	
-	<sUrl>images/securityimages/</sUrl>
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://www.trafficdreamers.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://www.trafficdreamers.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://www.trafficdreamers.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://www.trafficdreamers.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://www.trafficdreamers.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://www.trafficdreamers.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://www.trafficdreamers.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://www.trafficdreamers.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://www.trafficdreamers.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://www.trafficdreamers.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://www.trafficdreamers.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://www.trafficdreamers.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://www.trafficdreamers.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://www.trafficdreamers.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://www.trafficdreamers.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://www.trafficdreamers.com/mytexts.php?assignimps=yes</assignTextUrl>
 	
 	<typeUsername>name</typeUsername>
-	<txtUsername>editid</txtUsername>
+	<txtUsername>login</txtUsername>
 	<username></username>
 	
 	<typePassword>name</typePassword>	
-	<txtPassword>editpassword</txtPassword>	
+	<txtPassword>password</txtPassword>	
 	<password></password>	
-	<postData>editid=$username&editpassword=$password&splashflag=y</postData>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
 	
-	<txtSurfedToday>Sites Visited:#|</txtSurfedToday>
-	<txtCommission>You currently have#in</txtCommission>
-	<txtCredit>Balance Remaining#/tr</txtCredit>
-	<txtLoginSucess>memberquit.php</txtLoginSucess>
-	
-	<blockList></blockList>
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
 </site>
