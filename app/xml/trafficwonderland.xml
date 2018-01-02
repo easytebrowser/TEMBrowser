@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TrafficWonderland</name>
+	<version>1.0.0</version>
+	<template>Hit2Hit</template>
+	<host>http://www.trafficwonderland.com</host>
+	<loginFormUrl>http://www.trafficwonderland.com/login.php?e=invaa</loginFormUrl>
+	<loginUrl>http://www.trafficwonderland.com/login.php</loginUrl>
+	<mainUrl>http://www.trafficwonderland.com/members/?page=main</mainUrl>
+	<surfUrl>http://www.trafficwonderland.com/surf.php</surfUrl>
+	<commissionUrl>http://www.trafficwonderland.com/members/?page=main</commissionUrl>
+	<creditUrl>http://www.trafficwonderland.com/members/?page=main</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl>http://www.trafficwonderland.com/members/ptc.php</ptcUrl>
+	<ptcPostUrl>http://www.trafficwonderland.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surf-footer.php</footerUrl>
+	<bUrl>surfbar.php</bUrl>
+	<sUrl>http://www.trafficwonderland.com/images/</sUrl>
+	<m1Url>http://www.trafficwonderland.com/images/</m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>loginid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>pwdid</txtPassword>	
+	<password></password>	
+	<postData>ffrma=sentsa&loginid=$username&pwdid=$password</postData>	
+	
+	<txtSurfedToday>Page Views Today#/font</txtSurfedToday>
+	<txtCommission>Total cash#tr</txtCommission>
+	<txtCredit>Current credits#tr</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+</site>

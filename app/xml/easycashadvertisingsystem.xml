@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>EasyCashAdvertisingSystem</name>
+	<version>1.0.0</version>
+	<template>LFMTE</template>
+	<host>http://easycashadvertisingsystem.com</host>
+	<loginFormUrl>http://easycashadvertisingsystem.com/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://easycashadvertisingsystem.com/members.php</loginUrl>
+	<mainUrl>http://easycashadvertisingsystem.com/members.php</mainUrl>
+	<surfUrl>http://easycashadvertisingsystem.com/surfing.php</surfUrl>
+	<commissionUrl>http://easycashadvertisingsystem.com/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://easycashadvertisingsystem.com/mysites.php</creditUrl>
+	<rewardUrl>http://easycashadvertisingsystem.com/claim.php</rewardUrl>
+	<codeUrl>http://easycashadvertisingsystem.com/surfcode.php</codeUrl>
+	<ptcUrl>http://easycashadvertisingsystem.com/ptc.php</ptcUrl>
+	<ptcPostUrl>http://easycashadvertisingsystem.com/ptc/showupdate.php</ptcPostUrl>
+	
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	
+	<siteUrl>http://easycashadvertisingsystem.com/mysites.php</siteUrl>
+	<deleteSiteUrl>http://easycashadvertisingsystem.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://easycashadvertisingsystem.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://easycashadvertisingsystem.com/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://easycashadvertisingsystem.com/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://easycashadvertisingsystem.com/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://easycashadvertisingsystem.com/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://easycashadvertisingsystem.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://easycashadvertisingsystem.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://easycashadvertisingsystem.com/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://easycashadvertisingsystem.com/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://easycashadvertisingsystem.com/mytexts.php</textUrl>
+	<deleteTextUrl>http://easycashadvertisingsystem.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://easycashadvertisingsystem.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://easycashadvertisingsystem.com/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://easycashadvertisingsystem.com/mytexts.php?assignimps=yes</assignTextUrl>
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>login</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>login=$username&password=$password&Submit=Login</postData>	
+	
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
+	<txtCommission>Total Owing:#tr</txtCommission>
+	<txtCredit>You have#c</txtCredit>
+	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
+</site>

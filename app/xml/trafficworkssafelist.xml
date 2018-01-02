@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>TrafficWorksSafelist</name>
+	<version>1.0.0</version>
+	<template>VTACO</template>
+	<host>http://www.trafficworkssafelist.com</host>
+	<loginFormUrl>http://www.trafficworkssafelist.com/userlogin.php</loginFormUrl>
+	<loginUrl>http://www.trafficworkssafelist.com/login.php</loginUrl>
+	<mainUrl>http://www.trafficworkssafelist.com/members/index.php</mainUrl>	
+	<surfUrl>http://www.trafficworkssafelist.com/members/surfexchange.php</surfUrl>	
+	<unclaimedUrl>http://www.trafficworkssafelist.com/members/earncredits.php</unclaimedUrl>
+	<commissionUrl>http://www.trafficworkssafelist.com/members/index.php</commissionUrl>
+	<creditUrl>http://www.trafficworkssafelist.com/members/index.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://www.trafficworkssafelist.com/members/referraltools.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl>surfexchange.php?userid=</footerUrl>
+	<bUrl>surfexchange.php?pageid=</bUrl>	
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>userid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>userid=$username&password=$password&remember=1&login=Login</postData>	
+	
+	<txtSurfedToday>You have viewed#sites</txtSurfedToday>
+	<txtCommission>Your Commissions:#/font</txtCommission>
+	<txtCredit>Your Credits:#/font</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+	
+	<maxCount>10</maxCount>
+	<blockList>clicks.php</blockList>
+</site>

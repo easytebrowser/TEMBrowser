@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>ToughHits</name>
+	<version>1.0.0</version>
+	<template>VTACO</template>
+	<host>http://toughhits.com</host>
+	<loginFormUrl>http://toughhits.com/index.php</loginFormUrl>
+	<loginUrl>http://toughhits.com/login.php</loginUrl>
+	<mainUrl>http://toughhits.com/members/index.php</mainUrl>	
+	<surfUrl>http://toughhits.com/members/surfexchange.php</surfUrl>	
+	<unclaimedUrl>http://toughhits.com/members/earncredits.php</unclaimedUrl>
+	<commissionUrl>http://toughhits.com/members/index.php</commissionUrl>
+	<creditUrl>http://toughhits.com/members/index.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://toughhits.com/members/referraltools.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	
+	<footerUrl>surfexchange.php?userid=</footerUrl>
+	<bUrl>surfexchange.php?pageid=</bUrl>	
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>userid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>userid=$username&password=$password&remember=1&login=Login</postData>	
+	
+	<txtSurfedToday>You have viewed#sites</txtSurfedToday>
+	<txtCommission>Your Commissions:#/font</txtCommission>
+	<txtCredit>Your Credits:#/font</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+	
+	<maxCount>10</maxCount>
+	<blockList>clicks.php</blockList>
+</site>
