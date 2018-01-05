@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>Business-Bailout</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>VTACO</template>
 	<host>http://business-bailout.com</host>
 	<loginFormUrl>http://business-bailout.com/memberlogin.php</loginFormUrl>
@@ -15,6 +15,7 @@
 	<codeUrl>http://business-bailout.com/members/stats.php</codeUrl>
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
+	<sendMailUrl>http://business-bailout.com/members/sysmailer.php</sendMailUrl>
 	
 	<footerUrl></footerUrl>
 	<bUrl>surf2.php</bUrl>	

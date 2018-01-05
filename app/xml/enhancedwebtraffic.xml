@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>EnhancedWebTraffic</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>VTACO</template>
 	<host>http://enhancedwebtraffic.com</host>
 	<loginFormUrl>http://enhancedwebtraffic.com/memberlogin.php</loginFormUrl>
@@ -15,6 +15,7 @@
 	<codeUrl>http://enhancedwebtraffic.com/members/stats.php</codeUrl>
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
+	<sendMailUrl>http://enhancedwebtraffic.com/members/sysmailer.php</sendMailUrl>
 	
 	<footerUrl></footerUrl>
 	<bUrl>surf2.php</bUrl>	

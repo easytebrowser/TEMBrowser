@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-	<name>ExpressWebTraffic</name>
+	<name>SoloAdMasters</name>
 	<version>1.0.1</version>
 	<template>VTACO</template>
-	<host>http://expresswebtraffic.com</host>
-	<loginFormUrl>http://expresswebtraffic.com/userlogin.php</loginFormUrl>
-	<loginUrl>http://expresswebtraffic.com/login.php</loginUrl>
-	<mainUrl>http://expresswebtraffic.com/members/index.php</mainUrl>	
-	<surfUrl>http://expresswebtraffic.com/members/surfexchange.php</surfUrl>	
-	<unclaimedUrl>http://expresswebtraffic.com/members/earncredits.php</unclaimedUrl>
-	<commissionUrl>http://expresswebtraffic.com/members/index.php</commissionUrl>
-	<creditUrl>http://expresswebtraffic.com/members/index.php</creditUrl>
+	<host>http://soloadmasters.com</host>
+	<loginFormUrl>http://soloadmasters.com/index.php</loginFormUrl>
+	<loginUrl>http://soloadmasters.com/login.php</loginUrl>
+	<mainUrl>http://soloadmasters.com/members/index.php</mainUrl>	
+	<surfUrl>http://soloadmasters.com/members/surfexchange.php</surfUrl>	
+	<unclaimedUrl>http://soloadmasters.com/members/earncredits.php</unclaimedUrl>
+	<commissionUrl>http://soloadmasters.com/members/index.php</commissionUrl>
+	<creditUrl>http://soloadmasters.com/members/index.php</creditUrl>
 	<rewardUrl></rewardUrl>
-	<codeUrl>http://expresswebtraffic.com/members/referraltools.php</codeUrl>
+	<codeUrl>http://soloadmasters.com/members/referraltools.php</codeUrl>
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
-	<sendMailUrl>http://expresswebtraffic.com/members/mailer.php</sendMailUrl>
+	<sendMailUrl>http://soloadmasters.com/members/mailer.php</sendMailUrl>
 	
 	<footerUrl>surfexchange.php?userid=</footerUrl>
 	<bUrl>surfexchange.php?pageid=</bUrl>	

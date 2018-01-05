@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>RushOurTraffic</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>VTACO</template>
 	<host>http://rushourtraffic.com</host>
 	<loginFormUrl>http://rushourtraffic.com/userlogin.php</loginFormUrl>
@@ -15,6 +15,7 @@
 	<codeUrl>http://rushourtraffic.com/members/referraltools.php</codeUrl>
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
+	<sendMailUrl>http://rushourtraffic.com/members/mailer.php</sendMailUrl>
 	
 	<footerUrl>surfexchange.php?userid=</footerUrl>
 	<bUrl>surfexchange.php?pageid=</bUrl>	

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>AngelsOnFire4Traffic</name>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<template>VTACO</template>
 	<host>http://angelsonfire4traffic.com</host>
 	<loginFormUrl>http://angelsonfire4traffic.com/index.php</loginFormUrl>
@@ -15,6 +15,7 @@
 	<codeUrl>http://angelsonfire4traffic.com/members/referraltools.php</codeUrl>
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
+	<sendMailUrl>http://angelsonfire4traffic.com/members/mailer.php</sendMailUrl>
 	
 	<footerUrl>surfexchange.php?userid=</footerUrl>
 	<bUrl>surfexchange.php?pageid=</bUrl>	
