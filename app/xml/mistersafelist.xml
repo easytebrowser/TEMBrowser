@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>MisterSafeList</name>
+	<version>1.0.0</version>
+	<template>MisterSafeList</template>
+	<host>http://mistersafelist.com</host>
+	<loginFormUrl>https://mistersafelist.com/members/login.php</loginFormUrl>
+	<loginUrl>https://mistersafelist.com/members/login.php?go_to=</loginUrl>
+	<mainUrl>https://mistersafelist.com/members/login.php</mainUrl>
+	<surfUrl>http://mistersafelist.com/members/sir.php?</surfUrl>	
+	<commissionUrl></commissionUrl>
+	<creditUrl>http://mistersafelist.com/members/edit.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	<category>Mailer</category>
+	<sendMailUrl>http://mistersafelist.com/members/csendto.php</sendMailUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>members/frame.php?c=</bUrl>
+	<sUrl></sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>	
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>username</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData></postData>	
+	
+	<txtSurfedToday>Clicks Today:#font</txtSurfedToday>
+	<txtCommission></txtCommission>
+	<txtCredit>Credits Left#/tr</txtCredit>
+	<txtLoginSucess>login.php?logout=</txtLoginSucess>
+	
+	<maxCount>10</maxCount>
+</site>
