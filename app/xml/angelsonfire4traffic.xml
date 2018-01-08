@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>AngelsOnFire4Traffic</name>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<template>VTACO</template>
 	<host>http://angelsonfire4traffic.com</host>
 	<loginFormUrl>http://angelsonfire4traffic.com/index.php</loginFormUrl>
@@ -29,7 +29,7 @@
 	<password></password>	
 	<postData>userid=$username&password=$password&remember=1&login=Login</postData>	
 	
-	<txtSurfedToday>You have viewed#sites</txtSurfedToday>
+	<txtSurfedToday>You have viewed#today</txtSurfedToday>
 	<txtCommission>Your Commissions:#/font</txtCommission>
 	<txtCredit>Your Credits:#/font</txtCredit>
 	<txtLoginSucess>logout.php</txtLoginSucess>
