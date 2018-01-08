@@ -15,10 +15,10 @@
 	<codeUrl>http://freeadvertisingforyou.com/members/affiliates.php</codeUrl>
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
-	<sendMailUrl>http://freeadvertisingforyou.com/members/mailer.php</sendMailUrl>
+	<sendMailUrl>http://freeadvertisingforyou.com/members/addsolos.php</sendMailUrl>
 	
-	<footerUrl>surfexchange.php?userid=</footerUrl>
-	<bUrl>surfexchange.php?pageid=</bUrl>	
+	<footerUrl></footerUrl>
+	<bUrl>surf.php?pageid=</bUrl>	
 	
 	<typeUsername>name</typeUsername>
 	<txtUsername>userid</txtUsername>
@@ -30,7 +30,7 @@
 	<postData>userid=$username&password=$password&remember=1&login=Login</postData>	
 	
 	<txtSurfedToday>You have viewed#sites</txtSurfedToday>
-	<txtCommission>Your Commissions:#/font</txtCommission>
+	<txtCommission></txtCommission>
 	<txtCredit>You have#credits</txtCredit>
 	<txtLoginSucess>logout.php</txtLoginSucess>
 	

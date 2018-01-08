@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>ReferralFrenzy</name>
+	<version>1.0.0</version>
+	<template>ReferralFrenzy</template>
+	<host>http://referralfrenzy.com</host>
+	<loginFormUrl>http://referralfrenzy.com/members/</loginFormUrl>
+	<loginUrl>http://referralfrenzy.com/members/index.php</loginUrl>
+	<mainUrl>http://referralfrenzy.com/members/</mainUrl>
+	<surfUrl>http://referralfrenzy.com/solo.php?ad=</surfUrl>	
+	<unclaimedUrl>http://referralfrenzy.com/members/unreadsolos.php</unclaimedUrl>
+	<commissionUrl>http://referralfrenzy.com/members/commissions.php</commissionUrl>
+	<creditUrl></creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://referralfrenzy.com/members/affiliatetoolbox.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	<category>Mailer</category>
+	<sendMailUrl>http://referralfrenzy.com/members/csendto.php</sendMailUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>solotop.php?w=</bUrl>
+	<sUrl></sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>	
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>username</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>username=$username&password=$password&action=login</postData>	
+	
+	<txtSurfedToday></txtSurfedToday>
+	<txtCommission>Available to Cashout#/th</txtCommission>
+	<txtCredit></txtCredit>
+	<txtLoginSucess>members/?action=logout</txtLoginSucess>
+	
+	<maxCount>1</maxCount>
+</site>

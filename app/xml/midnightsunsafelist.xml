@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>MidnightSunSafeList</name>
+	<version>1.0.0</version>
+	<template>VTACO</template>
+	<host>http://midnightsunsafelist.com</host>
+	<loginFormUrl>http://midnightsunsafelist.com/userlogin.php</loginFormUrl>
+	<loginUrl>http://midnightsunsafelist.com/login.php</loginUrl>
+	<mainUrl>http://midnightsunsafelist.com/members/index.php</mainUrl>	
+	<surfUrl>http://midnightsunsafelist.com/members/surfexchange.php</surfUrl>	
+	<unclaimedUrl>http://midnightsunsafelist.com/members/earncredits.php</unclaimedUrl>
+	<commissionUrl>http://midnightsunsafelist.com/members/index.php</commissionUrl>
+	<creditUrl>http://midnightsunsafelist.com/members/index.php</creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl>http://midnightsunsafelist.com/members/referraltools.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	<sendMailUrl>http://midnightsunsafelist.com/members/mailer.php</sendMailUrl>
+	
+	<footerUrl>surfexchange.php?userid=</footerUrl>
+	<bUrl>surfexchange.php?pageid=</bUrl>	
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>userid</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>password</txtPassword>	
+	<password></password>	
+	<postData>userid=$username&password=$password&remember=1&login=Login</postData>	
+	
+	<txtSurfedToday>You have viewed#sites</txtSurfedToday>
+	<txtCommission>Your Commissions:#/font</txtCommission>
+	<txtCredit>Your Credits:#/font</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
+	
+	<maxCount>10</maxCount>
+	<blockList>clicks.php</blockList>
+</site>
