@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>MisterSafeList</name>
-	<version>1.0.1</version>
-	<template>ReferralFrenzy</template>
+	<version>1.0.0</version>
+	<template>MisterSafeList</template>
 	<host>http://mistersafelist.com</host>
 	<loginFormUrl>https://mistersafelist.com/members/login.php</loginFormUrl>
 	<loginUrl>https://mistersafelist.com/members/login.php?go_to=</loginUrl>
