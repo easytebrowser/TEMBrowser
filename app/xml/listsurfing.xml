@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>ListSurfing</name>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<template>ListSurfing</template>
 	<host>http://www.listsurfing.com</host>
 	<loginFormUrl>http://www.listsurfing.com/login.php?e=invaa</loginFormUrl>
 	<loginUrl>http://www.listsurfing.com/login.php</loginUrl>
 	<mainUrl>http://www.listsurfing.com/members/index.php</mainUrl>
 	<surfUrl>http://www.listsurfing.com/surf/</surfUrl>
+	<unclaimedUrl>http://www.listsurfing.com/members/member_inbox.php</unclaimedUrl>
 	<commissionUrl>http://www.listsurfing.com/members/?page=main</commissionUrl>
 	<creditUrl>http://www.listsurfing.com/members/?page=main</creditUrl>
 	<rewardUrl></rewardUrl>
 	<codeUrl></codeUrl>
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
+	<sendMailUrl>http://www.listsurfing.com/members/plg_member_send_mail.php</sendMailUrl>
 	
 	<footerUrl></footerUrl>
 	<bUrl>http://www.listsurfing.com/surf/ajax_show_site.php</bUrl>
@@ -30,7 +32,7 @@
 	<typePassword>name</typePassword>	
 	<txtPassword>pwdid</txtPassword>	
 	<password></password>	
-	<postData></postData>	
+	<postData>loginid=$username&pwdid=$password&ffrma=sentsa&showOTO=&aweber=&submit=</postData>	
 	
 	<txtSurfedToday>CREDITS TODAY#PAGES</txtSurfedToday>
 	<txtCommission>Total Cash:#This</txtCommission>
