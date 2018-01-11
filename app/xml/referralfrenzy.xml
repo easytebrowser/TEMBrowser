@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>ReferralFrenzy</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>ReferralFrenzy</template>
 	<host>http://referralfrenzy.com</host>
 	<loginFormUrl>http://referralfrenzy.com/members/</loginFormUrl>
@@ -16,7 +16,7 @@
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
 	<category>Mailer</category>
-	<sendMailUrl>http://referralfrenzy.com/members/csendto.php</sendMailUrl>
+	<sendMailUrl></sendMailUrl>
 	
 	<footerUrl></footerUrl>
 	<bUrl>solotop.php?w=</bUrl>
