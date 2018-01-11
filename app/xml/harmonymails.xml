@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>HarmonyMails</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>LFMTE</template>
 	<host>http://harmonymails.com</host>
 	<loginFormUrl>http://harmonymails.com/login.php?s=noauth</loginFormUrl>
 	<loginUrl>http://harmonymails.com/members.php</loginUrl>
 	<mainUrl>http://harmonymails.com/members.php</mainUrl>
 	<surfUrl>http://harmonymails.com/credit_click.php?userid=</surfUrl>	
-	<unclaimedUrl>http://harmonymails.com/inbox.php</unclaimedUrl>
+	<unclaimedUrl>http://harmonymails.com/viewmessages.php</unclaimedUrl>
 	<commissionUrl>http://harmonymails.com/members.php?mf=mc</commissionUrl>
 	<creditUrl>http://harmonymails.com/mybanners.php</creditUrl>
 	<rewardUrl></rewardUrl>
