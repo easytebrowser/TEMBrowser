@@ -337,12 +337,16 @@ function goSendMailPage(siteName){
 	window.java.goPage(siteName, 'SEND-MAIL');
 }
 
-function rewardChanged(siteName, str) {
+function rewardChanged(siteName, str, isShown) {
 	$("#group_row").find('tr.reward_tr_' + siteName).each(function(){
-		$(this).show();
+		if(isShown == '1'){
+			$(this).show();
+		}else{
+			$(this).hide();
+		}
 		var obj = $(this).find('tr.reward_' + siteName);
 		$(obj).html('<td>Daily Rewards($): ' + str + '</td>');
-		$(obj).show();
+		$(obj).show();	
 		$(obj).find('a.btn').each(function () {
 			var aClick = $(this).attr('onclick');
 			if(aClick != null){
@@ -352,9 +356,13 @@ function rewardChanged(siteName, str) {
 	});	
 }
 
-function promoChanged(siteName, str) {
+function promoChanged(siteName, str, isShown) {
 	$("#group_row").find('tr.reward_tr_' + siteName).each(function(){
-		$(this).show();
+		if(isShown == '1'){
+			$(this).show();
+		}else{
+			$(this).hide();
+		}
 		var obj = $(this).find('tr.promo_' + siteName);
 		$(obj).html('<td>Cross Promos: ' + str + '</td>');
 		$(obj).show();
@@ -735,7 +743,13 @@ function showMessage(message) {
 					title = 'Administrator';
 					color = 'goldenrod';
 				}else if(username == 'Oasis'){
-					title = 'CEO & Supporter';
+					title = 'CEO & Manager';
+					color = 'goldenrod';
+				}else if(username == 'bonus'){
+					title = 'Manager';
+					color = 'goldenrod';
+				}else if(username == 'moby04'){
+					title = 'Technical manager';
 					color = 'goldenrod';
 				}else{
 					title = 'Upgraded member';

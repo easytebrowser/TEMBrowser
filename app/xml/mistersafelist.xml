@@ -11,7 +11,8 @@
 	<commissionUrl></commissionUrl>
 	<creditUrl>http://mistersafelist.com/members/edit.php</creditUrl>
 	<rewardUrl></rewardUrl>
-	<codeUrl></codeUrl>
+	<codeUrl>http://mistersafelist.com/members/downline.php</codeUrl>
+	<txtCode>/s.php?</txtCode>
 	<ptcUrl></ptcUrl>
 	<ptcPostUrl></ptcPostUrl>
 	<category>Mailer</category>
