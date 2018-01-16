@@ -1,58 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>SafeListXL</name>
-	<version>1.0.0</version>
-	<template>LFMTE</template>
+	<version>1.0.1</version>
+	<template>VTACO</template>
 	<host>http://safelistxl.com</host>
-	<loginFormUrl>http://safelistxl.com/login.php?s=noauth</loginFormUrl>
-	<loginUrl>http://safelistxl.com/members.php</loginUrl>
-	<mainUrl>http://safelistxl.com/members.php</mainUrl>
-	<surfUrl>http://safelistxl.com/credit_click.php?userid=</surfUrl>	
-	<unclaimedUrl>http://safelistxl.com/inbox.php</unclaimedUrl>
-	<commissionUrl>http://safelistxl.com/members.php?mf=mc</commissionUrl>
-	<creditUrl>http://safelistxl.com/mybanners.php</creditUrl>
+	<loginFormUrl>http://safelistxl.com/userlogin.php</loginFormUrl>
+	<loginUrl>http://safelistxl.com/login.php</loginUrl>
+	<mainUrl>http://safelistxl.com/members/index.php</mainUrl>	
+	<surfUrl>http://safelistxl.com/members/surfexchange.php</surfUrl>	
+	<unclaimedUrl>http://safelistxl.com/members/earncredits.php</unclaimedUrl>
+	<commissionUrl>http://safelistxl.com/members/index.php</commissionUrl>
+	<creditUrl>http://safelistxl.com/members/index.php</creditUrl>
 	<rewardUrl></rewardUrl>
-	<codeUrl>http://safelistxl.com/promocode.php</codeUrl>
-	<ptcUrl>http://safelistxl.com/ptc.php</ptcUrl>
-	<ptcPostUrl>http://safelistxl.com/ptc/showupdate.php</ptcPostUrl>
-	<category>Mailer</category>
-	<sendMailUrl>http://safelistxl.com/sendmailing.php</sendMailUrl>
+	<codeUrl>http://safelistxl.com/members/referraltools.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	<sendMailUrl>http://safelistxl.com/members/mailer.php</sendMailUrl>
 	
-	<footerUrl>surfbarfooter.php</footerUrl>
-	<bUrl>surfbar_click.php</bUrl>
-	<sUrl>surficon.php</sUrl>
-	<m1Url>surfclickicon.php?iconid=1</m1Url>	
-	<m2Url>surfclickicon.php?iconid=2</m2Url>
-	<m3Url>surfclickicon.php?iconid=3</m3Url>
-	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	<footerUrl>surfexchange.php?userid=</footerUrl>
+	<bUrl>surfexchange.php?pageid=</bUrl>	
 	
-	<bannerUrl>http://safelistxl.com/mybanners.php</bannerUrl>
-	<deleteBannerUrl>http://safelistxl.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
-	<deleteBannerConfirmUrl>http://safelistxl.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
-	<addBannerUrl>http://safelistxl.com/mybanners.php?addbanner=yes</addBannerUrl>
-	<assignBannerUrl>http://safelistxl.com/mybanners.php?assignimps=yes</assignBannerUrl>
-	<textUrl>http://safelistxl.com/mytexts.php</textUrl>
-	<deleteTextUrl>http://safelistxl.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
-	<deleteTextConfirmUrl>http://safelistxl.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
-	<addTextUrl>http://safelistxl.com/mytexts.php?addtext=yes</addTextUrl>
-	<assignTextUrl>http://safelistxl.com/mytexts.php?assignimps=yes</assignTextUrl>
-
 	<typeUsername>name</typeUsername>
-	<txtUsername>login</txtUsername>
+	<txtUsername>userid</txtUsername>
 	<username></username>
 	
 	<typePassword>name</typePassword>	
 	<txtPassword>password</txtPassword>	
 	<password></password>	
-	<postData>login=$username&password=$password&Submit=Login</postData>	
+	<postData>userid=$username&password=$password&remember=1&login=Login</postData>	
 	
-	<typeCode>name</typeCode>
-	<txtCode>promocode</txtCode>
+	<txtSurfedToday>You have viewed#sites</txtSurfedToday>
+	<txtCommission>Your Commissions:#/font</txtCommission>
+	<txtCredit>Your Credits:#/font</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
 	
-	<txtSurfedToday>Clicks Today:#font</txtSurfedToday>
-	<txtCommission>Total Owing:#tr</txtCommission>
-	<txtCredit>You have#c</txtCredit>
-	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
-	
-	<maxCount>3</maxCount>
+	<maxCount>10</maxCount>
+	<blockList>clicks.php</blockList>
 </site>
