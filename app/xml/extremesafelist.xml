@@ -1,58 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>ExtremeSafeList</name>
-	<version>1.0.0</version>
-	<template>LFMTE</template>
+	<version>1.0.1</version>
+	<template>VTACO</template>
 	<host>http://extremesafelist.com</host>
-	<loginFormUrl>http://extremesafelist.com/login.php?s=noauth</loginFormUrl>
-	<loginUrl>http://extremesafelist.com/members.php</loginUrl>
-	<mainUrl>http://extremesafelist.com/members.php</mainUrl>
-	<surfUrl>http://extremesafelist.com/credit_click.php?userid=</surfUrl>	
-	<unclaimedUrl>http://extremesafelist.com/inbox.php</unclaimedUrl>
-	<commissionUrl>http://extremesafelist.com/members.php?mf=mc</commissionUrl>
-	<creditUrl>http://extremesafelist.com/mybanners.php</creditUrl>
+	<loginFormUrl>http://extremesafelist.com/userlogin.php</loginFormUrl>
+	<loginUrl>http://extremesafelist.com/login.php</loginUrl>
+	<mainUrl>http://extremesafelist.com/members/index.php</mainUrl>	
+	<surfUrl>http://extremesafelist.com/members/surfexchange.php</surfUrl>	
+	<unclaimedUrl>http://extremesafelist.com/members/earncredits.php</unclaimedUrl>
+	<commissionUrl>http://extremesafelist.com/members/index.php</commissionUrl>
+	<creditUrl>http://extremesafelist.com/members/index.php</creditUrl>
 	<rewardUrl></rewardUrl>
-	<codeUrl>http://extremesafelist.com/promocode.php</codeUrl>
-	<ptcUrl>http://extremesafelist.com/ptc.php</ptcUrl>
-	<ptcPostUrl>http://extremesafelist.com/ptc/showupdate.php</ptcPostUrl>
-	<category>Mailer</category>
-	<sendMailUrl>http://extremesafelist.com/sendmailing.php</sendMailUrl>
+	<codeUrl>http://extremesafelist.com/members/referraltools.php</codeUrl>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	<sendMailUrl>http://extremesafelist.com/members/mailer.php</sendMailUrl>
 	
-	<footerUrl>surfbarfooter.php</footerUrl>
-	<bUrl>surfbar_click.php</bUrl>
-	<sUrl>surficon.php</sUrl>
-	<m1Url>surfclickicon.php?iconid=1</m1Url>	
-	<m2Url>surfclickicon.php?iconid=2</m2Url>
-	<m3Url>surfclickicon.php?iconid=3</m3Url>
-	<m4Url>surfclickicon.php?iconid=4</m4Url>
+	<footerUrl>surfexchange.php?userid=</footerUrl>
+	<bUrl>surfexchange.php?pageid=</bUrl>	
 	
-	<bannerUrl>http://extremesafelist.com/mybanners.php</bannerUrl>
-	<deleteBannerUrl>http://extremesafelist.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
-	<deleteBannerConfirmUrl>http://extremesafelist.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
-	<addBannerUrl>http://extremesafelist.com/mybanners.php?addbanner=yes</addBannerUrl>
-	<assignBannerUrl>http://extremesafelist.com/mybanners.php?assignimps=yes</assignBannerUrl>
-	<textUrl>http://extremesafelist.com/mytexts.php</textUrl>
-	<deleteTextUrl>http://extremesafelist.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
-	<deleteTextConfirmUrl>http://extremesafelist.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
-	<addTextUrl>http://extremesafelist.com/mytexts.php?addtext=yes</addTextUrl>
-	<assignTextUrl>http://extremesafelist.com/mytexts.php?assignimps=yes</assignTextUrl>
-
 	<typeUsername>name</typeUsername>
-	<txtUsername>login</txtUsername>
+	<txtUsername>userid</txtUsername>
 	<username></username>
 	
 	<typePassword>name</typePassword>	
 	<txtPassword>password</txtPassword>	
 	<password></password>	
-	<postData>login=$username&password=$password&Submit=Login</postData>	
+	<postData>userid=$username&password=$password&remember=1&login=Login</postData>	
 	
-	<typeCode>name</typeCode>
-	<txtCode>promocode</txtCode>
+	<txtSurfedToday>You have viewed#sites</txtSurfedToday>
+	<txtCommission>Your Commissions:#/font</txtCommission>
+	<txtCredit>Your Credits:#/font</txtCredit>
+	<txtLoginSucess>logout.php</txtLoginSucess>
 	
-	<txtSurfedToday>Clicks Today:#font</txtSurfedToday>
-	<txtCommission>Total Owing:#tr</txtCommission>
-	<txtCredit>You have#c</txtCredit>
-	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
-	
-	<maxCount>3</maxCount>
+	<maxCount>10</maxCount>
+	<blockList>clicks.php</blockList>
 </site>
