@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>75PercentSurf</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<template>LFMTE</template>
-	<host>http://75percentsurf.com</host>
-	<loginFormUrl>http://75percentsurf.com/login.php?s=noauth</loginFormUrl>
-	<loginUrl>http://75percentsurf.com/members.php</loginUrl>
-	<mainUrl>http://75percentsurf.com/members.php</mainUrl>
-	<surfUrl>http://75percentsurf.com/surfing.php</surfUrl>
-	<commissionUrl>http://75percentsurf.com/members.php?mf=mc</commissionUrl>
-	<creditUrl>http://75percentsurf.com/mysites.php</creditUrl>
-	<rewardUrl>http://75percentsurf.com/claim.php</rewardUrl>
-	<codeUrl>http://75percentsurf.com/surfcode.php</codeUrl>
-	<ptcUrl>http://75percentsurf.com/ptc.php</ptcUrl>
-	<ptcPostUrl>http://75percentsurf.com/ptc/showupdate.php</ptcPostUrl>
+	<host>http://75percentsurf.net</host>
+	<loginFormUrl>http://75percentsurf.net/login.php?s=noauth</loginFormUrl>
+	<loginUrl>http://75percentsurf.net/members.php</loginUrl>
+	<mainUrl>http://75percentsurf.net/members.php</mainUrl>
+	<surfUrl>http://75percentsurf.net/surfing.php</surfUrl>
+	<commissionUrl>http://75percentsurf.net/members.php?mf=mc</commissionUrl>
+	<creditUrl>http://75percentsurf.net/mysites.php</creditUrl>
+	<rewardUrl>http://75percentsurf.net/claim.php</rewardUrl>
+	<codeUrl>http://75percentsurf.net/surfcode.php</codeUrl>
+	<ptcUrl>http://75percentsurf.net/ptc.php</ptcUrl>
+	<ptcPostUrl>http://75percentsurf.net/ptc/showupdate.php</ptcPostUrl>
 	
 	<footerUrl>surfbarfooter.php</footerUrl>
 	<bUrl>surfbar_click.php</bUrl>
@@ -23,22 +23,22 @@
 	<m3Url>surfclickicon.php?iconid=3</m3Url>
 	<m4Url>surfclickicon.php?iconid=4</m4Url>
 	
-	<siteUrl>http://75percentsurf.com/mysites.php</siteUrl>
-	<deleteSiteUrl>http://75percentsurf.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
-	<deleteSiteConfirmUrl>http://75percentsurf.com/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
-	<addSiteUrl>http://75percentsurf.com/mysites.php?addsite=yes</addSiteUrl>
-	<assignCreditsUrl>http://75percentsurf.com/mysites.php?quickassign=yes</assignCreditsUrl>
-	<autoAssignUrl>http://75percentsurf.com/autoassign.php</autoAssignUrl>
-	<bannerUrl>http://75percentsurf.com/mybanners.php</bannerUrl>
-	<deleteBannerUrl>http://75percentsurf.com/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
-	<deleteBannerConfirmUrl>http://75percentsurf.com/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
-	<addBannerUrl>http://75percentsurf.com/mybanners.php?addbanner=yes</addBannerUrl>
-	<assignBannerUrl>http://75percentsurf.com/mybanners.php?assignimps=yes</assignBannerUrl>
-	<textUrl>http://75percentsurf.com/mytexts.php</textUrl>
-	<deleteTextUrl>http://75percentsurf.com/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
-	<deleteTextConfirmUrl>http://75percentsurf.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
-	<addTextUrl>http://75percentsurf.com/mytexts.php?addtext=yes</addTextUrl>
-	<assignTextUrl>http://75percentsurf.com/mytexts.php?assignimps=yes</assignTextUrl>
+	<siteUrl>http://75percentsurf.net/mysites.php</siteUrl>
+	<deleteSiteUrl>http://75percentsurf.net/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
+	<deleteSiteConfirmUrl>http://75percentsurf.net/mysites.php?deletesite=yes&confirmdelete=yes&siteid=</deleteSiteConfirmUrl>
+	<addSiteUrl>http://75percentsurf.net/mysites.php?addsite=yes</addSiteUrl>
+	<assignCreditsUrl>http://75percentsurf.net/mysites.php?quickassign=yes</assignCreditsUrl>
+	<autoAssignUrl>http://75percentsurf.net/autoassign.php</autoAssignUrl>
+	<bannerUrl>http://75percentsurf.net/mybanners.php</bannerUrl>
+	<deleteBannerUrl>http://75percentsurf.net/mybanners.php?deletebanner=yes&bannerid=</deleteBannerUrl>
+	<deleteBannerConfirmUrl>http://75percentsurf.net/mybanners.php?deletebanner=yes&confirmdelete=yes&bannerid=</deleteBannerConfirmUrl>
+	<addBannerUrl>http://75percentsurf.net/mybanners.php?addbanner=yes</addBannerUrl>
+	<assignBannerUrl>http://75percentsurf.net/mybanners.php?assignimps=yes</assignBannerUrl>
+	<textUrl>http://75percentsurf.net/mytexts.php</textUrl>
+	<deleteTextUrl>http://75percentsurf.net/mytexts.php?deletetext=yes&textid=</deleteTextUrl>
+	<deleteTextConfirmUrl>http://75percentsurf.net/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
+	<addTextUrl>http://75percentsurf.net/mytexts.php?addtext=yes</addTextUrl>
+	<assignTextUrl>http://75percentsurf.net/mytexts.php?assignimps=yes</assignTextUrl>
 	
 	<typeUsername>name</typeUsername>
 	<txtUsername>login</txtUsername>
