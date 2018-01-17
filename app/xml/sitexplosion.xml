@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>SiteXplosion</name>
-	<version>1.0.2</version>
-	<template>TrafficSwirl</template>
+	<version>1.0.3</version>
+	<template>LFMTE</template>
 	<host>http://sitexplosion.com</host>
 	<loginFormUrl>http://sitexplosion.com/login.php?s=noauth</loginFormUrl>
 	<loginUrl>http://sitexplosion.com/members.php</loginUrl>
@@ -15,13 +15,13 @@
 	<ptcUrl>http://sitexplosion.com/ptc.php</ptcUrl>
 	<ptcPostUrl>http://sitexplosion.com/ptc/showupdate.php</ptcPostUrl>
 	
-	<footerUrl></footerUrl>
-	<bUrl>surfbar.php</bUrl>
-	<sUrl>surfimage</sUrl>
-	<m1Url>surfclickimage</m1Url>	
-	<m2Url></m2Url>
-	<m3Url></m3Url>
-	<m4Url></m4Url>
+	<footerUrl>surfbarfooter.php</footerUrl>
+	<bUrl>surfbar_click.php</bUrl>
+	<sUrl>surficon.php</sUrl>
+	<m1Url>surfclickicon.php?iconid=1</m1Url>	
+	<m2Url>surfclickicon.php?iconid=2</m2Url>
+	<m3Url>surfclickicon.php?iconid=3</m3Url>
+	<m4Url>surfclickicon.php?iconid=4</m4Url>
 	
 	<siteUrl>http://sitexplosion.com/mysites.php</siteUrl>
 	<deleteSiteUrl>http://sitexplosion.com/mysites.php?deletesite=yes&siteid=</deleteSiteUrl>
@@ -39,7 +39,7 @@
 	<deleteTextConfirmUrl>http://sitexplosion.com/mytexts.php?deletetext=yes&confirmdelete=yes&textid=</deleteTextConfirmUrl>
 	<addTextUrl>http://sitexplosion.com/mytexts.php?addtext=yes</addTextUrl>
 	<assignTextUrl>http://sitexplosion.com/mytexts.php?assignimps=yes</assignTextUrl>
-
+	
 	<typeUsername>name</typeUsername>
 	<txtUsername>login</txtUsername>
 	<username></username>
@@ -49,10 +49,8 @@
 	<password></password>	
 	<postData>login=$username&password=$password&Submit=Login</postData>	
 	
-	<txtSurfedToday>font color=white#Pages</txtSurfedToday>
+	<txtSurfedToday>Surfed Today:#font</txtSurfedToday>
 	<txtCommission>Total Owing:#tr</txtCommission>
 	<txtCredit>You have#c</txtCredit>
 	<txtLoginSucess>members.php?mf=lo</txtLoginSucess>
-	
-	<blockList>members.php</blockList>
 </site>
