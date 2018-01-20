@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 	<name>MisterSafeList</name>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<template>ReferralFrenzy</template>
 	<host>http://mistersafelist.com</host>
 	<loginFormUrl>https://mistersafelist.com/members/login.php</loginFormUrl>
 	<loginUrl>https://mistersafelist.com/members/login.php?go_to=</loginUrl>
 	<mainUrl>https://mistersafelist.com/members/login.php</mainUrl>
 	<surfUrl>http://mistersafelist.com/members/sir.php?</surfUrl>	
-	<commissionUrl></commissionUrl>
+	<commissionUrl>http://mistersafelist.com/members/downline.php</commissionUrl>
 	<creditUrl>http://mistersafelist.com/members/edit.php</creditUrl>
 	<rewardUrl></rewardUrl>
 	<codeUrl>http://mistersafelist.com/members/downline.php</codeUrl>
@@ -36,7 +36,7 @@
 	<postData></postData>	
 	
 	<txtSurfedToday>Clicks Today:#font</txtSurfedToday>
-	<txtCommission></txtCommission>
+	<txtCommission>Your Balance:#/td</txtCommission>
 	<txtCredit>Credits Left#/tr</txtCredit>
 	<txtLoginSucess>login.php?logout=</txtLoginSucess>
 	

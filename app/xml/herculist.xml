@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<name>HercuList</name>
+	<version>1.0.0</version>
+	<template>ReferralFrenzy</template>
+	<host>http://HercuList.com</host>
+	<loginFormUrl>http://herculist.com/membersonly/index.shtml</loginFormUrl>
+	<loginUrl>http://herculist.com/cgi-bin/password.cgi</loginUrl>
+	<mainUrl>http://herculist.com/membersonly/index.shtml</mainUrl>
+	<surfUrl>http://herculist.com/c/n.cgi</surfUrl>	
+	<unclaimedUrl></unclaimedUrl>	
+	<commissionUrl></commissionUrl>
+	<creditUrl></creditUrl>
+	<rewardUrl></rewardUrl>
+	<codeUrl></codeUrl>
+	<txtCode></txtCode>
+	<ptcUrl></ptcUrl>
+	<ptcPostUrl></ptcPostUrl>
+	<category>Mailer</category>
+	<sendMailUrl></sendMailUrl>
+	
+	<footerUrl></footerUrl>
+	<bUrl>members/pleasewait.cgi</bUrl>
+	<sUrl></sUrl>
+	<m1Url></m1Url>	
+	<m2Url></m2Url>
+	<m3Url></m3Url>
+	<m4Url></m4Url>	
+	
+	<typeUsername>name</typeUsername>
+	<txtUsername>USERNAME</txtUsername>
+	<username></username>
+	
+	<typePassword>name</typePassword>	
+	<txtPassword>PASSWORD</txtPassword>	
+	<password></password>	
+	<postData></postData>	
+	
+	<txtSurfedToday></txtSurfedToday>
+	<txtCommission></txtCommission>
+	<txtCredit></txtCredit>
+	<txtLoginSucess>membersonly/index.shtml</txtLoginSucess>
+	
+	<maxCount>10</maxCount>
+</site>
